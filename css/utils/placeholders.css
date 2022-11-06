@@ -1,0 +1,38 @@
+/*** Placeholder utilities ***/
+
+.gmb div.placeholder-art {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  right: 20px;
+  bottom: 20px;
+  border: 15px ridge #7d373a;
+}
+
+.gmb div.placeholder-art p {
+  flex: 0 0 30;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.gmb div.placeholder-art h6 {
+  font-size: 30pt;
+  margin: 10px 0 0 0;
+  border-bottom: none;
+}
+
+.gmb div.filler-1 {
+  margin-top: 1rem;
+}
+
+.gmb div.filler-2 {
+  margin-top: 2rem;
+}
+
+.gmb div.filler-3 {
+  margin-top: 3rem;
+}

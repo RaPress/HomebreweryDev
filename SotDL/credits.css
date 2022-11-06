@@ -1,0 +1,222 @@
+/*** Shadow of the Demon Lord Credits ***/
+
+/*** Patreon ***/
+
+.page div.patreon blockquote {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  width: 340px;
+  text-align: center;
+}
+
+.page div.patreon blockquote p:last-child {
+  margin-bottom: 10px;
+}
+
+.page div.patreon blockquote p {
+  font-size: 1em;
+}
+
+.page div.patreon blockquote img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.page div.patreon blockquote h5 {
+  margin: 10px 0px 10px 0px;
+}
+
+.page div.patreon blockquote div.column-container h6 {
+  margin: 0px 0px 0px 5px;
+}
+
+/*** Patreon END ***/
+
+/*** Div ***/
+
+.page div.credits {
+  position: absolute;
+  border-image: none;
+  border: none;
+  padding: 20px 10px 20px 10px;
+  text-shadow: none;
+  bottom: 30px;
+  right: 10px;
+  width: 50%;
+}
+
+.page div.credits h1 {
+  font-size: 20pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+.page div.credits h2 {
+  font-size: 18pt;
+  text-align: center;
+}
+
+.page div.credits h3 {
+  font-family: var(--font-header);
+  font-weight: normal;
+  font-size: 14pt;
+  text-align: center;
+  border: none;
+  column-span: none;
+  background-image: none;
+}
+
+.page div.credits h4 {
+  font-size: 15pt;
+  color: black;
+  text-align: center;
+}
+
+.page div.credits p {
+  font-family: var(--font-header);
+  font-weight: normal;
+  font-size: 12pt;
+  color: var(--color-text-main);
+  margin-top: 5px;
+  text-align: center;
+  padding-bottom: 0px;
+  text-shadow: none;
+}
+
+.page div.credits p strong em {
+  color: var(--color-strong);
+  font-style: italic;
+  font-weight: bold;
+}
+
+.page div.credits div.acknowledgements p {
+  font-family: var(--font-main);
+  font-weight: normal;
+  font-size: 8pt;
+  letter-spacing: -0.02em;
+}
+
+.page div.credits div.acknowledgements strong {
+  font-family: var(--font-main);
+  font-weight: bold;
+  font-size: 10pt;
+  color: var(--color-strong);
+  letter-spacing: -0.03em;
+}
+
+.page div.credits .acknowledgements h4 {
+  display: block;
+  font-size: 11pt;
+  text-align: center;
+}
+
+.page div.credits img.credits-image {
+  width: auto;
+  display: block;
+  position: initial;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*** Div END ***/
+
+/*** Full page ***/
+
+.page div.full-page-credits {
+  column-span: all;
+  text-align: center;
+}
+
+.page div.full-page-credits h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.page div.full-page-credits h2 {
+  text-align: center;
+  color: var(--color-text-main);
+  margin: 10px 0 10px 0;
+}
+
+.page div.full-page-credits h3 {
+  font-size: 16pt;
+}
+
+.page div.full-page-credits div.main-writer h3 {
+  font-size: 20pt;
+}
+
+.page div.full-page-credits div.main-writer p {
+  font-size: 18pt;
+}
+
+.page div.full-page-credits h3 + p {
+  font-size: 13pt;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.page div.full-page-credits ul li {
+  font-size: 10pt;
+  text-align: center;
+  font-size: 13pt;
+  width: 750px;
+  margin: 0 auto;
+}
+
+.page div.full-page-credits h3,
+.page div.full-page-credits h3 + p {
+  display: inline;
+}
+
+.page div.full-page-credits .acknowledgements h4 {
+  text-align: center;
+  font-size: 11pt;
+}
+
+.page div.full-page-credits .acknowledgements p {
+  font-size: 8pt;
+  text-align: center;
+}
+
+.page div.full-page-credits .acknowledgements em strong {
+  font-size: 8pt;
+  font-style: italic;
+  font-weight: bold;
+  color: var(--color-text-main);
+}
+
+.page div.full-page-credits .acknowledgements img {
+  position: relative;
+}
+
+.page .full-page-credits .version {
+  position: absolute;
+  bottom: 300px;
+}
+
+.page .full-page-credits .version ul {
+  text-indent: 0;
+  /* column-count: 2; */
+  margin: 0;
+  padding: 0;
+  line-height: 1.3em;
+  list-style-position: outside;
+  list-style-type: none;
+}
+
+.page .full-page-credits .version ul li {
+  margin: 0px 10px 0px 10px;
+}
+
+.page .full-page-credits .version h3 {
+  text-align: center;
+  column-span: all;
+  font-size: 15pt;
+  display: block;
+}
+
+/*** Full page END ***/

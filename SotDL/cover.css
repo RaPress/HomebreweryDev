@@ -1,0 +1,22 @@
+/*** Shadow of the Demon Lord Cover ***/
+
+.page img.cover-logo {
+  position: absolute;
+  z-index: 5;
+}
+
+.page img.dotdl {
+  position: absolute;
+  z-index: 5;
+}
+
+.page p.cover-footer,
+.page p.cover-footer em {
+  font-family: var(--font-main);
+  bottom: 10px;
+  left: 25px;
+  text-align: left;
+  font-size: 10pt;
+  width: 550px;
+  color: #eeeeee;
+}

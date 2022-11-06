@@ -1,0 +1,181 @@
+/*** IMPORTS ***/
+
+@import url("/css/fonts/SotDL/stylesheet.css");
+@import url("globals.css");
+@import url("/css/utils/placeholders.css");
+@import url("headers.css");
+@import url("cover.css");
+@import url("lists.css");
+@import url("tables.css");
+@import url("toc.css");
+@import url("blockquotes.css");
+@import url("stat-blocks.css");
+@import url("spells.css");
+@import url("page-number.css");
+@import url("credits.css");
+@import url("ad-page.css");
+
+/*** IMPORTS END ***/
+
+.brewRenderer .pages > .page {
+  margin-bottom: 10px;
+}
+
+@media print {
+  .page {
+    margin: 0;
+    height: 279.4mm;
+    width: 215.9mm;
+  }
+}
+
+.page {
+  font-family: var(--font-main);
+  background: var(--img-main-bg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 279.4mm;
+  width: 215.9mm;
+  padding: 1cm 1cm 1cm 1cm;
+  column-fill: auto;
+  column-count: 2;
+  column-gap: 0.4cm;
+  column-width: 9cm;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 0.4cm;
+  -webkit-column-width: 9cm;
+  -moz-column-count: 2;
+  -moz-column-gap: 0.4cm;
+  -moz-column-width: 9cm;
+}
+
+.page a,
+.page .custom-external-link,
+.page .custom-internal-link {
+  color: var(--color-link);
+}
+
+/*** Containers ***/
+
+.page .text-container {
+  position: absolute;
+}
+
+.page .column-container {
+  column-count: 2;
+  column-span: all;
+}
+
+/*** Containers END***/
+
+/*** Layout ***/
+
+.page div.dual-tables {
+  column-count: 2;
+}
+
+.page div.dual-tables h4 {
+  margin-top: 0px;
+}
+
+.page div.column-break + p,
+.page.ng-scope p {
+  text-indent: 1em;
+}
+
+/*** Layout END ***/
+
+/*** Bold ***/
+
+.page p strong {
+  font-family: var(--font-secondary-strong);
+  font-weight: normal;
+  font-size: 10pt;
+  color: var(--color-strong-alt);
+  letter-spacing: -0.02em;
+}
+
+.page strong em,
+.page em strong {
+  color: var(--color-strong-alt);
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* .page h5+p strong {
+      color: var(--color-strong);
+  } */
+
+/*** Bold END ***/
+
+/* TOC END */
+
+/*** Note block ***/
+
+.page blockquote.note {
+  border: 1px solid orange;
+  border-image-source: var(--img-parchment);
+  border-image-slice: 20 fill;
+  border-image-width: 20;
+  border-image-outset: 5;
+  border-image-repeat: round;
+  padding: 20px 15px 20px 15px;
+  overflow: hidden;
+  height: auto;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.page blockquote.note table {
+  margin-bottom: 0.25em;
+}
+
+.page blockquote.note table tbody tr td {
+  line-height: 1.25em;
+}
+
+/*** Note block END ***/
+
+.page .descriptive {
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  font-style: italic;
+  padding-left: 30px;
+}
+
+.page .descriptive h5 {
+  font-style: normal;
+  color: var(--color-text-main);
+  text-align: center;
+}
+
+.html-code code {
+  visibility: visible;
+  box-shadow: 1px 1px 1px black;
+  background-color: #aaa;
+  font-family: "Lucida Console";
+}
+
+.page hr {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0px 0px 0px;
+  position: relative;
+}
+
+/*** Use defult theme disclaimer ***/
+
+.phb#p1 div.default-disclaimer::after {
+  font-size: 26pt;
+  font-family: var(--font-main);
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  content: "Theme look weird? Click the cogs icon above, then check the 'Use default GM Binder Theme?' button.";
+}
+
+.page#p1 div.default-disclaimer::after {
+  content: "";
+}

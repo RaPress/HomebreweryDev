@@ -1,19 +1,19 @@
 /*** IMPORTS ***/
 
 @import url("/css/fonts/SotDL/stylesheet.css");
-@import url("globals.css");
+@import url("/SotDL/globals.css");
 @import url("/css/utils/placeholders.css");
-@import url("headers.css");
-@import url("cover.css");
-@import url("lists.css");
-@import url("tables.css");
-@import url("toc.css");
-@import url("blockquotes.css");
-@import url("stat-blocks.css");
-@import url("spells.css");
-@import url("page-number.css");
-@import url("credits.css");
-@import url("ad-page.css");
+@import url("/SotDL/headers.css");
+@import url("/SotDL/cover.css");
+@import url("/SotDL/lists.css");
+@import url("/SotDL/tables.css");
+@import url("/SotDL/toc.css");
+@import url("/SotDL/blockquotes.css");
+@import url("/SotDL/stat-blocks.css");
+@import url("/SotDL/spells.css");
+@import url("/SotDL/page-number.css");
+@import url("/SotDL/credits.css");
+@import url("/SotDL/ad-page.css");
 
 /*** IMPORTS END ***/
 

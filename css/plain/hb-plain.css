@@ -12,7 +12,8 @@
 
 .page {
   font-family: "Arial";
-  background: #aaa;
+  background-image: none;
+  background-color: #aaa;
   background-size: cover;
   background-repeat: no-repeat;
   height: 279.4mm;

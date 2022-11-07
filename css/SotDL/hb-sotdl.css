@@ -36,17 +36,17 @@
   background-repeat: no-repeat;
   height: 279.4mm;
   width: 215.9mm;
-  padding: 1cm 1cm 1cm 1cm;
+  padding: 2cm;
   column-fill: auto;
   column-count: 2;
-  column-gap: 0.4cm;
-  column-width: 9cm;
+  column-gap: 0.6cm;
+  column-width: 8.5cm;
   -webkit-column-count: 2;
-  -webkit-column-gap: 0.4cm;
-  -webkit-column-width: 9cm;
+  -webkit-column-gap: 0.6cm;
+  -webkit-column-width: 8.5cm;
   -moz-column-count: 2;
-  -moz-column-gap: 0.4cm;
-  -moz-column-width: 9cm;
+  -moz-column-gap: 0.6cm;
+  -moz-column-width: 8.5cm;
 }
 
 .page a,

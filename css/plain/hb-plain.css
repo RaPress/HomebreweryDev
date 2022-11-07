@@ -1,0 +1,138 @@
+.brewRenderer .pages > .page {
+  margin-bottom: 10px;
+}
+
+@media print {
+  .page {
+    margin: 0;
+    height: 279.4mm;
+    width: 215.9mm;
+  }
+}
+
+.page {
+  font-family: "Arial";
+  background: #aaa;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 279.4mm;
+  width: 215.9mm;
+  padding: 2cm;
+  column-fill: auto;
+  column-count: 2;
+  column-gap: 0.6cm;
+  column-width: 8.5cm;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 0.6cm;
+  -webkit-column-width: 8.5cm;
+  -moz-column-count: 2;
+  -moz-column-gap: 0.6cm;
+  -moz-column-width: 8.5cm;
+}
+
+.page a,
+.page .custom-external-link,
+.page .custom-internal-link {
+  color: unset;
+}
+
+/*** Containers ***/
+
+.page .text-container {
+  position: absolute;
+}
+
+.page .column-container {
+  column-count: 2;
+  column-span: all;
+}
+
+/*** Containers END***/
+
+/*** Layout ***/
+
+.page div.dual-tables {
+  column-count: 2;
+}
+
+.page div.dual-tables h4 {
+  margin-top: 0px;
+}
+
+.page div.column-break + p,
+.page.ng-scope p {
+  text-indent: 1em;
+}
+
+/*** Layout END ***/
+
+/*** Bold ***/
+
+.page p strong {
+  font-family: "Arial";
+  font-weight: normal;
+  font-size: 10pt;
+  color: black;
+  letter-spacing: -0.02em;
+}
+
+.page strong em,
+.page em strong {
+  color: black;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/*** Bold END ***/
+
+/* TOC END */
+
+/*** Note block ***/
+
+.page blockquote.note {
+  border: 1px solid black;
+  background-color: orange;
+  padding: 20px 15px 20px 15px;
+  overflow: hidden;
+  height: auto;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.page blockquote.note table {
+  margin-bottom: 0.25em;
+}
+
+.page blockquote.note table tbody tr td {
+  line-height: 1.25em;
+}
+
+/*** Note block END ***/
+
+.page .descriptive {
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  font-style: italic;
+  padding-left: 30px;
+}
+
+.page .descriptive h5 {
+  font-style: normal;
+  color: black;
+  text-align: center;
+}
+
+.html-code code {
+  visibility: visible;
+  box-shadow: 1px 1px 1px black;
+  background-color: #aaa;
+  font-family: "Lucida Console";
+}
+
+.page hr {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0px 0px 0px;
+  position: relative;
+}

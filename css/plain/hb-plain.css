@@ -13,7 +13,7 @@
 .page {
   font-family: "Arial";
   background-image: none;
-  background-color: #aaa;
+  background-color: rgb(224, 224, 224);
   background-size: cover;
   background-repeat: no-repeat;
   height: 279.4mm;

@@ -65,7 +65,7 @@
   margin: 0 50px 0 50px;
 }
 
-.page h1 + p::first-letter {
+.page h1+p::first-letter {
   float: inherit;
   font-family: inherit;
   font-size: inherit;
@@ -105,10 +105,6 @@
   filter: drop-shadow(4px 5px 2px black);
 }
 
-/* .page h1.moves::after {
-      text-shadow: 2px 3px 1px #000000;
-  } */
-
 .page h2 {
   font-size: 18pt;
   margin-bottom: 1rem;
@@ -129,7 +125,7 @@
 
 .page div.punch h2,
 .page div.kick h2,
-.page div.block h2,
+.page div.blocks h2,
 .page div.grab h2,
 .page div.athletics h2,
 .page div.focus h2,
@@ -149,7 +145,7 @@
   transform: rotate(-2deg);
 }
 
-.page div.block h2 {
+.page div.blocks h2 {
   background-color: #800080;
   transform: rotate(2deg);
 }
@@ -186,7 +182,7 @@
 
 .page div.punch h4,
 .page div.kick h4,
-.page div.block h4,
+.page div.blocks h4,
 .page div.grab h4,
 .page div.athletics h4,
 .page div.focus h4,
@@ -206,7 +202,7 @@
   font-weight: bold;
 }
 
-.page div.block h4 {
+.page div.blocks h4 {
   color: #800080;
   font-weight: bold;
 }

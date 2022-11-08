@@ -123,13 +123,13 @@
   -webkit-column-span: none;
 }
 
-.page div.punch h2,
+/* .page div.punch h2,
 .page div.kick h2,
 .page div.blocks h2,
 .page div.grab h2,
 .page div.athletics h2,
-.page div.focus h2,
-.page div.weapon h2 {
+.page div.focus h2, */
+.page div.moves h2 {
   color: #ffffff;
   text-align: center;
   padding: 2px;
@@ -180,13 +180,13 @@
   font-size: 13pt;
 }
 
-.page div.punch h4,
+/* .page div.punch h4,
 .page div.kick h4,
 .page div.blocks h4,
 .page div.grab h4,
 .page div.athletics h4,
-.page div.focus h4,
-.page div.weapon h4 {
+.page div.focus h4, */
+.page div.moves h4 {
   font-family: "Arial Black", "Arial Bold", Helvetica, sans-serif;
   text-transform: none;
   padding-left: 1em;

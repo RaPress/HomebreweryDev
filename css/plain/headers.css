@@ -1,0 +1,19 @@
+/*************************************/
+/*** Plain headers for Homebrewery ***/
+/*************************************/
+
+.page h1 .title {
+    font-size: larger;
+}
+
+.page h1 .banner::before {
+    border: 2px solid #111111;
+}
+
+.page h1 .banner {
+    font-size: large;
+}
+
+.page h1 .banner::after {
+    border: 2px solid #111111;
+}

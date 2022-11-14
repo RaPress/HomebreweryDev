@@ -1,4 +1,6 @@
-.brewRenderer .pages > .page {
+@import url(headers.css);
+
+.brewRenderer .pages>.page {
   margin-bottom: 10px;
 }
 
@@ -60,7 +62,7 @@
   margin-top: 0px;
 }
 
-.page div.column-break + p,
+.page div.column-break+p,
 .page.ng-scope p {
   text-indent: 1em;
 }

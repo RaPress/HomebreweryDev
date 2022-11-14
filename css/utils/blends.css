@@ -1,81 +1,13 @@
-/*** GMBinder blends ***/
+/*** Blends ***/
 
 /** ----- Color filtering ----- **/
 /* Use this to find filter settings to turn white into a wanted color: */
 /* https://codepen.io/sosuke/pen/Pjoqqp */
 /** --------------------------- **/
 
-/** Images [DEPRECATED] **/
-
-img.corner-bottomright {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: unset;
-  z-index: -3;
-}
-
-img.corner-bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: unset;
-  z-index: -3;
-}
-
-img.corner-topleft {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: unset;
-  z-index: -3;
-}
-
-img.corner-topright {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: unset;
-  z-index: -3;
-}
-
-img.half-left {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: unset;
-  z-index: -3;
-}
-
-img.half-right {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: unset;
-  z-index: -3;
-}
-
-img.half-bottom {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: unset;
-  z-index: -3;
-}
-
-img.half-top {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: unset;
-  z-index: -3;
-}
-
-/** Images [DEPRECATED] END **/
-
 /** Positions & Transforms **/
 
-.gmb img {
+.page img {
   position: absolute;
   width: unset;
   z-index: -3;
@@ -113,7 +45,7 @@ img.half-top {
 
 /** Blending **/
 
-.gmb .blend {
+.page .blend {
   position: absolute;
   top: 0;
   left: 0;

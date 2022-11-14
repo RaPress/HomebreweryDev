@@ -21,20 +21,20 @@
   */
 ol,
 ul,
-.gmb ol,
-.gmb ul {
+.page ol,
+.page ul {
   list-style: none;
 }
 
 /* For images to not be able to exceed their container */
 img,
-.gmb img {
+.page img {
   max-width: 100%;
 }
 
 /* Removes spacing between cells in tables */
 table,
-.gmb table {
+.page table {
   border-collapse: collapse;
 }
 
@@ -43,19 +43,19 @@ textarea {
   white-space: revert;
 }
 
-.gmb:after,
-.gmb:nth-child(even):after,
-.gmb:nth-child(odd):after {
+.page:after,
+.page:nth-child(even):after,
+.page:nth-child(odd):after {
   background-image: unset;
 }
 
-.gmb p {
+.page p {
   text-indent: unset;
 }
 
-.gmb h1,
-.gmb h2,
-.gmb h3,
-.gmb h4 {
+.page h1,
+.page h2,
+.page h3,
+.page h4 {
   border: none;
 }

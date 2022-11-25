@@ -10,8 +10,8 @@
   z-index: 5;
 }
 
-.page p.cover-footer,
-.page p.cover-footer em {
+.page .block .cover-footer,
+.page .block .cover-footer em {
   font-family: var(--font-main);
   bottom: 10px;
   left: 25px;

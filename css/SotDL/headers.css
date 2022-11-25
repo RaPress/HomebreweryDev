@@ -2,7 +2,7 @@
 
 /** Title **/
 
-.page div.title .banner {
+.page h1 > .banner {
   position: absolute;
   top: 0;
   left: 0;
@@ -14,7 +14,7 @@
   text-align: center;
 }
 
-.page div.title .banner h1 {
+.page h1.title {
   font-family: var(--font-title);
   font-size: var(--font-size-title-banner);
   text-align: center;

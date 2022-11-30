@@ -2,7 +2,7 @@
 
 /** Title **/
 
-.page h1 > .banner {
+.page h1>.banner {
   position: absolute;
   top: 0;
   left: 0;
@@ -95,7 +95,7 @@
 }
 
 .page div.traits h4,
-.page h3.path > h4 {
+.page .path+table+h4 {
   text-align: center;
   border-bottom-style: solid;
   border-bottom-color: var(--color-header-border);
@@ -131,6 +131,7 @@
   border-bottom-color: var(--color-headers-main);
   border-bottom-width: 1.1px;
 }
+
 .page img.header-image {
   position: absolute;
   top: 0;
@@ -139,7 +140,7 @@
   height: auto;
 }
 
-.page h1 + p::first-letter {
+.page h1+p::first-letter {
   float: inherit;
   font-family: inherit;
   font-size: inherit;

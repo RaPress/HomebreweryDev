@@ -102,7 +102,7 @@
 }
 
 .page p + ul {
-  margin-top: -0.8em;
+  margin-top: 0.25em;
 }
 
 .page p.list-indent {

@@ -48,7 +48,7 @@
   position: relative;
 }
 
-.page div.subtitle h2 {
+.page h2.subtitle {
   font-family: var(--font-main);
   color: var(--color-text-main);
   font-size: var(--font-size-subtitle);

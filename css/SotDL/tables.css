@@ -16,7 +16,8 @@ p+table thead th {
   min-width: 34px;
 }
 
-.page .path+table thead th {
+.page h4.table+table thead th,
+.page h5.table+table thead th {
   background-color: var(--color-table-header-bg);
   color: var(--color-quaternary);
   font-family: var(--font-secondary-strong);

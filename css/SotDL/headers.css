@@ -94,8 +94,7 @@
   font-size: var(--font-size-h4);
 }
 
-.page div.traits h4,
-.page .path+* h4 {
+.page h4.path {
   text-align: center;
   border-bottom-style: solid;
   border-bottom-color: var(--color-header-border);

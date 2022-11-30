@@ -1,100 +1,109 @@
 /*** Call of Cthulhu Tables ***/
 
 .page div.half-table table {
-    width: 50%;
+  width: 50%;
 }
 
 .page div.tables table thead th,
 div.table section div table thead th,
-li p+table thead th,
-p+table thead th {
-    background-color: var(--color-table-header-bg);
-    color: var(--color-quaternary);
-    font-family: var(--font-secondary-strong);
-    font-size: 8pt;
-    padding: 3px 6px 3px 6px;
-    min-width: 34px;
+li p + table thead th,
+p + table thead th {
+  background-color: var(--color-table-header-bg);
+  color: var(--color-quaternary);
+  font-family: var(--font-secondary-strong);
+  font-size: 8pt;
+  padding: 3px 6px 3px 6px;
+  min-width: 34px;
 }
 
-.page div.tables div.column-break+table thead th {
-    padding: 0px;
+.page h3.path > table thead th {
+  background-color: var(--color-table-header-bg);
+  color: var(--color-quaternary);
+  font-family: var(--font-secondary-strong);
+  font-size: 8pt;
+  padding: 3px 6px 3px 6px;
+  min-width: 34px;
+}
+
+.page div.tables div.column-break + table thead th {
+  padding: 0px;
 }
 
 .page.ng-scope table thead th {
-    padding: 0px;
+  padding: 0px;
 }
 
 .page table tbody tr {
-    font-family: var(--font-secondary);
-    font-size: 8pt;
+  font-family: var(--font-secondary);
+  font-size: 8pt;
 }
 
 .page table tbody tr:nth-child(odd) {
-    background-color: var(--color-table-main-bg);
-    font-family: var(--font-secondary);
-    font-size: 8pt;
+  background-color: var(--color-table-main-bg);
+  font-family: var(--font-secondary);
+  font-size: 8pt;
 }
 
 .page table tbody tr:nth-child(even) {
-    background-color: var(--color-table-alt-bg);
-    font-family: var(--font-secondary);
-    font-size: 8pt;
+  background-color: var(--color-table-alt-bg);
+  font-family: var(--font-secondary);
+  font-size: 8pt;
 }
 
 .page table tbody tr td {
-    font-family: var(--font-secondary);
-    font-size: 8pt;
-    min-width: 34px;
+  font-family: var(--font-secondary);
+  font-size: 8pt;
+  min-width: 34px;
 }
 
 .page table tbody tr td p {
-    font-family: var(--font-secondary);
-    font-size: 8pt;
-    text-indent: 1em;
+  font-family: var(--font-secondary);
+  font-size: 8pt;
+  text-indent: 1em;
 }
 
 .page table tbody tr td ul {
-    text-indent: -1em;
-    list-style-type: none;
+  text-indent: -1em;
+  list-style-type: none;
 }
 
 .page table tbody tr td li {
-    margin-left: 5px;
-    font-family: var(--font-secondary);
-    font-size: 8pt;
-    color: var(--color-text-main);
+  margin-left: 5px;
+  font-family: var(--font-secondary);
+  font-size: 8pt;
+  color: var(--color-text-main);
 }
 
 .page table tbody tr td strong {
-    font-family: var(--font-secondary-strong);
-    font-weight: normal;
-    font-size: 8pt;
-    color: var(--color-strong);
+  font-family: var(--font-secondary-strong);
+  font-weight: normal;
+  font-size: 8pt;
+  color: var(--color-strong);
 }
 
 .page table strong {
-    font-family: var(--font-secondary-strong);
-    font-size: 8pt;
+  font-family: var(--font-secondary-strong);
+  font-size: 8pt;
 }
 
-.page table+ul {
-    line-height: 1em;
-    margin-top: -0.5em;
+.page table + ul {
+  line-height: 1em;
+  margin-top: -0.5em;
 }
 
-.page table+ul li {
-    font-size: 10pt;
+.page table + ul li {
+  font-size: 10pt;
 }
 
 .page table em {
-    font-family: var(--font-secondary);
-    font-weight: normal;
+  font-family: var(--font-secondary);
+  font-weight: normal;
 }
 
 .page ul li table {
-    margin: 2px 0 2px 0;
+  margin: 2px 0 2px 0;
 }
 
 .page ul li table tbody tr td {
-    padding: 0.1em 0.1em;
+  padding: 0.1em 0.1em;
 }

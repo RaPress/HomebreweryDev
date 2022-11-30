@@ -94,14 +94,16 @@
   font-size: var(--font-size-h4);
 }
 
-.page div.traits h4 {
+.page div.traits h4,
+.page h3.path > h4 {
   text-align: center;
   border-bottom-style: solid;
   border-bottom-color: var(--color-header-border);
   border-bottom-width: 1.1px;
 }
 
-.page div.tables h4 {
+.page div.tables h4,
+.page h4.table {
   text-align: center;
 }
 

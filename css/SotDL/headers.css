@@ -95,7 +95,7 @@
 }
 
 .page div.traits h4,
-.page .path+table+h4 {
+.page h3.path+h4 {
   text-align: center;
   border-bottom-style: solid;
   border-bottom-color: var(--color-header-border);

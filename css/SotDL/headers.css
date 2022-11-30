@@ -2,7 +2,7 @@
 
 /** Title **/
 
-.page h1 .banner {
+.page h1 > .banner {
   position: absolute;
   top: 0;
   left: 0;

@@ -30,7 +30,7 @@
   bottom: 5px;
 }
 
-.page div.title-text h1 {
+/* .page h1.title-text {
   position: absolute;
   left: 120px;
   top: 200px;
@@ -46,7 +46,7 @@
   -webkit-font-smoothing: antialiased;
   -webkit-text-fill-color: #f3ebebd1;
   position: relative;
-}
+} //TODO: Is this needed anymore? */
 
 .page h2.subtitle {
   font-family: var(--font-main);

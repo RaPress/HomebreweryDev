@@ -12,6 +12,8 @@
 
 .page .block .cover-footer,
 .page .block .cover-footer em {
+  position: absolute;
+  column-span: all;
   font-family: var(--font-main);
   bottom: 10px;
   left: 25px;

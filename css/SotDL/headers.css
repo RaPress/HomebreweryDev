@@ -2,19 +2,18 @@
 
 /** Title **/
 
-.page h1>.banner {
+.page div.banner {
   position: absolute;
   top: 0;
   left: 0;
   width: 816px;
   background-image: var(--img-header-banner);
   background-size: 100% 106%;
-  padding: 20px 0;
+  padding: 2rem 0;
   text-align: center;
-  /* margin: 0px -65px 0px -65px; */
 }
 
-.page h1.title {
+.page div.banner h1.title {
   font-family: var(--font-title);
   font-size: var(--font-size-title-banner);
   text-align: center;
@@ -139,7 +138,7 @@
   height: auto;
 }
 
-.page h1+p::first-letter {
+.page h1 + p::first-letter {
   float: inherit;
   font-family: inherit;
   font-size: inherit;

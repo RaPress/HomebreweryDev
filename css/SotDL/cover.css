@@ -10,8 +10,8 @@
   z-index: 5;
 }
 
-.page .block .cover-footer,
-.page .block .cover-footer em {
+.page .inline-block .cover-footer,
+.page .inline-block .cover-footer em {
   position: absolute;
   column-span: all;
   font-family: var(--font-main);

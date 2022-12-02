@@ -6,6 +6,7 @@
   border-style: none;
   background-image: none;
   background-color: transparent;
+  border-image-source: none;
   -webkit-filter: none;
   filter: none;
 }

@@ -29,6 +29,10 @@
   bottom: 5px;
 }
 
+.page div.banner h1.title.chapter {
+  font-size: var(--font-size-title-banner-chapter);
+}
+
 /* .page h1.title-text {
   position: absolute;
   left: 120px;

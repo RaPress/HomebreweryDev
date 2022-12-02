@@ -34,6 +34,7 @@
   --color-header-border: var(--color-primary);
   --font-size-title: var(--font-size-octonary);
   --font-size-title-banner: var(--font-size-septenary);
+  --font-size-title-banner-chapter: 35pt;
   --font-size-subtitle: var(--font-size-quaternary);
   --font-size-h1: var(--font-size-senary);
   --font-size-h2: var(--font-size-quinary);

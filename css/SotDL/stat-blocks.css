@@ -1,6 +1,6 @@
 /*** Shadow of the Demon Lord Monster Stat Blocks ***/
 
-.page hr + section blockquote {
+.page hr + blockquote {
   padding: 0px;
   box-shadow: none;
   border-style: none;
@@ -10,7 +10,7 @@
   filter: none;
 }
 
-.page hr + section blockquote h3 {
+.page hr + blockquote h3 {
   font-family: Athelas;
   background-color: var(--color-monster-h1-bg);
   background-image: none;
@@ -27,7 +27,7 @@
   border-bottom: none;
 }
 
-.page hr + section blockquote h4 {
+.page hr + blockquote h4 {
   font-family: Athelas;
   font-weight: normal;
   font-size: 8pt;
@@ -42,7 +42,7 @@
   text-align: right;
 }
 
-.page hr + section blockquote h5 {
+.page hr + blockquote h5 {
   font-family: Athelas;
   font-weight: bold;
   font-size: 9pt;
@@ -55,7 +55,7 @@
   text-transform: uppercase;
 }
 
-.page hr + section blockquote h4 + p {
+.page hr + blockquote h4 + p {
   clear: both;
   font-family: Athelas;
   font-weight: bold;
@@ -66,44 +66,44 @@
   padding-left: 5px;
 }
 
-.page hr + section blockquote h4 + p + hr,
-.page hr + section blockquote h5 + hr {
+.page hr + blockquote h4 + p + hr,
+.page hr + blockquote h5 + hr {
   display: none;
 }
 
-.page hr + section blockquote section section ul li {
+.page hr + blockquote section section ul li {
   text-indent: inherit;
   margin-bottom: 0px;
 }
 
-.page hr + section blockquote hr + ul li {
+.page hr + blockquote hr + ul li {
   margin-left: 5px;
   font-family: "GothamBook";
   font-size: 8pt;
   color: var(--color-text-main);
 }
 
-.page hr + section blockquote ul li strong {
+.page hr + blockquote ul li strong {
   font-family: "GothamBold";
   font-weight: bold;
   font-size: 8pt;
   color: var(--color-strong);
 }
 
-.page hr + section blockquote ul + hr {
+.page hr + blockquote ul + hr {
   border-color: var(--color-secondary);
 }
 
-.page hr + section blockquote h3 + hr {
+.page hr + blockquote h3 + hr {
   visibility: hidden;
   margin: 0;
   height: 0;
 }
 
-.page hr + section blockquote h3 + hr + section h4:before {
+.page hr + blockquote h3 + hr + h4:before {
   content: "";
 }
 
-.page hr + section blockquote h4:before {
+.page hr + blockquote h4:before {
   content: "DIFFICULTY ";
 }

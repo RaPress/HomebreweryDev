@@ -10,15 +10,17 @@
   z-index: 5;
 }
 
-.page .block .cover-footer,
-.page .block .cover-footer em {
+.page .block.cover-footer,
+.page .block.cover-footer em {
   position: absolute;
   column-span: all;
   font-family: var(--font-main);
   bottom: 10px;
-  left: 280px;
+  left: 0;
   text-align: left;
   font-size: 10pt;
   width: 550px;
   color: #eeeeee;
+  text-shadow: 1px 1px 2px #000000, -1px 1px 2px #000000, 1px -1px 2px #000000,
+    -1px -1px 2px #000000;
 }

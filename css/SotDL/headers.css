@@ -75,8 +75,17 @@
   text-align: left;
   color: var(--color-headers-main);
   text-transform: uppercase;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin-top: 0.75rem;
+}
+
+.page .columnWrapper h1:first-child,
+.page .columnWrapper h2:first-child,
+.page .columnWrapper h3:first-child,
+.page .columnWrapper h4:first-child,
+.page .columnWrapper h5:first-child,
+.page .columnWrapper h6:first-child,
+.page .columnWrapper h7:first-child {
+  margin-top: 0;
 }
 
 .page h1 {
@@ -142,7 +151,7 @@
   height: auto;
 }
 
-.page h1 + p::first-letter {
+.page h1+p::first-letter {
   float: inherit;
   font-family: inherit;
   font-size: inherit;

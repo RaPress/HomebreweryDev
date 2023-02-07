@@ -6,8 +6,8 @@
 
 .page div.tables table thead th,
 div.table section div table thead th,
-li p+table thead th,
-p+table thead th {
+li p + table thead th,
+p + table thead th {
   background-color: var(--color-table-header-bg);
   color: var(--color-quaternary);
   font-family: var(--font-secondary-strong);
@@ -16,8 +16,8 @@ p+table thead th {
   min-width: 34px;
 }
 
-.page h4.table+table thead th,
-.page h5.table+table thead th {
+.page h4.table + table thead th,
+.page h5.table + table thead th {
   background-color: var(--color-table-header-bg);
   color: var(--color-quaternary);
   font-family: var(--font-secondary-strong);
@@ -26,7 +26,7 @@ p+table thead th {
   min-width: 34px;
 }
 
-.page div.tables div.column-break+table thead th {
+.page div.tables div.column-break + table thead th {
   padding: 0px;
 }
 
@@ -87,12 +87,12 @@ p+table thead th {
   font-size: 8pt;
 }
 
-.page table+ul {
+.page table + ul {
   line-height: 1em;
-  margin-top: -0.5em;
+  margin-top: 0.25rem;
 }
 
-.page table+ul li {
+.page table + ul li {
   font-size: 10pt;
 }
 

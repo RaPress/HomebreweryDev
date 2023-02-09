@@ -5,6 +5,9 @@
 .page .toc h5 {
   font-size: 12pt;
   text-transform: capitalize;
+  font-family: var(--font-main);
+  color: var(--color-text-main);
+  font-weight: bold;
 }
 
 /*** GMB TOC, keeping for posterity for now ***/

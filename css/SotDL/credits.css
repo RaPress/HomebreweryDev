@@ -219,4 +219,8 @@
   display: block;
 }
 
+.full-page-credits .art-credit ul {
+	text-indent: -1rem;
+}
+
 /*** Full page END ***/

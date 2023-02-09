@@ -1,4 +1,13 @@
-/*** Shadow of the Demon Lord toc2 ***/
+/*** Shadow of the Demon Lord toc ***/
+
+.page .toc h3,
+.page .toc h4,
+.page .toc h5 {
+  font-size: 12pt;
+  text-transform: capitalize;
+}
+
+/*** GMB TOC, keeping for posterity for now ***/
 
 .page .toc2 li span:nth-child(2) {
   /* Allow dot leaders to fill remaining space but not overlap */

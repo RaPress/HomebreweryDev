@@ -3,11 +3,16 @@
 .page .toc h3,
 .page .toc h4,
 .page .toc h5 {
-  font-size: 12pt;
+  font-size: 10pt;
   text-transform: capitalize;
   font-family: var(--font-main);
   color: var(--color-text-main);
   font-weight: bold;
+}
+
+.toc.wide ul li {
+  font-size: 10pt;
+  list-style-type: none;
 }
 
 /*** GMB TOC, keeping for posterity for now ***/

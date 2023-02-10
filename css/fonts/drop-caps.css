@@ -17,7 +17,6 @@
 @import url("https://gmb.ra-press.com/css/fonts/RoyalInitialen/stylesheet.css");
 @import url("https://gmb.ra-press.com/css/fonts/Rudelsberg/stylesheet.css");
 @import url("https://gmb.ra-press.com/css/fonts/WolnoughCapitals/stylesheet.css");
-
 :root {
   --font-drop-cap-1: "royal initialen";
   --font-drop-cap-2: "goudy initialen";
@@ -32,7 +31,7 @@
   --font-drop-cap-11: "cheshire initials";
   --font-drop-cap-12: "florana initials";
   --font-drop-cap-13: "romantique initials";
-  --font-drop-cap-14: "carrick caps";
+  --font-drop-cap-14: "royal initialen";
   --font-drop-cap-15: "camelot caps";
   --font-drop-cap-16: "gothic corner caps";
   --font-drop-cap-17: "regal";

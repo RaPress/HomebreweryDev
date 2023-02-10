@@ -1,7 +1,10 @@
 /*** Based on the new CSS Reset - version 1.2.0 (last updated 23.7.2021) ***/
 
 /* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
-*:where(:not(hr, iframe, canvas, img, svg, video):not(svg *)) {
+*:where(
+    :not(hr, iframe, canvas, img, svg, video, table, tr, th, td, thead)
+      :not(svg *)
+  ) {
   all: unset;
   display: revert;
 }

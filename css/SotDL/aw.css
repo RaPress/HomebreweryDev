@@ -1,0 +1,359 @@
+/*** IMPORTS ***/
+
+@import url("main.css");
+
+/*** IMPORTS END ***/
+
+/** Global properties **/
+
+:root {
+  --img-header-banner: url(../img/backgrounds/header-banner.png);
+  --img-bg-border: none;
+  --img-main-bg-right: url(https://roninra.github.io/SotDL-Homebrew/assets/img/ApocryphalWritings/background/bg-book.png);
+  --img-main-bg-left: url(https://roninra.github.io/SotDL-Homebrew/assets/img/ApocryphalWritings/background/bg-book-left.png);
+  --color-text-main: #362518;
+  --color-strong: #362518;
+  --color-headers-alt: black;
+}
+
+/** Global properties END **/
+
+/**  **/
+
+.page p,
+.page ul li {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+td[style="text-align:left"] {
+  text-align: justify !important;
+  text-justify: inter-word;
+}
+
+.page:nth-child(even) {
+  padding: 1cm 1cm 1cm 1.75cm;
+  background: var(--img-main-bg-left);
+}
+
+.page:nth-child(odd) {
+  padding: 1cm 1.75cm 1cm 1cm;
+  background: var(--img-main-bg-right);
+}
+
+/*** Headers ***/
+
+.page h1 {
+  background-size: 100% 100%;
+  padding: 0px 0px 0px 0px;
+  margin: -10px 0px 10px 0px;
+  font-family: "First Order";
+  font-size: 45pt;
+  text-align: center;
+  font-weight: normal;
+  color: var(--color-headers-alt);
+  text-transform: uppercase;
+  -webkit-text-fill-color: var(--color-headers-alt);
+  border-bottom: double #333333;
+  border-top: double #333333;
+}
+
+.page h1 + p::first-letter {
+  float: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  line-height: inherit;
+}
+
+.page h1 {
+  font-size: 30pt;
+}
+
+.page h2 {
+  font-size: 20pt;
+}
+
+.page h3 {
+  font-size: 16pt;
+}
+
+.page h4 {
+  font-size: 13pt;
+}
+
+.page h5 {
+  font-size: 12pt;
+}
+
+.page h6 {
+  font-size: 10pt;
+}
+
+/*** Headers END ***/
+
+/*** Cover ***/
+
+.page div.cover h1 {
+  margin: 0;
+  background-image: none;
+  font-family: "Poison Hope";
+  font-size: 50pt;
+  text-align: center;
+  font-weight: normal;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000,
+    3px 7px 3px #000, 4px 8px 3px #000;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-fill-color: #f3ebebd1;
+}
+
+.page div.cover h2 {
+  font-family: "Poison Hope";
+  color: White;
+  font-size: 18pt;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000,
+    3px 7px 3px #000, 4px 8px 3px #000;
+}
+
+.page div.cover div.issue-date h3 {
+  color: white;
+  font-size: 13pt;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+/*** Cover END ***/
+
+/*** Footer issue no ***/
+
+.page div.footer-issue-no {
+  font-family: Athelas;
+  font-weight: bold;
+  font-size: 11pt;
+  color: var(--color-strong-alt);
+  position: absolute;
+  bottom: 20px;
+  background-color: initial;
+  padding: initial;
+  width: initial;
+  display: initial;
+  justify-content: initial;
+}
+
+.page:nth-child(even) .footer-issue-no {
+  left: 700px;
+}
+
+.page:nth-child(odd) .footer-issue-no {
+  left: 25px;
+}
+
+/*** Footer issue no END ***/
+
+/*** Layout ***/
+
+.page div.column-container {
+  column-count: 2;
+  column-span: all;
+}
+
+.page div.dual-tables {
+  column-count: 2;
+}
+
+/*** Layout END ***/
+
+/*** Bold ***/
+
+.page p strong,
+.page h5 + p strong {
+  color: var(--color-strong);
+}
+
+/*** Bold END ***/
+
+/* Tables */
+
+.page h4.table + table thead th,
+h4.table + section div table thead th,
+li p + table thead th,
+p + table thead th,
+.page h5.table + table thead th,
+h5.table + section div table thead th {
+  background-color: var(--color-table-header-bg);
+  color: #ffffff;
+  font-family: "GothamBold";
+  font-size: 8pt;
+  padding: 3px 6px 3px 6px !important;
+  min-width: 34px;
+}
+
+.page div.tables table td {
+  padding-right: 10px;
+}
+
+/*** Tables END ***/
+
+/** Lists **/
+
+.page h3 + ul li {
+  margin-bottom: 0.8rem;
+}
+
+/** Lists END **/
+
+/*** Blockquote ***/
+
+.page blockquote section h1,
+.page blockquote section h2,
+.page blockquote section h3,
+.page blockquote section h4,
+.page blockquote section h5,
+.page blockquote section h6 {
+  font-family: "Poison Hope";
+  text-shadow: none;
+  background-image: none;
+  -webkit-text-fill-color: unset;
+}
+
+/*** Blockquote END ***/
+
+/*** Article ***/
+
+.page article.drop-cap p:first-child {
+  text-indent: 0;
+}
+
+.page article.drop-cap p:first-child:first-letter {
+  color: var(--color-text-main);
+  font-family: "gothic leaf";
+  float: left;
+  font-size: 80px;
+  line-height: 60px;
+  padding: 10px 0px 0 3px;
+}
+
+/*** Article END ***/
+
+/** Page number **/
+
+.page:nth-child(odd) .pageNumber {
+  left: 700px;
+}
+
+.page:nth-child(even) .pageNumber {
+  left: 70px;
+}
+
+.page:nth-child(odd)::after {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.page:nth-child(even)::after {
+  -moz-transform: none;
+  -o-transform: none;
+  -webkit-transform: none;
+  transform: none;
+  filter: none;
+  -ms-filter: "";
+}
+
+.page:nth-child(even):after {
+  left: 30px;
+}
+
+.page:nth-child(odd):after {
+  left: -50px;
+}
+
+/*** Page number END ***/
+
+/*** Ad Page ***/
+
+.page div.ad-page {
+  column-span: all;
+  -webkit-column-span: all;
+  -moz-column-span: all;
+}
+
+.page div.ad-page h3 {
+  color: var(--color-main);
+  font-size: 14pt;
+  margin-bottom: 20px;
+}
+
+.page div.ad-page div.grid {
+  display: grid;
+  grid-template-columns: 150px 500px;
+  grid-gap: 2rem;
+}
+
+.page div.ad-page div.grid img {
+  width: 150px;
+  box-shadow: 7px 7px 5px 1px #1a1b1b;
+}
+
+/*** Ad Page END***/
+
+/*** Credits ***/
+
+.page div.credits h4 {
+  font-size: 20pt;
+}
+
+.page div.credits h4,
+.page div.credits h4 + p {
+  display: block;
+  text-align: center;
+}
+
+.page div.credits ul li {
+  text-align: center;
+}
+
+.page div.credits h3 + p {
+  font-size: 20px;
+}
+
+/*** Credits END ***/
+
+/*** Code ***/
+
+.page pre,
+.page code {
+  -webkit-column-break-after: always;
+  break-after: always;
+  -moz-column-break-after: always;
+  display: inline;
+  background-color: rgba(132, 74, 51, 0.2);
+  color: #800000;
+  padding: 0;
+}
+
+/*** Code END ***/
+
+/*** Toc ***/
+
+.page .toc {
+  position: absolute;
+  column-fill: auto;
+  column-count: 2;
+  column-gap: 0.4cm;
+  column-width: 8.25cm;
+}
+
+.page .toc h2 {
+  column-span: all;
+}
+
+/*** Toc END ***/

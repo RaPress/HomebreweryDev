@@ -132,7 +132,7 @@ h3.issue-date {
 
 /*** Footer issue no ***/
 
-.page div.footer-issue-no {
+.page .footer-issue-no {
   font-family: Athelas;
   font-weight: bold;
   font-size: 11pt;

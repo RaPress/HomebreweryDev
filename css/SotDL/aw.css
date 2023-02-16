@@ -115,6 +115,7 @@ h2.cover {
   font-size: 18pt;
   font-style: italic;
   text-align: center;
+  column-span: all;
   text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000,
     3px 7px 3px #000, 4px 8px 3px #000;
 }

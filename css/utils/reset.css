@@ -4,6 +4,7 @@
 *:where(
     :not(hr, iframe, canvas, img, svg, video, table, tr, th, td, thead)
       :not(svg *)
+      :not(::-webkit-scrollbar)
   ) {
   all: unset;
   display: revert;

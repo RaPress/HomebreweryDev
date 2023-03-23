@@ -10,6 +10,11 @@
   font-weight: bold;
 }
 
+.page .toc h5 {
+  font-weight: bold;
+  border-bottom: none;
+}
+
 .toc.wide ul li {
   font-size: 10pt;
   list-style-type: none;

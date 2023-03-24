@@ -55,6 +55,10 @@
   color: var(--color-link);
 }
 
+.page h1 + p::first-line {
+  font-variant: none;
+}
+
 /*** Containers ***/
 
 .page .text-container {
@@ -163,35 +167,3 @@
   border-width: 1px 0px 0px 0px;
   position: relative;
 }
-
-/*** Use defult theme disclaimer ***/
-
-.phb#p1 div.default-disclaimer::after {
-  font-size: 26pt;
-  font-family: var(--font-main);
-  color: white;
-  position: absolute;
-  top: 0px;
-  left: 30px;
-  content: "Theme look weird? Click the cogs icon above, then check the 'Use default GM Binder Theme?' button.";
-}
-
-.page#p1 div.default-disclaimer::after {
-  content: "";
-}
-
-/* .page h1+p::first-letter {
-  float: left;
-  font-family: SolberaImitationRemake;
-  line-height: 1em;
-  font-size: 3.5cm;
-  padding-left: 40px;
-  margin-left: -40px;
-  margin-top: -0.3cm;
-  padding-bottom: 2px;
-  margin-bottom: -20px;
-  background-image: linear-gradient(-45deg, #322814, #998250, #322814);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: rgba(0,0,0,0);
-} */

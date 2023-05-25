@@ -68,10 +68,24 @@
 }
 
 .page .stats table td:first-child {
+  font-family: var(--font-main) !important;
   text-align: right;
   width: 4rem;
   padding-right: 1rem;
   border: none;
+}
+
+.page .stats table td:nth-child(odd) {
+  color: var(--color-4);
+  font-family: var(--font-alt);
+  font-size: var(--font-size-table);
+  font-variant: unset;
+}
+
+.page .stats table tbody td:nth-child(even) {
+  font-family: var(--font-alt);
+  text-transform: none;
+  font-variant: unset;
 }
 
 .page .weapons table td:first-child {

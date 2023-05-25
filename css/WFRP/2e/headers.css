@@ -1,0 +1,48 @@
+.page h1 {
+  background: var(--color-2);
+  color: var(--color-3);
+  font-family: var(--font-main);
+  text-transform: uppercase;
+  font-size: var(--font-size-h1);
+  text-align: center;
+  column-span: none;
+  padding: 0.5rem 0 0 0;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.page h1 + p:first-letter,
+.page h1 + p:first-line {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  font-variant: inherit;
+  float: inherit;
+  line-height: inherit;
+  padding: inherit;
+  margin: inherit;
+  background-image: inherit;
+  background-clip: unset;
+  -webkit-background-clip: unset;
+}
+
+.page .stats h1.wounds {
+  width: 10rem;
+}
+
+.page h3 {
+  border-color: var(--color-2);
+}
+
+.page .armor h4 {
+  z-index: 100;
+  text-align: center;
+  color: var(--color-2);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.page .background h4 {
+  text-align: center;
+  color: var(--color-2);
+}

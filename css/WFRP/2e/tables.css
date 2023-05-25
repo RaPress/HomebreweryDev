@@ -1,0 +1,278 @@
+.page .no-header table thead tr th:not(:first-child) {
+  visibility: hidden;
+  border: none;
+}
+
+.page .no-header table tr td:nth-child(2) {
+  width: 1rem;
+  padding: 0;
+}
+
+.page table,
+.page table tbody tr:nth-child(odd) {
+  background: var(--color-3);
+}
+
+.page table tr {
+  border-top: solid 1px var(--color-2);
+}
+
+.page table td:nth-child(odd)::not(td:first-of-type) {
+  border-left: solid 1px var(--color-2);
+}
+
+.page table td:first-of-type {
+  min-width: 4rem;
+}
+
+.page table tbody tr td {
+  line-height: 1rem;
+}
+
+.page table,
+.page table td:nth-child(odd) {
+  color: var(--color-4);
+  font-size: var(--font-size-table);
+  font-family: var(--font-main);
+  font-variant: small-caps;
+}
+
+.page table tbody td:nth-child(even) {
+  font-family: var(--font-alt);
+  text-transform: none;
+  font-variant: none;
+}
+
+.page table strong {
+  letter-spacing: 0rem;
+  vertical-align: top;
+}
+
+.page .stats table td {
+  width: 2rem;
+}
+
+.page .stats table tr {
+  border: none;
+}
+
+.page .stats table thead th:not(:first-child) {
+  background: var(--color-2);
+  color: var(--color-3);
+  padding-top: 0.2rem;
+  border: solid 1px var(--color-2);
+}
+
+.page table tr:first-child {
+  border-top: none;
+}
+
+.page .stats table td:first-child {
+  text-align: right;
+  width: 4rem;
+  padding-right: 1rem;
+  border: none;
+}
+
+.page .weapons table td:first-child {
+  width: 6rem;
+  border-left: none;
+}
+
+.page .weapons table td:last-child {
+  border-right: none;
+}
+
+.page .move table tr td {
+  min-width: 4rem;
+}
+
+.page .move table tr td:not(:first-child),
+.page .move table tr th:not(:first-child),
+.page .actions table tr td:nth-child(3),
+.page .actions table tr th:nth-child(3) {
+  border-left: solid 1px var(--color-2);
+}
+
+.page .talents table tr td {
+  min-width: 9rem;
+  font-variant: none;
+  font-family: var(--font-alt);
+  font-size: var(--font-size-table);
+}
+
+.page .talents table tr th {
+  border: none;
+  text-align: center;
+}
+
+.page .character table tr td:first-child {
+  width: 7em;
+}
+
+.page .xp table tr td:first-child {
+  width: 5rem;
+  font-size: var(--font-size-3);
+}
+
+.page .skills table {
+  color: var(--color-4);
+  font-size: var(--font-size-table-small);
+  font-family: var(--font-main);
+  font-variant: small-caps;
+}
+
+.page .skills table tr td {
+  font-family: var(--font-main);
+  font-size: var(--font-size-table);
+  font-weight: bold;
+}
+
+.page .skills table thead th {
+  font-weight: bold;
+}
+
+/* Taken column */
+.page .skills table tr td:nth-child(1) {
+  min-width: 1rem;
+}
+
+/* total column */
+.page .skills table td:nth-child(3) {
+  border-left: solid 2px var(--color-2);
+  border-right: solid 2px var(--color-2);
+}
+
+/* total column */
+.page .skills table tr:first-child td:nth-child(3) {
+  border-top: solid 2px var(--color-2);
+}
+
+/* total column */
+.page .skills table tr:last-child td:nth-child(3) {
+  border-bottom: solid 2px var(--color-2);
+}
+
+/* Char column */
+.page .skills table td:nth-child(4) {
+  border-right: solid 1px var(--color-2);
+}
+
+/* Char column */
+.page .skills table tr:first-child td:nth-child(4) {
+  border-top: solid 1px var(--color-2);
+}
+
+/* Char column */
+.page .skills table tr:last-child td:nth-child(4) {
+  border-bottom: solid 1px var(--color-2);
+}
+
+/* Skill name column */
+.page .skills table tr td:nth-child(2) {
+  min-width: 9rem;
+}
+
+/* Talents column */
+.page .skills table td:nth-child(7) {
+  font-size: var(--font-size-table-small);
+  line-height: 0.76rem;
+  border-right: solid 1px var(--color-2);
+  border-left: solid 1px var(--color-2);
+  min-width: 3.5rem;
+}
+
+/* Talents column */
+.page .skills table tr:first-child td:nth-child(7) {
+  border-top: solid 1px var(--color-2);
+}
+
+/* Talents column */
+.page .skills table tr:last-child td:nth-child(7) {
+  border-bottom: solid 1px var(--color-2);
+}
+
+/* Ass. char column */
+.page .skills table tr td:nth-child(8) {
+  min-width: 1rem;
+  border-right: solid 1px var(--color-2);
+  border-left: solid 1px var(--color-2);
+}
+
+/* Ass. char column */
+.page .skills table tr:first-child td:nth-child(8) {
+  border-top: solid 1px var(--color-2);
+}
+
+/* Ass. char column */
+.page .skills table tr:last-child td:nth-child(8) {
+  border-bottom: solid 1px var(--color-2);
+}
+
+/* Spell Name */
+.page .spells table tr td:nth-child(1) {
+  width: 8rem;
+}
+
+/* Casting Number */
+.page .spells table tr td:nth-child(2) {
+  width: 3rem;
+}
+
+/* Casting Time */
+.page .spells table tr td:nth-child(3) {
+  width: 4rem;
+}
+
+/* Ingredients */
+.page .spells table tr td:nth-child(4) {
+  width: 12rem;
+}
+
+/* Description */
+.page .spells table tr td:nth-child(5) {
+  width: 15rem;
+}
+
+.page .background table tr td:nth-child(1),
+.page .background table tr td:nth-child(3) {
+  width: 5rem;
+}
+
+.page .companions .talents table tr td:nth-child(1) {
+  min-width: 2rem;
+  border: none;
+}
+
+.page .companions .talents table tr {
+  border-top: none;
+}
+
+.page .stats table td,
+.page .talents table td,
+.page .weapons table td,
+.page .trappings table td,
+.page .armor table td,
+.page .spells table td,
+.page .advances table td {
+  border: solid 1px var(--color-2);
+}
+
+.page .trappings table tr td:nth-child(2) {
+  width: 7rem;
+}
+
+.page .stats h1.wounds + table {
+  width: 10rem;
+}
+
+.page .stats h1.wounds + table thead th,
+.page .stats h1.wounds + table td {
+  border: solid 1px var(--color-2);
+  background: none;
+  color: var(--color-2);
+  min-width: 1rem;
+  width: 1rem;
+  padding: 0;
+  text-align: center;
+}

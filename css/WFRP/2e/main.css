@@ -78,3 +78,14 @@
 .page .background hr {
   visibility: visible;
 }
+
+.page .portrait {
+  box-shadow: inset 1px 2px 5px #1a1b1baa, inset 2px 4px 5px #1a1b1b77,
+    inset 3px 6px 5px #1a1b1b33;
+  z-index: 200;
+  width: 300px;
+  height: auto;
+  position: absolute;
+  top: 5rem;
+  right: 1.5rem;
+}

@@ -23,7 +23,7 @@
 
 /*** Marginalia ***/
 
-.page p.sidenote {
+.page div.block.sidenote p {
   color: var(--color-marginalia);
   font-family: "Rock Salt", cursive;
   font-size: 10px;
@@ -37,23 +37,16 @@
   padding: 3px;
 }
 
-.page p.leftnote {
-  color: var(--color-marginalia);
-  font-family: "Rock Salt", cursive;
-  font-size: 10px;
-  font-weight: bold;
-  letter-spacing: 0.3px;
+.page div.block.sidenote.left p {
   left: 0;
   right: auto;
-  position: absolute;
   margin-left: 20px;
   margin-right: auto;
-  padding: 3px;
   width: 61px;
   text-indent: 0;
 }
 
-.page td p.leftnote {
+.page td div.block.sidenote.left p {
   margin-left: 25px;
   width: 63px;
 }

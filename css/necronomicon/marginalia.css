@@ -15,9 +15,9 @@
   padding: 1.25cm 2cm 1.7cm 2cm;
   column-gap: 0.5cm;
   column-width: 8cm;
-  -webkit-column-gap: 1cm;
+  -webkit-column-gap: 0.5cm;
   -webkit-column-width: 8cm;
-  -moz-column-gap: 13cm;
+  -moz-column-gap: 0.5cm;
   -moz-column-width: 8cm;
 }
 

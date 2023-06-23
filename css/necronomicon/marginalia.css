@@ -12,8 +12,8 @@
 /**  **/
 
 .page {
-  padding: 1.7cm 2cm 1.7cm 2cm;
-  column-gap: 1cm;
+  padding: 1.25cm 2cm 1.7cm 2cm;
+  column-gap: 0.5cm;
   column-width: 8cm;
   -webkit-column-gap: 1cm;
   -webkit-column-width: 8cm;
@@ -23,13 +23,15 @@
 
 /*** Marginalia ***/
 
-.page div.block.sidenote p {
+.page div.block.sidenote p,
+.page span.block.sidenote p {
   color: var(--color-marginalia);
   font-family: "Rock Salt", cursive;
   font-size: 10px;
   font-weight: bold;
+  text-align: left;
   letter-spacing: 0.3px;
-  margin-right: 11px;
+  margin-right: 0.25rem;
   position: absolute;
   right: 0;
   top: auto;
@@ -37,17 +39,19 @@
   padding: 3px;
 }
 
-.page div.block.sidenote.left p {
+.page div.block.sidenote.left p,
+.page span.block.sidenote.left p {
   left: 0;
   right: auto;
-  margin-left: 20px;
+  margin-left: 0.75rem;
   margin-right: auto;
   width: 61px;
   text-indent: 0;
 }
 
-.page td div.block.sidenote.left p {
-  margin-left: 25px;
+.page td div.block.sidenote.left p,
+.page td span.block.sidenote.left p {
+  margin-left: 1rem;
   width: 63px;
 }
 

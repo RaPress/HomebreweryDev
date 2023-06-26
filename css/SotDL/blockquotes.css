@@ -63,6 +63,6 @@
 }
 
 .page div.block.holy-ground blockquote {
-  border-image-source: var(--img-parchment);
+  border-image-source: var(--img-holy-ground-bg);
   background-size: auto auto;
 }

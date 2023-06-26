@@ -49,6 +49,7 @@
   --img-bg-page-number: url("/img/SotDL/backgrounds/pentagram.png");
   --img-parchment: url("/img/SotDL/backgrounds/parchment.png");
   --img-parchment-long: url("/img/SotDL/backgrounds/parchment-long.png");
+  --img-holy-ground-bg: url("/img/SotDL/backgrounds/holy-ground-bg-floral.png");
 
   /* Monster Stat Blocks */
   --color-monster-h1-bg: var(--color-primary);

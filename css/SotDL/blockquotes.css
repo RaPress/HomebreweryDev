@@ -36,7 +36,9 @@
 }
 
 .page blockquote p {
-  font-size: 0.83em;
+  font-size: var(--font-size-primary);
+  padding-right: 1em;
+  line-height: 1.1em;
 }
 
 .page blockquote em {
@@ -58,4 +60,9 @@
   font-family: var(--font-main);
   line-height: 1.1em;
   font-size: 0.83em;
+}
+
+.page div.block.holy-ground blockquote {
+  border-image-source: var(--img-parchment);
+  background-size: auto auto;
 }

@@ -63,7 +63,7 @@
 .page p ul li strong {
   font-family: var(--font-secondary-strong);
   font-weight: normal;
-  font-size: 10pt;
+  font-size: var(--font-size-primary);
   color: var(--color-strong-alt);
   letter-spacing: -0.02em;
 }
@@ -72,7 +72,7 @@
 .page p + ul li strong {
   font-family: var(--font-secondary-strong);
   font-weight: normal;
-  font-size: 10pt;
+  font-size: var(--font-size-primary);
   color: var(--color-strong);
   letter-spacing: -0.02em;
 }
@@ -117,12 +117,11 @@
   text-indent: 1em;
 }
 
-.page p,
 .page li,
 .page ol {
   font-family: var(--font-main);
-  font-size: 11pt;
-  text-align: left;
+  font-size: var(--font-size-primary);
+  text-align: justify;
   letter-spacing: -0.01em;
 }
 

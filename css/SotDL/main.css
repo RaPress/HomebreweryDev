@@ -49,6 +49,13 @@
   -moz-column-width: 8cm;
 }
 
+.page p {
+  font-family: var(--font-main);
+  font-size: var(--font-size-primary);
+  text-align: justify;
+  letter-spacing: -0.01em;
+}
+
 .page a,
 .page .custom-external-link,
 .page .custom-internal-link {

@@ -24,9 +24,9 @@
 /*** Marginalia ***/
 
 .page div.block.sidenote p,
-.page span.block.sidenote p,
+.page span.inline-block.sidenote p,
 .page td div.block.sidenote.left p,
-.page td span.block.sidenote.left p {
+.page td span.inline-block.sidenote.left p {
   color: var(--color-marginalia);
   font-family: "Rock Salt", cursive;
   font-size: 10px;
@@ -42,7 +42,7 @@
 }
 
 .page div.block.sidenote.left p,
-.page span.block.sidenote.left p {
+.page span.inline-block.sidenote.left p {
   left: 0;
   right: auto;
   margin-left: 0.75rem;
@@ -52,18 +52,18 @@
 }
 
 .page td div.block.sidenote.left p,
-.page td span.block.sidenote.left p {
+.page td span.inline-block.sidenote.left p {
   margin-left: 1rem;
   width: 63px;
 }
 
 .page:nth-child(odd) div.block.sidenote.left p,
-.page:nth-child(odd) span.block.sidenote.left p {
+.page:nth-child(odd) span.inline-block.sidenote.left p {
   left: 0.25rem;
 }
 
 .page:nth-child(even) div.block.sidenote p,
-.page:nth-child(even) span.block.sidenote p {
+.page:nth-child(even) span.inline-block.sidenote p {
   right: 0.25rem;
 }
 

@@ -41,8 +41,8 @@
   padding: 3px;
 }
 
-.page div.block.sidenote p,
-.page div.block.sidenote.left p,
+.page div.block.sidenote,
+.page div.block.sidenote.left,
 .page td div.block.sidenote.left,
 .page td div.block.sidenote {
   display: block;

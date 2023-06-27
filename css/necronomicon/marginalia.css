@@ -25,8 +25,8 @@
 
 .page div.block.sidenote p,
 .page span.inline-block.sidenote p,
-.page td div.block.sidenote.left,
-.page td span.inline-block.sidenote.left {
+.page td div.block.sidenote,
+.page td span.inline-block.sidenote {
   color: var(--color-marginalia);
   font-family: "Rock Salt", cursive;
   font-size: 10px;
@@ -39,6 +39,13 @@
   top: auto;
   width: 63px;
   padding: 3px;
+}
+
+.page div.block.sidenote p,
+.page div.block.sidenote.left p,
+.page td div.block.sidenote.left,
+.page td div.block.sidenote {
+  display: block;
 }
 
 .page div.block.sidenote.left p,

@@ -29,7 +29,7 @@
 .page td span.inline-block.sidenote {
   color: var(--color-marginalia);
   font-family: "Rock Salt", cursive;
-  font-size: 10px;
+  font-size: 7.5pt;
   font-weight: bold;
   text-align: left;
   letter-spacing: 0.3px;
@@ -72,6 +72,18 @@
 .page:nth-child(even) div.block.sidenote p,
 .page:nth-child(even) span.inline-block.sidenote p {
   right: 0.25rem;
+}
+
+.page div.block.sidenote.below p,
+.page div.block.sidenote.above p {
+  width: 100%;
+  position: relative;
+  transform: rotate(-3deg);
+  font-size: 9pt;
+}
+
+.page div.block.sidenote.above p {
+  transform: rotate(3deg);
 }
 
 /*** Marginalia END ***/

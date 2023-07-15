@@ -1,8 +1,8 @@
-@import url("https://hb.ra-press.com/css/utils/reset.css");
-@import url("https://hb.ra-press.com/css/mythos/fonts.css");
-@import url("https://hb.ra-press.com/css/mythos/globals.css");
-@import url("https://hb.ra-press.com/css/mythos/headers.css");
-@import url("https://hb.ra-press.com/css/mythos/tables.css");
+@import url("../utils/reset.css");
+@import url("fonts.css");
+@import url("globals.css");
+@import url("headers.css");
+@import url("tables.css");
 
 html {
   font-size: 10pt;

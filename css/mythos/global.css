@@ -1,0 +1,76 @@
+/*** Mythos Global properties ***/
+
+:root {
+  /* Colors */
+  --color-1: #191919;
+  --color-2: #ffe5af;
+  --color-3: #37585b;
+  --color-3-glare: #d6ede6;
+  --color-4: #333234;
+  --color-4-glare: #515153;
+  --color-5: #38212b;
+  --color-5-glare: #55484f;
+  --color-6: #251325;
+  --color-7: #473839;
+
+  /* Fonts */
+  --font-1: "Raleway", sans-serif;
+  --font-2: "MarketDeco";
+  --font-3: "Andesite";
+  --font-size-small: 0.9rem;
+  --font-size-1: 1rem;
+  --font-size-2: 1.2rem;
+  --font-size-3: 1.4rem;
+  --font-size-4: 2rem;
+  --font-size-5: 2.4rem;
+  --font-size-6: 2.8rem;
+  --font-size-7: 3.2rem;
+  --font-size-8: 4rem;
+  --font-size-9: 4.5rem;
+  --font-size-10: 5rem;
+
+  /* Headers */
+  --font-title: var(--font-3);
+  --font-header-main: var(--font-2);
+  --color-header-main: var(--color-3-glare);
+  --font-size-h1: var(--font-size-5);
+  --font-size-h2: var(--font-size-4);
+  --font-size-h3: var(--font-size-3);
+  --font-size-h4: var(--font-size-2);
+  --font-size-h5: var(--font-size-2);
+  --font-size-h6: var(--font-size-2);
+
+  /* Background */
+  --color-bg-primary: var(--color-5-glare);
+  --color-bg-blockquote: var(--color-4);
+  --color-gradient-main: linear-gradient(
+    90deg,
+    var(--color-4) 0%,
+    var(--color-tertiary) 100%
+  );
+  --color-gradient-shade: linear-gradient(
+    90deg,
+    var(--color-4) 0%,
+    var(--color-4-glare) 100%
+  );
+  --color-gradient-alt: linear-gradient(
+    90deg,
+    rgba(56, 33, 43, 1) 0%,
+    rgba(85, 72, 79, 1) 100%
+  );
+  --color-gradient-alt-shade: linear-gradient(
+    90deg,
+    var(--color-6) 0%,
+    var(--color-7) 100%
+  );
+
+  /* Main Text */
+  --font-text-primary: var(--font-1);
+  --color-text-primary: var(--color-2);
+  --font-size-main-text: var(--font-size-1);
+  --indent-main: 1em;
+
+  /* Tables */
+  --color-table-header: var(--color-5);
+  --color-table-header-text: var(--color-2);
+}

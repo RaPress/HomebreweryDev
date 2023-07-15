@@ -1,0 +1,24 @@
+@import url("https://hb.ra-press.com/css/utils/reset.css");
+@import url("https://hb.ra-press.com/css/mythos/fonts.css");
+@import url("https://hb.ra-press.com/css/mythos/globals.css");
+@import url("https://hb.ra-press.com/css/mythos/headers.css");
+@import url("https://hb.ra-press.com/css/mythos/tables.css");
+
+html {
+  font-size: 10pt;
+}
+
+.page {
+  background: none;
+  /* background: var(--color-gradient-main); */
+  background: var(--color-quinary-glare);
+  color: var(--color-header-main);
+  height: 279.4mm;
+  width: 215.9mm;
+}
+
+.page p {
+  color: var(--color-text-primary);
+  font-family: var(--font-text-primary);
+  font-size: var(--font-size-main-text);
+}

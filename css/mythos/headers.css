@@ -1,0 +1,45 @@
+/*** Mythos Headers ***/
+
+.page h1,
+.page h2,
+.page h3,
+.page h4,
+.page h5,
+.page h6 {
+  font-family: var(--font-header-main);
+  font-weight: bold;
+  text-align: justify;
+  text-align-last: left;
+  color: var(--color-header-main);
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.page h1 {
+  font-size: var(--font-size-h1);
+}
+
+.page h2 {
+  font-size: var(--font-size-h2);
+}
+
+.page h3 {
+  font-size: var(--font-size-h3);
+}
+
+.page h4 {
+  font-size: var(--font-size-h4);
+  font-style: italic;
+}
+
+.page h5 {
+  font-size: var(--font-size-h5);
+  border-bottom: 1px solid var(--color-header-main);
+}
+
+.page h6 {
+  font-size: var(--font-size-h6);
+  font-style: italic;
+  border-bottom: 1px solid var(--color-header-main);
+}

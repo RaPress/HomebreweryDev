@@ -1,0 +1,21 @@
+/*** Mythos Tables ***/
+
+.page div.table h4 {
+  color: var(--color-header-primary);
+}
+
+.page table thead th {
+  background-color: var(--color-table-header);
+  color: var(--color-table-header-text);
+  font-weight: bold;
+}
+
+.page table tbody tr:nth-child(even) {
+  background-color: var(--color-table-header);
+  color: var(--color-table-header-text);
+}
+
+.page table tbody tr:nth-child(odd) {
+  background-color: transparent;
+  color: var(--color-text-main);
+}

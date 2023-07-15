@@ -43,3 +43,11 @@
   font-style: italic;
   border-bottom: 1px solid var(--color-header-main);
 }
+
+.page h1 + p::first-letter {
+  float: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  line-height: inherit;
+}

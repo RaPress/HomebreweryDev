@@ -1,0 +1,26 @@
+/** SotDL Handouts **/
+
+/** Background **/
+
+.page .handout blockquote {
+  border-image-source: url(https://hb.ra-press.com/img/medieval/backgrounds/parchment-weathered.png);
+  min-width: 5rem;
+  padding: 2rem 2rem 3rem 2rem;
+  left: 2rem;
+  position: absolute;
+  z-index: -1;
+}
+
+/** Background  END **/
+
+/** Handwriting **/
+
+.page .handout.handwriting p,
+.page .handout.handwriting h4,
+.page .handout.handwriting span {
+  font-family: "Hillpark";
+  font-size: 15pt;
+  letter-spacing: 0.1rem;
+}
+
+/** Handwriting END **/

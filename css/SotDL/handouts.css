@@ -3,10 +3,11 @@
 /** Background **/
 
 .page .handout blockquote {
-  border-image-source: url(https://hb.ra-press.com/img/medieval/backgrounds/parchment-weathered.png);
+  border-image-source: url("https://hb.ra-press.com/img/Medieval/backgrounds/Parchment-Weathered.png");
   min-width: 5rem;
-  padding: 2rem 2rem 3rem 2rem;
+  padding: 1rem 0 1rem 1rem;
   left: 2rem;
+  margin-right: 2rem;
   position: absolute;
   z-index: -1;
 }
@@ -20,7 +21,8 @@
 .page .handout.handwriting span {
   font-family: "Hillpark";
   font-size: 15pt;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.11rem;
+  color: #111111;
 }
 
 /** Handwriting END **/

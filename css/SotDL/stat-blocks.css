@@ -52,6 +52,7 @@
   background-color: var(--color-monster-h3-bg);
   padding: 3px;
   padding-left: 5px;
+  margin-top: 0;
   border-style: none;
   text-transform: uppercase;
 }
@@ -70,6 +71,10 @@
 .page hr + blockquote h4 + p + hr,
 .page hr + blockquote h5 + hr {
   display: none;
+}
+
+.page hr + blockquote ul {
+  margin-bottom: 0.5em;
 }
 
 .page hr + blockquote ul li {

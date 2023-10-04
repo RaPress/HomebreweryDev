@@ -67,3 +67,38 @@
   background-size: auto auto;
   padding: 1.5rem 0 1.5rem 0;
 }
+
+/*** Patreon ***/
+
+.page div.patreon blockquote {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.page div.patreon blockquote p:last-child {
+  margin-bottom: 10px;
+}
+
+.page div.patreon blockquote p {
+  font-size: 12pt;
+}
+
+.page div.patreon blockquote img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.page div.patreon blockquote h5 {
+  margin: 10px 0px 10px 0px;
+}
+
+.page div.patreon blockquote div.column-container h6 {
+  margin: 0px 0px 0px 5px;
+}
+
+/*** Patreon END ***/

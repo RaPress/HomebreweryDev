@@ -57,6 +57,10 @@
   text-transform: uppercase;
 }
 
+.page hr + blockquote h5 + ul li ul li {
+  list-style-type: none;
+}
+
 .page hr + blockquote h4 + p {
   clear: both;
   font-family: Athelas;

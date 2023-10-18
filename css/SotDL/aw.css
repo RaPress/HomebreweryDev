@@ -357,4 +357,8 @@ h5.table + section div table thead th {
   column-span: all;
 }
 
+.page .toc h3 + ul li {
+  margin-bottom: 0;
+}
+
 /*** Toc END ***/

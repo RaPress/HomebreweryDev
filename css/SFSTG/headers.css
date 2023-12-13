@@ -105,6 +105,27 @@
   filter: drop-shadow(4px 5px 2px black);
 }
 
+.page h1.setting {
+  font-size: 55pt;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(#fde542, #d05532);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: rotate(-3deg);
+  filter: drop-shadow(4px 5px 2px black);
+}
+
+.page h2.setting,
+.page h3.setting,
+.page h4.setting,
+.page h5.setting,
+.page h6.setting {
+  color: #d05532;
+  text-shadow: 1px 1px 2px #fde542;
+}
+
 .page h2 {
   font-size: 18pt;
   margin-bottom: 1rem;
@@ -131,43 +152,49 @@
 .page div.focus h2, */
 .page div.moves h2 {
   color: #ffffff;
-  text-align: center;
   padding: 2px;
 }
 
 .page div.punch h2 {
   background-color: #4e3d7b;
   transform: rotate(2deg);
+  text-align: left;
 }
 
 .page div.kick h2 {
   background-color: #ff0b48;
   transform: rotate(-2deg);
+  text-align: left;
 }
 
 .page div.blocks h2 {
   background-color: #800080;
   transform: rotate(2deg);
+  text-align: left;
 }
 
 .page div.grab h2 {
   background-color: #355e00;
   transform: rotate(-2deg);
+  text-align: left;
 }
 
 .page div.athletics h2 {
   background-color: #b80047;
   transform: rotate(2deg);
+  text-align: left;
 }
 
 .page div.focus h2 {
   background-color: #7aa731;
   transform: rotate(-2deg);
+  text-align: left;
 }
 
 .page div.weapon h2 {
   background-color: #ffc000;
   transform: rotate(-2deg);
+  text-align: left;
 }
 
 .page h3 {
@@ -190,6 +217,7 @@
   font-family: "Arial Black", "Arial Bold", Helvetica, sans-serif;
   text-transform: none;
   padding-left: 1em;
+  transform: rotate(0);
 }
 
 .page div.punch h4 {
@@ -227,24 +255,13 @@
   font-weight: bold;
 }
 
-.page h4.traits {
-  font-size: 14pt;
-  text-align: center;
-  border-bottom-style: solid;
-  border-bottom-color: var(--color-header-border);
-  border-bottom-width: 1.1px;
-}
-
 .page h4.table {
-  font-size: 14pt;
   text-align: center;
 }
 
 .page h5 {
   font-size: 12pt;
-  border-bottom-style: solid;
-  border-bottom-color: var(--color-header-border);
-  border-bottom-width: 1.1px;
+  border-bottom-style: none;
 }
 
 .page h5.table {
@@ -260,9 +277,23 @@
 
 .page h6 {
   font-size: 10pt;
-  border-bottom-style: solid;
-  border-bottom-color: var(--color-headers-main);
-  border-bottom-width: 1.1px;
+  border-bottom-style: none;
+}
+
+.page h2:nth-of-type(even),
+.page h3:nth-of-type(even),
+.page h4:nth-of-type(even),
+.page h5:nth-of-type(even),
+.page h6:nth-of-type(even) {
+  transform: rotate(-2deg);
+}
+
+.page h2:nth-of-type(odd),
+.page h3:nth-of-type(odd),
+.page h4:nth-of-type(odd),
+.page h5:nth-of-type(odd),
+.page h6:nth-of-type(odd) {
+  transform: rotate(2deg);
 }
 
 /*** Headers END ***/

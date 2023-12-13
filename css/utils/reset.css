@@ -110,3 +110,7 @@ meter {
 .page h4 {
   border: none;
 }
+
+.page h1+p::first-line {
+  font-variant:unset;
+}

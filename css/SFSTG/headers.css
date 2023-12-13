@@ -82,7 +82,7 @@
 .page h7 {
   font-family: "sftitle";
   font-weight: normal;
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
   color: var(--color-headers-main);
   margin-bottom: 5px;

@@ -159,43 +159,36 @@
 .page div.punch h2 {
   background-color: #4e3d7b;
   transform: rotate(2deg);
-  text-align: left;
 }
 
 .page div.kick h2 {
   background-color: #ff0b48;
   transform: rotate(-2deg);
-  text-align: left;
 }
 
 .page div.blocks h2 {
   background-color: #800080;
   transform: rotate(2deg);
-  text-align: left;
 }
 
 .page div.grab h2 {
   background-color: #355e00;
   transform: rotate(-2deg);
-  text-align: left;
 }
 
 .page div.athletics h2 {
   background-color: #b80047;
   transform: rotate(2deg);
-  text-align: left;
 }
 
 .page div.focus h2 {
   background-color: #7aa731;
   transform: rotate(-2deg);
-  text-align: left;
 }
 
 .page div.weapon h2 {
   background-color: #ffc000;
   transform: rotate(-2deg);
-  text-align: left;
 }
 
 .page h3 {
@@ -219,6 +212,7 @@
   text-transform: none;
   padding-left: 1em;
   transform: rotate(0);
+  text-align: left;
 }
 
 .page div.punch h4 {

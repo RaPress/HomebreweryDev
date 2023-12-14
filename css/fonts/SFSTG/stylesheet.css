@@ -29,15 +29,17 @@
 }
 
 @font-face {
-  font-family: "Feast of Flesh";
-  src: url("FEASFBRG.TTF");
+  font-family: "feast of flesh italic";
+  src: url("feasfbi_-webfont.woff2") format("woff2"),
+    url("feasfbi_-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Feast of Flesh Italic";
-  src: url("FEASFBI_.TTF");
+  font-family: "feast of flesh";
+  src: url("feasfbrg-webfont.woff2") format("woff2"),
+    url("feasfbrg-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }

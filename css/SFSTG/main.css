@@ -570,16 +570,16 @@ div#p1::after {
 }
 
 .page .footnote {
-  color: #83b461;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-size: 2em;
-  width: 30rem;
-  top: 18rem;
+  color: rgba(131, 180, 97, 0.6);
+  font-family: "Industria";
+  font-weight: 100;
+  font-size: 28pt;
+  top: 20rem;
+  width: 40rem;
+  right: -19.7rem;
   transform: rotate(90deg);
-  right: -14rem;
   height: 1rem;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.5rem;
 }
 
 .ng-scope section::before,

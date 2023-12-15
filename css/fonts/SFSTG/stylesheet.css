@@ -29,7 +29,7 @@
 }
 
 @font-face {
-  font-family: "feast of flesh italic";
+  font-family: "FeastOfFleshItalic";
   src: url("feasfbi_-webfont.woff2") format("woff2"),
     url("feasfbi_-webfont.woff") format("woff");
   font-weight: normal;
@@ -37,7 +37,7 @@
 }
 
 @font-face {
-  font-family: "feast of flesh";
+  font-family: "FeastOfFlesh";
   src: url("feasfbrg-webfont.woff2") format("woff2"),
     url("feasfbrg-webfont.woff") format("woff");
   font-weight: normal;

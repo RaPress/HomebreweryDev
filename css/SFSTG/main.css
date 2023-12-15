@@ -1,6 +1,6 @@
-@import url("https://roninra.github.io/SotDL-Homebrew/assets/fonts/SFSTG/stylesheet.css");
 @import url(global.css);
 @import url(headers.css);
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/fonts/SFSTG/stylesheet.css");
 
 /**  **/
 
@@ -570,16 +570,20 @@ div#p1::after {
 }
 
 .page .footnote {
-  color: rgba(131, 180, 97, 0.6);
   font-family: "Industria";
   font-weight: 100;
   font-size: 28pt;
-  top: 20rem;
-  width: 40rem;
-  right: -19.7rem;
-  transform: rotate(90deg);
-  height: 1rem;
+  top: 2rem;
+  right: -0.2rem;
+  height: 100%;
+  text-align: left;
+  writing-mode: vertical-rl;
   letter-spacing: 0.5rem;
+  display: inline-block;
+}
+
+.page .footnote.moves {
+  color: rgba(131, 180, 97, 0.6);
 }
 
 .ng-scope section::before,

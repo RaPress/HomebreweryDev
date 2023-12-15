@@ -90,23 +90,25 @@
 }
 
 .page h1 {
-  font-family: "FeastOfFlesh";
+  font-family: "BrushKing";
   font-size: 50pt;
+  transform: rotate(-3deg);
 }
 
 .page h1.moves {
-  font-size: 55pt;
-  font-weight: bold;
-  text-align: center;
+  font-size: 40pt;
+  font-weight: 100;
+  font-style: italic;
+  text-align: left;
+  line-height: 8rem;
+  margin-top: -2rem;
+  filter: drop-shadow(1px 1px 1px black) drop-shadow(2px 2px 1px black)
+    drop-shadow(3px 3px 1px black) drop-shadow(4px 4px 1px black);
+
   background: linear-gradient(#83b461, #284c55);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  transform: rotate(-3deg);
-  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 1))
-    drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.7))
-    drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5))
-    drop-shadow(4px 4px 1px rgba(0, 0, 0, 1));
 }
 
 .page h1.setting {
@@ -119,6 +121,19 @@
   -webkit-text-fill-color: transparent;
   transform: rotate(-3deg);
   filter: drop-shadow(4px 5px 2px black);
+}
+
+.page h1::first-letter {
+  font-size: 150%;
+}
+
+.page h1 + h1 {
+  transform: rotate(-7.5deg);
+  margin-top: -3rem;
+}
+
+.page h1 + p {
+  margin-top: 3rem;
 }
 
 .page h2.setting,

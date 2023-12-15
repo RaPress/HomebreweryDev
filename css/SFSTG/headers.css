@@ -100,20 +100,22 @@
   transform: rotate(-3deg);
   filter: drop-shadow(1px 1px 1px black) drop-shadow(2px 2px 1px black)
     drop-shadow(3px 3px 1px black) drop-shadow(4px 4px 1px black);
-  background: linear-gradient(#ffffff, #000000);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .page h1.moves {
   font-size: 40pt;
   background: linear-gradient(#83b461, #284c55);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .page h1.setting {
   font-size: 55pt;
   background: linear-gradient(#fde542, #d05532);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .page h1::first-letter {

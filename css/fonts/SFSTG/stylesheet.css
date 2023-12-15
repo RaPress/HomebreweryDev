@@ -44,6 +44,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "BrushKing";
+  src: url("Brush King.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* @font-face {
     font-family: 'Poison Hope';
     src: url('PoisonHope-Regular.ttf');

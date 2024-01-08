@@ -1,0 +1,18 @@
+/*** Global properties ***/
+
+:root {
+  /* Fonts */
+  --font-main: "Roboto";
+  --font-header: "Georgia, serif";
+  --font-title: "First Order";
+  --font-secondary: "GothamBook";
+  --font-secondary-strong: "GothamBold";
+  --font-size-primary: 11pt;
+  --font-size-secondary: 12pt;
+  --font-size-tertiary: 14pt;
+  --font-size-quaternary: 18pt;
+  --font-size-quinary: 25pt;
+  --font-size-senary: 32pt;
+  --font-size-septenary: 50pt;
+  --font-size-octonary: 60pt;
+}

@@ -111,6 +111,21 @@ meter {
   border: none;
 }
 
-.page h1+p::first-line {
-  font-variant:unset;
+.page h1 + p::first-line {
+  font-variant: unset;
+}
+
+.page h1 + p::first-letter {
+  float: initial;
+  padding-bottom: initial;
+  padding-left: initial;
+  margin-top: initial;
+  margin-bottom: initial;
+  margin-left: initial;
+  font-family: initial;
+  font-size: initial;
+  line-height: initial;
+  color: initial;
+  background-image: initial;
+  background-clip: initial;
 }

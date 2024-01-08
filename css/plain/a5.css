@@ -1,6 +1,6 @@
 @import url(headers.css);
 
-.brewRenderer .pages>.page {
+.brewRenderer .pages > .page {
   margin-bottom: 10px;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .page {
-  font-family: "Arial";
+  font-family: var(--font-main);
   background-image: none;
   background-color: rgb(224, 224, 224);
   background-size: cover;
@@ -62,7 +62,7 @@
   margin-top: 0px;
 }
 
-.page div.column-break+p,
+.page div.column-break + p,
 .page.ng-scope p {
   text-indent: 1em;
 }
@@ -72,8 +72,8 @@
 /*** Bold ***/
 
 .page p strong {
-  font-family: "Arial";
-  font-weight: normal;
+  font-family: var(--font-main);
+  font-weight: 700;
   font-size: 10pt;
   color: black;
   letter-spacing: -0.02em;

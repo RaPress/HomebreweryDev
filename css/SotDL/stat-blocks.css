@@ -86,7 +86,7 @@
   margin-bottom: 0px;
 }
 
-.page hr + blockquote ul:first-of-type li:nth-child(3) {
+.page hr + blockquote h3 + h4 + p + hr + ul:first-of-type li:nth-child(3) {
   white-space: nowrap;
 }
 

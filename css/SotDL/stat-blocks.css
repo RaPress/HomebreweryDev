@@ -1,6 +1,6 @@
 /*** Shadow of the Demon Lord Monster Stat Blocks ***/
 
-.page hr + blockquote {
+.page hr+blockquote {
   padding: 0px;
   box-shadow: none;
   border-style: none;
@@ -11,7 +11,7 @@
   filter: none;
 }
 
-.page hr + blockquote h3 {
+.page hr+blockquote h3 {
   font-family: Athelas;
   background-color: var(--color-monster-h1-bg);
   background-image: none;
@@ -28,7 +28,7 @@
   border-bottom: none;
 }
 
-.page hr + blockquote h4 {
+.page hr+blockquote h4 {
   font-family: Athelas;
   font-weight: normal;
   font-size: 8pt;
@@ -43,7 +43,7 @@
   text-align: right;
 }
 
-.page hr + blockquote h5 {
+.page hr+blockquote h5 {
   font-family: Athelas;
   font-weight: bold;
   font-size: 9pt;
@@ -57,11 +57,11 @@
   text-transform: uppercase;
 }
 
-.page hr + blockquote h5 + ul li ul li {
+.page hr+blockquote h5+ul li ul li {
   list-style-type: none;
 }
 
-.page hr + blockquote h4 + p {
+.page hr+blockquote h4+p {
   clear: both;
   font-family: Athelas;
   font-weight: bold;
@@ -72,29 +72,29 @@
   padding-left: 5px;
 }
 
-.page hr + blockquote h4 + p + hr,
-.page hr + blockquote h5 + hr {
+.page hr+blockquote h4+p+hr,
+.page hr+blockquote h5+hr {
   display: none;
 }
 
-.page hr + blockquote ul {
+.page hr+blockquote ul {
   margin-bottom: 0.5em;
 }
 
-.page hr + blockquote ul li {
+.page hr+blockquote ul li {
   text-indent: inherit;
   margin-bottom: 0px;
 }
 
-.page hr + blockquote ul li .tables table + table thead th {
+.page hr+blockquote ul li .tables table+table thead th {
   padding: 0;
 }
 
-.page hr + blockquote h3 + h4 + p + hr + ul:first-of-type li:nth-child(3) {
+.page hr+blockquote h3+h4+p+hr+ul:first-of-type li:nth-child(3) {
   white-space: nowrap;
 }
 
-.page hr + blockquote hr + ul li {
+.page hr+blockquote hr+ul li {
   list-style: none;
   text-indent: -1rem;
   margin-left: 5px;
@@ -103,31 +103,31 @@
   color: var(--color-text-main);
 }
 
-.page hr + blockquote ul li strong {
+.page hr+blockquote ul li strong {
   font-family: "GothamBold";
   font-weight: bold;
   font-size: 9pt;
   color: var(--color-strong);
 }
 
-.page hr + blockquote ul + hr {
+.page hr+blockquote ul+hr {
   border-color: var(--color-secondary);
 }
 
-.page hr + blockquote h3 + hr {
+.page hr+blockquote h3+hr {
   visibility: hidden;
   margin: 0;
   height: 0;
 }
 
-.page hr + blockquote h3 + hr + h4:before {
+.page hr+blockquote h3+hr+h4:before {
   content: "";
 }
 
-.page hr + blockquote h4:before {
+.page hr+blockquote h4:before {
   content: "DIFFICULTY ";
 }
 
-.page hr + blockquote h3.vehicle + h4:before {
+.page hr+blockquote h3.vehicle+h4:before {
   content: "PRICE ";
 }

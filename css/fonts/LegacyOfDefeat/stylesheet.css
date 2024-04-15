@@ -1,0 +1,359 @@
+@font-face {
+    font-family: 'H74_TheBlackBureau';
+    src: url('H74TheBlackBureau.woff2') format('woff2'),
+        url('H74TheBlackBureau.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Spitfire';
+    src: url('H74Spitfire.woff2') format('woff2'),
+        url('H74Spitfire.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Warlock';
+    src: url('H74Warlock.woff2') format('woff2'),
+        url('H74Warlock.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Ghetto Wolves';
+    src: url('H74GhettoWolves.woff2') format('woff2'),
+        url('H74GhettoWolves.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Riverside';
+    src: url('H74RiversideThin.woff2') format('woff2'),
+        url('H74RiversideThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Valkyrie';
+    src: url('H74Valkyrie.woff2') format('woff2'),
+        url('H74Valkyrie.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Norway';
+    src: url('H74NorwayBlack.woff2') format('woff2'),
+        url('H74NorwayBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 BEAST';
+    src: url('HBEAST-Regular.woff2') format('woff2'),
+        url('HBEAST-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Alderaan';
+    src: url('HAlderaan-Regular.woff2') format('woff2'),
+        url('HAlderaan-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Craft Brew';
+    src: url('HCraftBrew-Regular.woff2') format('woff2'),
+        url('HCraftBrew-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Yo\'Santos';
+    src: url('H74YoSantos.woff2') format('woff2'),
+        url('H74YoSantos.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Craft Brew';
+    src: url('HCraftBrew-Regular.woff2') format('woff2'),
+        url('HCraftBrew-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 2600 Cambodia';
+    src: url('H-Cambodia.woff2') format('woff2'),
+        url('H-Cambodia.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 2600 Dungeon';
+    src: url('H-Dungeon.woff2') format('woff2'),
+        url('H-Dungeon.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 2600 Intel';
+    src: url('H-Intel.woff2') format('woff2'),
+        url('H-Intel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 John Cenaaa';
+    src: url('HJohnCenaaa-Regular.woff2') format('woff2'),
+        url('HJohnCenaaa-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Dirty Whore';
+    src: url('HDirtyWhore-Regular.woff2') format('woff2'),
+        url('HDirtyWhore-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Heavy Metal';
+    src: url('HHeavyMetal-Regular.woff2') format('woff2'),
+        url('HHeavyMetal-Regular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 2600 Street';
+    src: url('H-Street.woff2') format('woff2'),
+        url('H-Street.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Morgue';
+    src: url('HMorgue-Regular.woff2') format('woff2'),
+        url('HMorgue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 NERV Warning';
+    src: url('HNERVWarning-Regular.woff2') format('woff2'),
+        url('HNERVWarning-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Motherland';
+    src: url('HMotherland-Regular.woff2') format('woff2'),
+        url('HMotherland-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 2600 Zerox';
+    src: url('H-Zerox.woff2') format('woff2'),
+        url('H-Zerox.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Tachikoma';
+    src: url('HTachikoma-Regular.woff2') format('woff2'),
+        url('HTachikoma-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 2600 Terminal';
+    src: url('H-Terminal.woff2') format('woff2'),
+        url('H-Terminal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Tiger Piss';
+    src: url('HTigerPiss-Regular.woff2') format('woff2'),
+        url('HTigerPiss-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Zombie Allegiance';
+    src: url('HZombieAllegiance-Regular.woff2') format('woff2'),
+        url('HZombieAllegiance-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Dominator';
+    src: url('HDominator-Regular.woff2') format('woff2'),
+        url('HDominator-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Nick Cage';
+    src: url('HNickCage-Regular.woff2') format('woff2'),
+        url('HNickCage-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Klauth 01';
+    src: url('HKlauth-01.woff2') format('woff2'),
+        url('HKlauth-01.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Klauth 02';
+    src: url('HKlauth-02.woff2') format('woff2'),
+        url('HKlauth-02.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Caracas';
+    src: url('HCaracas-Regular.woff2') format('woff2'),
+        url('HCaracas-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Caracas';
+    src: url('HCaracas-Regular.woff2') format('woff2'),
+        url('HCaracas-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Klauth 03';
+    src: url('HKlauth-03.woff2') format('woff2'),
+        url('HKlauth-03.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Numbnuts';
+    src: url('HNumbnuts-Regular.woff2') format('woff2'),
+        url('HNumbnuts-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Darth Hater';
+    src: url('HDarthHater-Regular.woff2') format('woff2'),
+        url('HDarthHater-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Darth Hater';
+    src: url('HDarthHater-Regular.woff2') format('woff2'),
+        url('HDarthHater-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Dominator';
+    src: url('HDominator-Regular.woff2') format('woff2'),
+        url('HDominator-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Nick Cage';
+    src: url('HNickCage-Regular.woff2') format('woff2'),
+        url('HNickCage-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'H74 Numbnuts';
+    src: url('HNumbnuts-Regular.woff2') format('woff2'),
+        url('HNumbnuts-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

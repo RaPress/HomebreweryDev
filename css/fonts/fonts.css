@@ -67,6 +67,8 @@
 @import url("https://hb.ra-press.com/css/fonts/Modern Premium/P-S/stylesheet.css");
 @import url("https://hb.ra-press.com/css/fonts/Modern Premium/T-W/stylesheet.css");
 
+@import url("https://hb.ra-press.com/css/fonts/LegacyOfDefeat/stylesheet.css");
+
 .font-size-1 {
   font-size: var(--font-size-1);
 }

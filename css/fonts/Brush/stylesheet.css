@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'brushough';
+    src: url('brushough.woff2') format('woff2'),
+        url('brushough.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Edo SZ';
+    src: url('EdoSZ.woff2') format('woff2'),
+        url('EdoSZ.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BlowBrush';
+    src: url('BlowBrush.woff2') format('woff2'),
+        url('BlowBrush.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ceviche One';
+    src: url('CevicheOne-Regular.woff2') format('woff2'),
+        url('CevicheOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Edo';
+    src: url('Edo.woff2') format('woff2'),
+        url('Edo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Antihero';
+    src: url('Antihero.woff2') format('woff2'),
+        url('Antihero.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Herdrock';
+    src: url('HerdrockRegular.woff2') format('woff2'),
+        url('HerdrockRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'InkVerse';
+    src: url('InkVerse.woff2') format('woff2'),
+        url('InkVerse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Iron Blade';
+    src: url('IronBladeRegular.woff2') format('woff2'),
+        url('IronBladeRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JDK Bushidoo';
+    src: url('JDK_Bushidoo.woff2') format('woff2'),
+        url('JDK_Bushidoo.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JDK Bushidoo Outline';
+    src: url('JDK_Bushidoo_outline.woff2') format('woff2'),
+        url('JDK_Bushidoo_outline.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Madjoe';
+    src: url('Madjoe.woff2') format('woff2'),
+        url('Madjoe.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Masiku';
+    src: url('Masiku.woff2') format('woff2'),
+        url('Masiku.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PaintyPaint';
+    src: url('PaintyPaint1.woff2') format('woff2'),
+        url('PaintyPaint1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MidNight';
+    src: url('MidNightRegular.woff2') format('woff2'),
+        url('MidNightRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Key Virtue';
+    src: url('KeyVirtueRegular.woff2') format('woff2'),
+        url('KeyVirtueRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mister October';
+    src: url('MisterOctober.woff2') format('woff2'),
+        url('MisterOctober.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MYSTERY 2019';
+    src: url('MYSTERY2019-Regular.woff2') format('woff2'),
+        url('MYSTERY2019-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nazumi Font';
+    src: url('NazumiFont-Regular.woff2') format('woff2'),
+        url('NazumiFont-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TAKASIH';
+    src: url('TAKASIH.woff2') format('woff2'),
+        url('TAKASIH.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Wood Dragon';
+    src: url('WoodDragon.woff2') format('woff2'),
+        url('WoodDragon.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ryujin Attack';
+    src: url('RyujinAttackRegular.woff2') format('woff2'),
+        url('RyujinAttackRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zidan';
+    src: url('Zidan.woff2') format('woff2'),
+        url('Zidan.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Painting With Chocolate';
+    src: url('PaintingWithChocolate.woff2') format('woff2'),
+        url('PaintingWithChocolate.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

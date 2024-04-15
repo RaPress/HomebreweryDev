@@ -98,15 +98,6 @@
 }
 
 @font-face {
-    font-family: 'Craft Brew';
-    src: url('HCraftBrew-Regular.woff2') format('woff2'),
-        url('HCraftBrew-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
     font-family: '2600 Cambodia';
     src: url('H-Cambodia.woff2') format('woff2'),
         url('H-Cambodia.woff') format('woff');
@@ -287,15 +278,6 @@
 }
 
 @font-face {
-    font-family: 'Caracas';
-    src: url('HCaracas-Regular.woff2') format('woff2'),
-        url('HCaracas-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'Klauth 03';
     src: url('HKlauth-03.woff2') format('woff2'),
         url('HKlauth-03.woff') format('woff');
@@ -317,42 +299,6 @@
     font-family: 'Darth Hater';
     src: url('HDarthHater-Regular.woff2') format('woff2'),
         url('HDarthHater-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Darth Hater';
-    src: url('HDarthHater-Regular.woff2') format('woff2'),
-        url('HDarthHater-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Dominator';
-    src: url('HDominator-Regular.woff2') format('woff2'),
-        url('HDominator-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Nick Cage';
-    src: url('HNickCage-Regular.woff2') format('woff2'),
-        url('HNickCage-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Numbnuts';
-    src: url('HNumbnuts-Regular.woff2') format('woff2'),
-        url('HNumbnuts-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;

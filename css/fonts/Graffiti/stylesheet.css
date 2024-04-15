@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Gin Fight';
+    src: url('GinFight.woff2') format('woff2'),
+        url('GinFight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Augmented Funk';
+    src: url('AugmentedFunk-Regular.woff2') format('woff2'),
+        url('AugmentedFunk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Next Bravo';
+    src: url('NextBravo.woff2') format('woff2'),
+        url('NextBravo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Attack Graffiti';
+    src: url('aAttackGraffiti.woff2') format('woff2'),
+        url('aAttackGraffiti.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'aerosol menace';
+    src: url('aerosolmenace.woff2') format('woff2'),
+        url('aerosolmenace.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Joker';
+    src: url('Joker.woff2') format('woff2'),
+        url('Joker.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Chronic';
+    src: url('Chronic.woff2') format('woff2'),
+        url('Chronic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Athens';
+    src: url('Athens-Regular.woff2') format('woff2'),
+        url('Athens-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beatstreet';
+    src: url('Beatstreet.woff2') format('woff2'),
+        url('Beatstreet.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TapeFlow';
+    src: url('TapeFlow.woff2') format('woff2'),
+        url('TapeFlow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'graffiti desiderium';
+    src: url('graffiti_desiderium-regular-webfont.woff2') format('woff2'),
+        url('graffiti_desiderium-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

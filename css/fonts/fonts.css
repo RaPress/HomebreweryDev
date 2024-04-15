@@ -69,6 +69,8 @@
 
 @import url("https://hb.ra-press.com/css/fonts/LegacyOfDefeat/stylesheet.css");
 
+@import url("https://hb.ra-press.com/css/fonts/Graffiti/stylesheet.css");
+
 .font-size-1 {
   font-size: var(--font-size-1);
 }

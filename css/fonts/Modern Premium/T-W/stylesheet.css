@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Tonist';
+    src: url('Tonist-regular.woff2') format('woff2'),
+        url('Tonist-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Westic';
+    src: url('Westic-regular.woff2') format('woff2'),
+        url('Westic-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uberal';
+    src: url('Uberal-regular.woff2') format('woff2'),
+        url('Uberal-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trable';
+    src: url('Trable-regular.woff2') format('woff2'),
+        url('Trable-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Whital';
+    src: url('Whital-regular.woff2') format('woff2'),
+        url('Whital-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ultian';
+    src: url('Ultian-regular.woff2') format('woff2'),
+        url('Ultian-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Techic';
+    src: url('Techic-regular.woff2') format('woff2'),
+        url('Techic-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Virial';
+    src: url('Virial-regular.woff2') format('woff2'),
+        url('Virial-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Torari';
+    src: url('Torari-regular.woff2') format('woff2'),
+        url('Torari-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

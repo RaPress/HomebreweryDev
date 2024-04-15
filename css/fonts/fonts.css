@@ -61,6 +61,12 @@
 @import url("https://gmb.ra-press.com/css/fonts/VultronBlack/stylesheet.css");
 @import url("https://gmb.ra-press.com/css/fonts/Watson/stylesheet.css");
 
+@import url("https://gmb.ra-press.com/css/fonts/Modern Premium/A-C/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Modern Premium/D-L/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Modern Premium/M-O/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Modern Premium/P-S/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Modern Premium/T-W/stylesheet.css");
+
 .font-size-1 {
   font-size: var(--font-size-1);
 }

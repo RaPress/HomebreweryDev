@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Harian';
+    src: url('Harian-regular.woff2') format('woff2'),
+        url('Harian-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Endern';
+    src: url('Endern-regular.woff2') format('woff2'),
+        url('Endern-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lonist';
+    src: url('Lonist-regular.woff2') format('woff2'),
+        url('Lonist-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dronic';
+    src: url('Dronic-regular.woff2') format('woff2'),
+        url('Dronic-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Domic';
+    src: url('Domic-regular.woff2') format('woff2'),
+        url('Domic-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fistic';
+    src: url('Fistic-regular.woff2') format('woff2'),
+        url('Fistic-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Finic';
+    src: url('Finic-regular.woff2') format('woff2'),
+        url('Finic-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Finary';
+    src: url('Finary-regular.woff2') format('woff2'),
+        url('Finary-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Grare';
+    src: url('Grare-regular.woff2') format('woff2'),
+        url('Grare-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Xorial';
+    src: url('Xorial-regular.woff2') format('woff2'),
+        url('Xorial-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lonic';
+    src: url('Lonic-regular.woff2') format('woff2'),
+        url('Lonic-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Foreal';
+    src: url('Foreal-regular.woff2') format('woff2'),
+        url('Foreal-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hypern';
+    src: url('Hypern-regular.woff2') format('woff2'),
+        url('Hypern-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Loniac';
+    src: url('Loniac-regular.woff2') format('woff2'),
+        url('Loniac-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Intera';
+    src: url('Intera-regular.woff2') format('woff2'),
+        url('Intera-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Frest';
+    src: url('Frest-regular.woff2') format('woff2'),
+        url('Frest-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ligian';
+    src: url('Ligian-regular.woff2') format('woff2'),
+        url('Ligian-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Glamic';
+    src: url('Glamic-regular.woff2') format('woff2'),
+        url('Glamic-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Humant';
+    src: url('Humant-regular.woff2') format('woff2'),
+        url('Humant-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Granic';
+    src: url('Granic-regular.woff2') format('woff2'),
+        url('Granic-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Holish';
+    src: url('Holish-regular.woff2') format('woff2'),
+        url('Holish-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Grary';
+    src: url('Grary-regular.woff2') format('woff2'),
+        url('Grary-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Foric';
+    src: url('Foric-regular.woff2') format('woff2'),
+        url('Foric-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haral';
+    src: url('Haral-regular.woff2') format('woff2'),
+        url('Haral-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libern';
+    src: url('Libern-regular.woff2') format('woff2'),
+        url('Libern-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Greent';
+    src: url('Greent-regular.woff2') format('woff2'),
+        url('Greent-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fress';
+    src: url('Fress-regular.woff2') format('woff2'),
+        url('Fress-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

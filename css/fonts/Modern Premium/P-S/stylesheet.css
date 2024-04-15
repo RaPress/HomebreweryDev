@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Pional';
+    src: url('Pional-regular.woff2') format('woff2'),
+        url('Pional-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poral';
+    src: url('Poral-regular.woff2') format('woff2'),
+        url('Poral-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Retric';
+    src: url('Retric-regular.woff2') format('woff2'),
+        url('Retric-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prehip';
+    src: url('Prehip-regular.woff2') format('woff2'),
+        url('Prehip-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rurall';
+    src: url('Rurall-regular.woff2') format('woff2'),
+        url('Rurall-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pastic';
+    src: url('Pastic-regular.woff2') format('woff2'),
+        url('Pastic-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Polide';
+    src: url('Polide-regular.woff2') format('woff2'),
+        url('Polide-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pern';
+    src: url('Pern-regular.woff2') format('woff2'),
+        url('Pern-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Polith';
+    src: url('Polith-regular.woff2') format('woff2'),
+        url('Polith-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ressic';
+    src: url('Ressic-regular.woff2') format('woff2'),
+        url('Ressic-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Passic';
+    src: url('Passic-regular.woff2') format('woff2'),
+        url('Passic-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pring';
+    src: url('Pring-regular.woff2') format('woff2'),
+        url('Pring-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Supern';
+    src: url('Supern-regular.woff2') format('woff2'),
+        url('Supern-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Polian';
+    src: url('Polian-regular.woff2') format('woff2'),
+        url('Polian-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosy';
+    src: url('Prosy-regular.woff2') format('woff2'),
+        url('Prosy-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Strian';
+    src: url('Strian-regular.woff2') format('woff2'),
+        url('Strian-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stront';
+    src: url('Stront-regular.woff2') format('woff2'),
+        url('Stront-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stric';
+    src: url('Stric-regular.woff2') format('woff2'),
+        url('Stric-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shical';
+    src: url('Shical-regular.woff2') format('woff2'),
+        url('Shical-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Socian';
+    src: url('Socian-regular.woff2') format('woff2'),
+        url('Socian-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Steral';
+    src: url('Steral-regular.woff2') format('woff2'),
+        url('Steral-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sinial';
+    src: url('Sinial-regular.woff2') format('woff2'),
+        url('Sinial-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shital';
+    src: url('Shital-regular.woff2') format('woff2'),
+        url('Shital-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sterse';
+    src: url('Sterse-regular.woff2') format('woff2'),
+        url('Sterse-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

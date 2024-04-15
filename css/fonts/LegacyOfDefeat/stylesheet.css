@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'H74_TheBlackBureau';
+    font-family: 'TheBlackBureau';
     src: url('H74TheBlackBureau.woff2') format('woff2'),
         url('H74TheBlackBureau.woff') format('woff');
     font-weight: 900;
@@ -8,7 +8,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Spitfire';
+    font-family: 'Spitfire';
     src: url('H74Spitfire.woff2') format('woff2'),
         url('H74Spitfire.woff') format('woff');
     font-weight: normal;
@@ -17,7 +17,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Warlock';
+    font-family: 'Warlock';
     src: url('H74Warlock.woff2') format('woff2'),
         url('H74Warlock.woff') format('woff');
     font-weight: normal;
@@ -26,7 +26,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Ghetto Wolves';
+    font-family: 'Ghetto Wolves';
     src: url('H74GhettoWolves.woff2') format('woff2'),
         url('H74GhettoWolves.woff') format('woff');
     font-weight: normal;
@@ -35,7 +35,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Riverside';
+    font-family: 'Riverside';
     src: url('H74RiversideThin.woff2') format('woff2'),
         url('H74RiversideThin.woff') format('woff');
     font-weight: 100;
@@ -44,7 +44,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Valkyrie';
+    font-family: 'Valkyrie';
     src: url('H74Valkyrie.woff2') format('woff2'),
         url('H74Valkyrie.woff') format('woff');
     font-weight: normal;
@@ -53,7 +53,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Norway';
+    font-family: 'Norway Black';
     src: url('H74NorwayBlack.woff2') format('woff2'),
         url('H74NorwayBlack.woff') format('woff');
     font-weight: 900;
@@ -62,7 +62,7 @@
 }
 
 @font-face {
-    font-family: 'H74 BEAST';
+    font-family: 'BEAST';
     src: url('HBEAST-Regular.woff2') format('woff2'),
         url('HBEAST-Regular.woff') format('woff');
     font-weight: normal;
@@ -71,7 +71,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Alderaan';
+    font-family: 'Alderaan';
     src: url('HAlderaan-Regular.woff2') format('woff2'),
         url('HAlderaan-Regular.woff') format('woff');
     font-weight: normal;
@@ -80,7 +80,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Craft Brew';
+    font-family: 'Craft Brew';
     src: url('HCraftBrew-Regular.woff2') format('woff2'),
         url('HCraftBrew-Regular.woff') format('woff');
     font-weight: normal;
@@ -89,7 +89,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Yo\'Santos';
+    font-family: 'Yo Santos';
     src: url('H74YoSantos.woff2') format('woff2'),
         url('H74YoSantos.woff') format('woff');
     font-weight: normal;
@@ -98,7 +98,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Craft Brew';
+    font-family: 'Craft Brew';
     src: url('HCraftBrew-Regular.woff2') format('woff2'),
         url('HCraftBrew-Regular.woff') format('woff');
     font-weight: normal;
@@ -107,7 +107,7 @@
 }
 
 @font-face {
-    font-family: 'H74 2600 Cambodia';
+    font-family: '2600 Cambodia';
     src: url('H-Cambodia.woff2') format('woff2'),
         url('H-Cambodia.woff') format('woff');
     font-weight: normal;
@@ -116,7 +116,7 @@
 }
 
 @font-face {
-    font-family: 'H74 2600 Dungeon';
+    font-family: '2600 Dungeon';
     src: url('H-Dungeon.woff2') format('woff2'),
         url('H-Dungeon.woff') format('woff');
     font-weight: normal;
@@ -125,7 +125,7 @@
 }
 
 @font-face {
-    font-family: 'H74 2600 Intel';
+    font-family: '2600 Intel';
     src: url('H-Intel.woff2') format('woff2'),
         url('H-Intel.woff') format('woff');
     font-weight: normal;
@@ -134,7 +134,7 @@
 }
 
 @font-face {
-    font-family: 'H74 John Cenaaa';
+    font-family: 'John Cenaaa';
     src: url('HJohnCenaaa-Regular.woff2') format('woff2'),
         url('HJohnCenaaa-Regular.woff') format('woff');
     font-weight: normal;
@@ -143,7 +143,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Dirty Whore';
+    font-family: 'Dirty Whore';
     src: url('HDirtyWhore-Regular.woff2') format('woff2'),
         url('HDirtyWhore-Regular.woff') format('woff');
     font-weight: normal;
@@ -152,7 +152,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Heavy Metal';
+    font-family: 'Heavy Metal';
     src: url('HHeavyMetal-Regular.woff2') format('woff2'),
         url('HHeavyMetal-Regular.woff') format('woff');
     font-weight: 900;
@@ -161,7 +161,7 @@
 }
 
 @font-face {
-    font-family: 'H74 2600 Street';
+    font-family: '2600 Street';
     src: url('H-Street.woff2') format('woff2'),
         url('H-Street.woff') format('woff');
     font-weight: normal;
@@ -170,7 +170,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Morgue';
+    font-family: 'Morgue';
     src: url('HMorgue-Regular.woff2') format('woff2'),
         url('HMorgue-Regular.woff') format('woff');
     font-weight: normal;
@@ -179,7 +179,7 @@
 }
 
 @font-face {
-    font-family: 'H74 NERV Warning';
+    font-family: 'NERV Warning';
     src: url('HNERVWarning-Regular.woff2') format('woff2'),
         url('HNERVWarning-Regular.woff') format('woff');
     font-weight: normal;
@@ -188,7 +188,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Motherland';
+    font-family: 'Motherland';
     src: url('HMotherland-Regular.woff2') format('woff2'),
         url('HMotherland-Regular.woff') format('woff');
     font-weight: normal;
@@ -197,7 +197,7 @@
 }
 
 @font-face {
-    font-family: 'H74 2600 Zerox';
+    font-family: '2600 Zerox';
     src: url('H-Zerox.woff2') format('woff2'),
         url('H-Zerox.woff') format('woff');
     font-weight: normal;
@@ -206,7 +206,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Tachikoma';
+    font-family: 'Tachikoma';
     src: url('HTachikoma-Regular.woff2') format('woff2'),
         url('HTachikoma-Regular.woff') format('woff');
     font-weight: normal;
@@ -215,7 +215,7 @@
 }
 
 @font-face {
-    font-family: 'H74 2600 Terminal';
+    font-family: '2600 Terminal';
     src: url('H-Terminal.woff2') format('woff2'),
         url('H-Terminal.woff') format('woff');
     font-weight: normal;
@@ -224,7 +224,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Tiger Piss';
+    font-family: 'Tiger Piss';
     src: url('HTigerPiss-Regular.woff2') format('woff2'),
         url('HTigerPiss-Regular.woff') format('woff');
     font-weight: normal;
@@ -233,7 +233,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Zombie Allegiance';
+    font-family: 'Zombie Allegiance';
     src: url('HZombieAllegiance-Regular.woff2') format('woff2'),
         url('HZombieAllegiance-Regular.woff') format('woff');
     font-weight: normal;
@@ -242,7 +242,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Dominator';
+    font-family: 'Dominator';
     src: url('HDominator-Regular.woff2') format('woff2'),
         url('HDominator-Regular.woff') format('woff');
     font-weight: normal;
@@ -251,7 +251,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Nick Cage';
+    font-family: 'Nick Cage';
     src: url('HNickCage-Regular.woff2') format('woff2'),
         url('HNickCage-Regular.woff') format('woff');
     font-weight: normal;
@@ -260,7 +260,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Klauth 01';
+    font-family: 'Klauth 01';
     src: url('HKlauth-01.woff2') format('woff2'),
         url('HKlauth-01.woff') format('woff');
     font-weight: normal;
@@ -269,7 +269,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Klauth 02';
+    font-family: 'Klauth 02';
     src: url('HKlauth-02.woff2') format('woff2'),
         url('HKlauth-02.woff') format('woff');
     font-weight: normal;
@@ -278,7 +278,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Caracas';
+    font-family: 'Caracas';
     src: url('HCaracas-Regular.woff2') format('woff2'),
         url('HCaracas-Regular.woff') format('woff');
     font-weight: normal;
@@ -287,7 +287,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Caracas';
+    font-family: 'Caracas';
     src: url('HCaracas-Regular.woff2') format('woff2'),
         url('HCaracas-Regular.woff') format('woff');
     font-weight: normal;
@@ -296,7 +296,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Klauth 03';
+    font-family: 'Klauth 03';
     src: url('HKlauth-03.woff2') format('woff2'),
         url('HKlauth-03.woff') format('woff');
     font-weight: normal;
@@ -305,7 +305,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Numbnuts';
+    font-family: 'Numbnuts';
     src: url('HNumbnuts-Regular.woff2') format('woff2'),
         url('HNumbnuts-Regular.woff') format('woff');
     font-weight: normal;
@@ -314,7 +314,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Darth Hater';
+    font-family: 'Darth Hater';
     src: url('HDarthHater-Regular.woff2') format('woff2'),
         url('HDarthHater-Regular.woff') format('woff');
     font-weight: normal;
@@ -323,7 +323,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Darth Hater';
+    font-family: 'Darth Hater';
     src: url('HDarthHater-Regular.woff2') format('woff2'),
         url('HDarthHater-Regular.woff') format('woff');
     font-weight: normal;
@@ -332,7 +332,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Dominator';
+    font-family: 'Dominator';
     src: url('HDominator-Regular.woff2') format('woff2'),
         url('HDominator-Regular.woff') format('woff');
     font-weight: normal;
@@ -341,7 +341,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Nick Cage';
+    font-family: 'Nick Cage';
     src: url('HNickCage-Regular.woff2') format('woff2'),
         url('HNickCage-Regular.woff') format('woff');
     font-weight: normal;
@@ -350,7 +350,7 @@
 }
 
 @font-face {
-    font-family: 'H74 Numbnuts';
+    font-family: 'Numbnuts';
     src: url('HNumbnuts-Regular.woff2') format('woff2'),
         url('HNumbnuts-Regular.woff') format('woff');
     font-weight: normal;

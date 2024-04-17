@@ -22,6 +22,11 @@
 
   --page-width: var(--softcover-small-6x9-width);
   --page-height: var(--softcover-small-6x9-height);
+
+  --margin-top-padding: 1cm;
+  --margin-right-padding: 1cm;
+  --margin-bottom-padding: 1cm;
+  --margin-left-padding: 1cm;
 }
 
 .page {
@@ -32,7 +37,7 @@
   background-repeat: no-repeat;
   height: var(--page-height);
   width: var(--page-width);
-  padding: 1cm;
+  padding: var(--margin-top-padding) var(--margin-right-padding) var(--margin-bottom-padding) var(--margin-left-padding);
   column-fill: auto;
   column-count: 2;
   column-gap: 0.75cm;

@@ -27,6 +27,8 @@
   --margin-right-padding: 1cm;
   --margin-bottom-padding: 1cm;
   --margin-left-padding: 1cm;
+  --margin-right-padding-odd: 1cm;
+  --margin-left-padding-odd: 1cm;
 }
 
 .page {
@@ -48,6 +50,10 @@
   -moz-column-count: 2;
   -moz-column-gap: 0.75cm;
   -moz-column-width: 8cm;
+}
+
+.page:nth-child(odd):not(#p1) {
+  padding: var(--margin-top-padding) var(--margin-right-padding-odd) var(--margin-bottom-padding) var(--margin-left-padding-odd);
 }
 
 .page a,

@@ -1,0 +1,30 @@
+/** Sidenote **/
+
+.page:nth-child(odd) .sidenote {
+    position: absolute;
+    left: unset;
+    right: var(--padding-main);
+    float: right;
+    width: calc(var(--padding-wide-margin)/2);
+}
+
+.page:nth-child(even) .sidenote {
+    position: absolute;
+    right: unset;
+    left: var(--padding-main);
+    float: left;
+    width: calc(var(--padding-wide-margin)/2);
+}
+
+.sidenote {
+    border-bottom: none !important;
+}
+
+.sidenote p {
+    font-size: 8pt;
+    font-style: italic;
+}
+
+.page .sidenote+p {
+    text-indent: 1em;
+}

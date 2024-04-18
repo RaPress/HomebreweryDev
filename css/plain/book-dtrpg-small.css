@@ -1,17 +1,5 @@
 @import url(headers.css);
 
-.brewRenderer .pages>.page {
-  margin-bottom: 10px;
-}
-
-@media print {
-  .page {
-    margin: 0;
-    height: 210mm;
-    width: 148mm;
-  }
-}
-
 :root {
   --softcover-small-5_5x8_5-width: 5.5in;
   --softcover-small-5_5x8_5-height: 8.5in;
@@ -29,6 +17,21 @@
   --margin-left-padding: 1cm;
   --margin-right-padding-odd: 1cm;
   --margin-left-padding-odd: 1cm;
+
+  --column-gap: 0.25cm;
+  --column-width: 3.5cm;
+}
+
+.brewRenderer .pages>.page {
+  margin-bottom: 10px;
+}
+
+@media print {
+  .page {
+    margin: 0;
+    height: var(--page-height);
+    width: var(--page-width);
+  }
 }
 
 .page {
@@ -42,14 +45,14 @@
   padding: var(--margin-top-padding) var(--margin-right-padding) var(--margin-bottom-padding) var(--margin-left-padding);
   column-fill: auto;
   column-count: 2;
-  column-gap: 0.75cm;
-  column-width: 8cm;
+  column-gap: var(--column-gap);
+  column-width: var(--column-width);
   -webkit-column-count: 2;
-  -webkit-column-gap: 0.75cm;
-  -webkit-column-width: 8cm;
+  -webkit-column-gap: var(--column-gap);
+  -webkit-column-width: var(--column-width);
   -moz-column-count: 2;
-  -moz-column-gap: 0.75cm;
-  -moz-column-width: 8cm;
+  -moz-column-gap: var(--column-gap);
+  -moz-column-width: var(--column-width);
 }
 
 .page:nth-child(odd):not(#p1) {

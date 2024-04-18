@@ -1,0 +1,50 @@
+/*** Mythos Global properties ***/
+
+:root {
+    /* Colors */
+    --color-main: #000000;
+    --color-purple: #783060;
+    --color-purple-table-bg: #AFB4CF;
+    --color-purple-gradient: linear-gradient(#783060 20%, #737BAAff 40%, #483060 60%);
+    --color-blue: #338EC1;
+    --color-blue-table-bg: #ACCCE3;
+    --color-blue-gradient: linear-gradient(#338EC1 20%, #ACCCE3 50%, #338EC1 70%);
+    --color-green: #59753e;
+    --color-green-table-bg: #769c54;
+    --color-green-gradient: linear-gradient(#769c54 30%, #59753e 50%, #3c4f2a 70%);
+    --color-orange: #E1480D;
+    --color-orange-table-bg: #E1480D;
+    --color-orange-gradient: linear-gradient(#FCCE2C 20%, #FEFA8Fff 40%, #E1480Dff 60%);
+    --color-pink: #926475;
+    --color-pink-table-bg: #FACCDF;
+    --color-pink-gradient: linear-gradient(#E8C6D4ff 20%, #926475ff 40%, #FACCDFff 70%);
+    --color-red: #FF0000;
+    --color-red-table-bg: #FA6A6A;
+    --color-red-gradient: linear-gradient(#FA6A6A 20%, #FF0000 50%, #FA6A6A 70%, #6B0303 90%);
+    --color-chrome: #2D2927;
+    --color-chrome-table-bg: #E8C6D4ff;
+    --color-chrome-gradient: linear-gradient(#F6F1E8 10%, #CDCCCA 20%, #F6F1E8 40%, #89837F 60%, #2D2927 90%);
+    --color-dark: #020201;
+    --color-dark-table-bg: #020201;
+    --color-dark-gradient: linear-gradient(#5D5D5Dff 10%, #464747ff 20%, #5D5D5Dff 40%, #020201ff 60%);
+    --color-title-gradient: linear-gradient(#707BA9ff 40%, #BFD7F0ff 50%, #fff 80%);
+    --color-title-gradient-alt: linear-gradient(#fff 30%, #FEFA8Fff 40%, #F7BF4Eff 50%, #E14326ff 70%);
+    --color-title-gradient-last-letter: linear-gradient(#BFD7F0ff 20%, #fff 40%, #FEFA8Fff 60%, #F7BF4Eff 70%, #E14326ff 90%);
+
+    /* Fonts */
+    --font-title: "Edo";
+    --font-heading: "JDK Bushidoo";
+    --font-main: "Roboto", sans-serif;
+    --font-table: "Ubuntu", sans-serif;
+    --font-table-alt: "Noto Sans", sans-serif;
+    --font-size-1: 9.5pt;
+    --font-size-2: 11pt;
+    --font-size-3: 13pt;
+    --font-size-4: 14pt;
+    --font-size-5: 15pt;
+    --font-size-6: 17pt;
+    --font-size-7: 20pt;
+    --font-size-8: 40pt;
+    --font-size-9: 50pt;
+    --font-size-10: 60pt;
+}

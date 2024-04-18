@@ -5,12 +5,7 @@
 
 /* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
 
-*:where(
-    :not(hr, html, iframe, canvas, img, svg, video, audio)
-      :not(table, tr, th, td, thead)
-      :not(svg *, symbol *)
-      :not(::-webkit-scrollbar)
-  ) {
+*:where( :not(hr, html, iframe, canvas, img, svg, video, audio) :not(table, tr, th, td, thead) :not(svg *, symbol *) :not(::-webkit-scrollbar)) {
   all: unset;
   display: revert;
 }
@@ -111,11 +106,11 @@ meter {
   border: none;
 }
 
-.page h1 + p::first-line {
+.page h1+p::first-line {
   font-variant: unset;
 }
 
-.page h1 + p::first-letter {
+.page h1+p::first-letter {
   float: initial;
   padding-bottom: initial;
   padding-left: initial;

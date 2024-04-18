@@ -1,0 +1,15 @@
+/*** Tables ***/
+
+.page h4.table {
+  transform: unset;
+  margin-bottom: 0.5rem;
+}
+
+.page table thead tr th {
+  color: #fff;
+  background-color: #000;
+}
+
+.page table {
+  font-family: var(--font-table);
+}

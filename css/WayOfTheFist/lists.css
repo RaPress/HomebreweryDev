@@ -1,0 +1,15 @@
+/** Lists **/
+
+ul li {
+    list-style: disc;
+}
+
+
+h2+ul {
+    margin-top: 0.5rem;
+}
+
+
+.page ol {
+    list-style: auto;
+}

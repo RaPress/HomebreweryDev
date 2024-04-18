@@ -1,0 +1,90 @@
+@import url("../utils/reset.css");
+@import url("fonts.css");
+@import url("colors.css");
+@import url("globals.css");
+@import url("headings.css");
+@import url("tables.css");
+
+/** Main **/
+
+.page {
+  column-count: 2;
+  column-gap: 0.25cm;
+  column-width: 3.5cm;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 0.25cm;
+  -webkit-column-width: 3.5cm;
+  -moz-column-count: 2;
+  -moz-column-gap: 0.25cm;
+  -moz-column-width: 3.5cm;
+}
+
+.page:after {
+  border-left: dotted 1px #000;
+  height: calc(100% - var(--padding-top) - var(--padding-main) - 1rem);
+  width: calc(var(--padding-wide-margin) - 1rem);
+  top: calc(var(--padding-top) + 1rem);
+}
+
+.page:nth-child(odd):not(#p1):after {
+  right: calc(var(--padding-wide-margin) - 1rem);
+  left: unset;
+  border-left: none;
+  border-right: dotted 1px #000;
+}
+
+p {
+  font-family: var(--font-main);
+  font-size: var(--font-size-1);
+}
+
+/** Main END **/
+
+/** Header, Footer, Pagenumber **/
+
+.header {
+  position: absolute;
+  column-span: all;
+  top: 0;
+  left: 0;
+  width: var(--page-width);
+  border-bottom: solid 1px #000;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.header h2 {
+  float: left;
+  text-align: left;
+  font-size: var(--font-size-4);
+  font-weight: normal;
+  width: 50%;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  padding-left: calc(var(--padding-main));
+  background: var(--color-title-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(1px 1px 1px black) drop-shadow(2px 2px 1px black);
+}
+
+.page:nth-child(odd) .header h2 {
+  background: var(--color-title-gradient-alt);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.header h3 {
+  float: right;
+  text-align: right;
+  font-weight: normal;
+  font-size: var(--font-size-4);
+  width: 50%;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  padding-right: var(--padding-main);
+  border-bottom: none !important;
+}
+
+/** Header, Footer, Pagenumber END **/

@@ -1,8 +1,10 @@
 @import url("../utils/reset.css");
-@import url("fonts.css");
-@import url("colors.css");
 @import url("globals.css");
+@import url("colors.css");
+@import url("fonts.css");
 @import url("headings.css");
+@import url("lists.css");
+@import url("sidenote.css");
 @import url("tables.css");
 
 /** Main **/

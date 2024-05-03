@@ -60,7 +60,6 @@
 @import url("https://hb.ra-press.com/css/fonts/Viliaris/stylesheet.css");
 @import url("https://hb.ra-press.com/css/fonts/VultronBlack/stylesheet.css");
 @import url("https://hb.ra-press.com/css/fonts/Watson/stylesheet.css");
-@import url("https://hb.ra-press.com/css/fonts/Grossout/stylesheet.css");
 
 @import url("https://hb.ra-press.com/css/fonts/Modern Premium/A-C/stylesheet.css");
 @import url("https://hb.ra-press.com/css/fonts/Modern Premium/D-L/stylesheet.css");
@@ -72,6 +71,13 @@
 
 @import url("https://hb.ra-press.com/css/fonts/Graffiti/stylesheet.css");
 @import url("https://hb.ra-press.com/css/fonts/Brush/stylesheet.css");
+
+/** Blood **/
+@import url("https://hb.ra-press.com/css/fonts/Grossout/stylesheet.css");
+@import url("https://hb.ra-press.com/css/fonts/PlasmaDrip/stylesheet.css");
+@import url("https://hb.ra-press.com/css/fonts/DoubleFeature/stylesheet.css");
+@import url("https://hb.ra-press.com/css/fonts/Shlop/stylesheet.css");
+
 
 .font-size-1 {
   font-size: var(--font-size-1);

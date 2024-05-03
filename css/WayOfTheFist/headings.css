@@ -37,7 +37,7 @@
   filter: drop-shadow(1px 1px 1px black) drop-shadow(2px 2px 1px black) drop-shadow(3px 3px 1px black) drop-shadow(4px 4px 1px black);
 }
 
-.page .title+.title {
+.page .title.reversed {
   position: absolute;
   font-size: var(--font-size-9);
   top: 15rem;
@@ -72,12 +72,12 @@
 }
 
 .page h1.title:first-letter,
-.page h1.title+.title:first-letter {
+.page h1.title.reversed:first-letter {
   font-size: 200%;
 
 }
 
-.page h1.title+.title:first-letter {
+.page h1.title.reversed:first-letter {
   margin-left: -2rem;
   font-size: 250%;
   background: var(--color-title-gradient-last-letter);

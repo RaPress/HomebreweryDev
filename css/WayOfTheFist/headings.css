@@ -15,7 +15,6 @@
   width: 100%;
   margin-left: 25%;
   margin-right: auto;
-
 }
 
 .page .title {
@@ -34,7 +33,8 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  filter: drop-shadow(1px 1px 1px black) drop-shadow(2px 2px 1px black) drop-shadow(3px 3px 1px black) drop-shadow(4px 4px 1px black);
+  filter: drop-shadow(1px 1px 1px black) drop-shadow(2px 2px 1px black)
+    drop-shadow(3px 3px 1px black) drop-shadow(4px 4px 1px black);
 }
 
 .page .title.reversed {
@@ -74,7 +74,6 @@
 .page h1.title:first-letter,
 .page h1.title.reversed:first-letter {
   font-size: 200%;
-
 }
 
 .page h1.title.reversed:first-letter {
@@ -112,7 +111,7 @@
 
 .page h1 {
   font-size: var(--font-size-8);
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   transform: rotate(-5deg);
 }
 
@@ -142,7 +141,6 @@
   font-style: italic;
 }
 
-
 .page h2:nth-child(odd),
 .page h3:nth-child(odd),
 .page h4:nth-child(odd) {
@@ -170,6 +168,17 @@
 .page h6 {
   transform: unset;
   margin-bottom: 0.5rem;
+}
+
+h1.no-border-bottom,
+h2.no-border-bottom,
+h3.no-border-bottom,
+h4.no-border-bottom,
+h5.no-border-bottom,
+h6.no-border-bottom,
+h4.sub-heading[id*="plain"],
+.chapter h3 {
+  border-bottom: none !important;
 }
 
 /** Headings END **/

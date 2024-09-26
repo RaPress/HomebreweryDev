@@ -1,9 +1,12 @@
 /** Colors **/
 
 #purple,
-#purple~h2,
-#purple~h3,
-#purple~h4 {
+#purple ~ h1,
+#purple ~ .chapter h1,
+#purple ~ h2,
+#purple ~ h3,
+#purple ~ h4,
+#purple ~ .wide h4 {
     background: var(--color-purple-gradient);
     -webkit-background-clip: text;
     background-clip: text;
@@ -13,19 +16,24 @@
 
 #purple-plain,
 h4#purple-plain,
-#purple~h5,
-#purple~h6 {
-    color: #783060;
+#purple ~ h5,
+#purple ~ h6,
+#purple ~ .chapter h3,
+.header#purple h3 {
+    color: var(--color-purple);
     background: unset;
     -webkit-text-fill-color: initial;
     filter: unset;
-    border-bottom: solid 1px #783060;
+    border-bottom: solid 1px var(--color-purple);
 }
 
 #orange,
-#orange~h2,
-#orange~h3,
-#orange~h4 {
+#orange ~ h1,
+#orange ~ .chapter h1,
+#orange ~ h2,
+#orange ~ h3,
+#orange ~ h4,
+#orange ~ .wide h4 {
     background: var(--color-orange-gradient);
     -webkit-background-clip: text;
     background-clip: text;
@@ -35,8 +43,10 @@ h4#purple-plain,
 
 #orange-plain,
 h4#orange-plain,
-#orange~h5,
-#orange~h6 {
+#orange ~ h5,
+#orange ~ h6,
+#orange ~ .chapter h3,
+.header#orange h3 {
     color: var(--color-orange);
     background: unset;
     -webkit-text-fill-color: initial;
@@ -45,9 +55,11 @@ h4#orange-plain,
 }
 
 #blue,
-#blue~h2,
-#blue~h3,
-#blue~h4 {
+#blue ~ h1,
+#blue ~ .chapter h1,
+#blue ~ h3,
+#blue ~ h4,
+#blue ~ .wide h4 {
     background: var(--color-blue-gradient);
     -webkit-background-clip: text;
     background-clip: text;
@@ -57,8 +69,10 @@ h4#orange-plain,
 
 #blue-plain,
 h4#blue-plain,
-#blue~h5,
-#blue~h6 {
+#blue ~ h5,
+#blue ~ h6,
+#blue ~ .chapter h3,
+.header#blue h3 {
     color: var(--color-blue);
     background: unset;
     -webkit-text-fill-color: initial;
@@ -67,9 +81,12 @@ h4#blue-plain,
 }
 
 #green,
-#green~h2,
-#green~h3,
-#green~h4 {
+#green ~ h1,
+#green ~ .chapter h1,
+#green ~ h2,
+#green ~ h3,
+#green ~ h4,
+#green ~ .wide h4 {
     background: var(--color-green-gradient);
     -webkit-background-clip: text;
     background-clip: text;
@@ -79,8 +96,10 @@ h4#blue-plain,
 
 #green-plain,
 h4#green-plain,
-#green~h5,
-#green~h6 {
+#green ~ h5,
+#green ~ h6,
+#green ~ .chapter h3,
+.header#green h3 {
     color: var(--color-green);
     background: unset;
     -webkit-text-fill-color: initial;
@@ -89,20 +108,25 @@ h4#green-plain,
 }
 
 #pink,
-#pink~h2,
-#pink~h3,
-#pink~h4 {
+#pink ~ h1,
+#pink ~ .chapter h1,
+#pink ~ h2,
+#pink ~ h3,
+#pink ~ h4,
+#pink ~ .wide h4 {
     background: var(--color-pink-gradient);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    filter: drop-shadow(1px 1px 1px black) drop-shadow(2px 2px 1px #3A3146);
+    filter: drop-shadow(1px 1px 1px black) drop-shadow(2px 2px 1px #3a3146);
 }
 
 #pink-plain,
 h4#pink-plain,
-#pink~h5,
-#pink~h6 {
+#pink ~ h5,
+#pink ~ h6,
+#pink ~ .chapter h3,
+.header#pink h3 {
     color: var(--color-pink);
     background: unset;
     -webkit-text-fill-color: initial;
@@ -111,20 +135,25 @@ h4#pink-plain,
 }
 
 #red,
-#red~h2,
-#red~h3,
-#red~h4 {
+#red ~ h1,
+#red ~ .chapter h1,
+#red ~ h2,
+#red ~ h3,
+#red ~ h4,
+#red ~ .wide h4 {
     background: var(--color-red-gradient);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    filter: drop-shadow(1px 1px 1px black) drop-shadow(2px 2px 1px #3A3146);
+    filter: drop-shadow(1px 1px 1px black) drop-shadow(2px 2px 1px #3a3146);
 }
 
 #red-plain,
 h4#red-plain,
-#red~h5,
-#red~h6 {
+#red ~ h5,
+#red ~ h6,
+#red ~ .chapter h3,
+.header#red h3 {
     color: var(--color-red);
     background: unset;
     -webkit-text-fill-color: initial;
@@ -133,9 +162,12 @@ h4#red-plain,
 }
 
 #chrome,
-#chrome~h2,
-#chrome~h3,
-#chrome~h4 {
+#chrome ~ h1,
+#chrome ~ .chapter h1,
+#chrome ~ h2,
+#chrome ~ h3,
+#chrome ~ h4,
+#chrome ~ .wide h4 {
     background: var(--color-chrome-gradient);
     -webkit-background-clip: text;
     background-clip: text;
@@ -145,8 +177,10 @@ h4#red-plain,
 
 #chrome-plain,
 h4#chrome-plain,
-#chrome~h5,
-#chrome~h6 {
+#chrome ~ h5,
+#chrome ~ h6,
+#chrome ~ .chapter h3,
+.header#chrome h3 {
     color: var(--color-chrome);
     background: unset;
     -webkit-text-fill-color: initial;
@@ -155,9 +189,12 @@ h4#chrome-plain,
 }
 
 #dark,
-#dark~h2,
-#dark~h3,
-#dark~h4 {
+#dark ~ h1,
+#dark ~ .chapter h1,
+#dark ~ h2,
+#dark ~ h3,
+#dark ~ h4,
+#dark ~ .wide h4 {
     background: var(--color-dark-gradient);
     -webkit-background-clip: text;
     background-clip: text;
@@ -167,8 +204,10 @@ h4#chrome-plain,
 
 #dark-plain,
 h4#dark-plain,
-#dark~h5,
-#dark~h6 {
+#dark ~ h5,
+#dark ~ h6,
+#dark ~ .chapter h3,
+.header#dark h3 {
     color: var(--color-dark);
     background: unset;
     -webkit-text-fill-color: initial;
@@ -176,74 +215,70 @@ h4#dark-plain,
     border-bottom: solid 1px var(--color-dark);
 }
 
-.page h4.sub-heading[id*="plain"] {
-    border-bottom: none !important;
-}
-
-#purple~.table,
+#purple ~ .table,
 #purple.table,
-#orange~.table,
+#orange ~ .table,
 #orange.table,
-#blue~.table,
+#blue ~ .table,
 #blue.table,
-#green~.table,
+#green ~ .table,
 #green.table,
-#pink~.table,
+#pink ~ .table,
 #pink.table,
-#red~.table,
+#red ~ .table,
 #red.table,
-#chrome~.table,
+#chrome ~ .table,
 #chrome.table,
-#dark~.table,
+#dark ~ .table,
 #dark.table {
     filter: none;
 }
 
-.page #purple~table tbody tr:nth-child(odd),
-.page #purple~div table tbody tr:nth-child(odd),
-.page #purple+div table tbody tr:nth-child(odd) {
+.page #purple ~ table tbody tr:nth-child(odd),
+.page #purple ~ div table tbody tr:nth-child(odd),
+.page #purple + div table tbody tr:nth-child(odd) {
     background-color: var(--color-purple-table-bg);
 }
 
-.page #orange~table tbody tr:nth-child(odd),
-.page #orange~div table tbody tr:nth-child(odd),
-.page #orange+div table tbody tr:nth-child(odd) {
+.page #orange ~ table tbody tr:nth-child(odd),
+.page #orange ~ div table tbody tr:nth-child(odd),
+.page #orange + div table tbody tr:nth-child(odd) {
     background-color: var(--color-orange-table-bg);
 }
 
-.page #blue~table tbody tr:nth-child(odd),
-.page #blue~div table tbody tr:nth-child(odd),
-.page #blue+div table tbody tr:nth-child(odd) {
+.page #blue ~ table tbody tr:nth-child(odd),
+.page #blue ~ div table tbody tr:nth-child(odd),
+.page #blue + div table tbody tr:nth-child(odd) {
     background-color: var(--color-blue-table-bg);
 }
 
-.page #green~table tbody tr:nth-child(odd),
-.page #green~div table tbody tr:nth-child(odd),
-.page #green+div table tbody tr:nth-child(odd) {
+.page #green ~ table tbody tr:nth-child(odd),
+.page #green ~ div table tbody tr:nth-child(odd),
+.page #green + div table tbody tr:nth-child(odd) {
     background-color: var(--color-green-table-bg);
 }
 
-.page #pink~table tbody tr:nth-child(odd),
-.page #pink~div table tbody tr:nth-child(odd),
-.page #pink+div table tbody tr:nth-child(odd) {
+.page #pink ~ table tbody tr:nth-child(odd),
+.page #pink ~ div table tbody tr:nth-child(odd),
+.page #pink + div table tbody tr:nth-child(odd) {
     background-color: var(--color-pink-table-bg);
 }
 
-.page #red~table tbody tr:nth-child(odd),
-.page #red~div table tbody tr:nth-child(odd),
-.page #red+div table tbody tr:nth-child(odd) {
+.page #red ~ table tbody tr:nth-child(odd),
+.page #red ~ div table tbody tr:nth-child(odd),
+.page #red + div table tbody tr:nth-child(odd) {
     background-color: var(--color-red-table-bg);
 }
 
-.page #chrome~table tbody tr:nth-child(odd),
-.page #chrome~div table tbody tr:nth-child(odd),
-.page #chrome+div table tbody tr:nth-child(odd) {
+.page #chrome ~ table tbody tr:nth-child(odd),
+.page #chrome ~ div table tbody tr:nth-child(odd),
+.page #chrome + div table tbody tr:nth-child(odd) {
     background-color: var(--color-chrome-table-bg);
 }
 
-.page #dark~table tbody tr:nth-child(odd),
-.page #dark~div table tbody tr:nth-child(odd),
-.page #dark+div table tbody tr:nth-child(odd) {
+.page #dark ~ table tbody tr:nth-child(odd),
+.page #dark ~ div table tbody tr:nth-child(odd),
+.page #dark + div table tbody tr:nth-child(odd) {
     background-color: var(--color-dark-table-bg);
 }
 

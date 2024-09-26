@@ -19,6 +19,7 @@ h4#purple-plain,
 #purple ~ h5,
 #purple ~ h6,
 #purple ~ .chapter h3,
+.header#purple,
 .header#purple h3 {
     color: var(--color-purple);
     background: unset;
@@ -46,6 +47,7 @@ h4#orange-plain,
 #orange ~ h5,
 #orange ~ h6,
 #orange ~ .chapter h3,
+.header#orange,
 .header#orange h3 {
     color: var(--color-orange);
     background: unset;
@@ -72,6 +74,7 @@ h4#blue-plain,
 #blue ~ h5,
 #blue ~ h6,
 #blue ~ .chapter h3,
+.header#blue,
 .header#blue h3 {
     color: var(--color-blue);
     background: unset;
@@ -99,6 +102,7 @@ h4#green-plain,
 #green ~ h5,
 #green ~ h6,
 #green ~ .chapter h3,
+.header#green,
 .header#green h3 {
     color: var(--color-green);
     background: unset;
@@ -126,6 +130,7 @@ h4#pink-plain,
 #pink ~ h5,
 #pink ~ h6,
 #pink ~ .chapter h3,
+.header#pink,
 .header#pink h3 {
     color: var(--color-pink);
     background: unset;
@@ -153,6 +158,7 @@ h4#red-plain,
 #red ~ h5,
 #red ~ h6,
 #red ~ .chapter h3,
+.header#red,
 .header#red h3 {
     color: var(--color-red);
     background: unset;
@@ -180,6 +186,7 @@ h4#chrome-plain,
 #chrome ~ h5,
 #chrome ~ h6,
 #chrome ~ .chapter h3,
+.header#chrome,
 .header#chrome h3 {
     color: var(--color-chrome);
     background: unset;
@@ -207,6 +214,7 @@ h4#dark-plain,
 #dark ~ h5,
 #dark ~ h6,
 #dark ~ .chapter h3,
+.header#dark,
 .header#dark h3 {
     color: var(--color-dark);
     background: unset;

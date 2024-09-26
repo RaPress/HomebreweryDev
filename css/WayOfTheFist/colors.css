@@ -59,6 +59,7 @@ h4#orange-plain,
 #blue,
 #blue ~ h1,
 #blue ~ .chapter h1,
+#blue ~ h2,
 #blue ~ h3,
 #blue ~ h4,
 #blue ~ .wide h4 {

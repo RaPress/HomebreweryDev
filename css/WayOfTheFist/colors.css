@@ -28,34 +28,6 @@ h4#blue-plain,
     border-bottom: solid 1px var(--color-blue);
 }
 
-#purple,
-#purple ~ h1,
-#purple ~ .chapter h1,
-#purple ~ h2,
-#purple ~ h3,
-#purple ~ h4,
-#purple ~ .wide h4 {
-    background: var(--color-purple-gradient);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    filter: drop-shadow(1px 1px 1px white) drop-shadow(2px 2px 1px gray);
-}
-
-#purple-plain,
-h4#purple-plain,
-#purple ~ h5,
-#purple ~ h6,
-#purple ~ .chapter h3,
-.header#purple,
-.header#purple h3 {
-    color: var(--color-purple);
-    background: unset;
-    -webkit-text-fill-color: initial;
-    filter: unset;
-    border-bottom: solid 1px var(--color-purple);
-}
-
 #orange,
 #orange ~ h1,
 #orange ~ .chapter h1,
@@ -82,6 +54,34 @@ h4#orange-plain,
     -webkit-text-fill-color: initial;
     filter: unset;
     border-bottom: solid 1px var(--color-orange);
+}
+
+#purple,
+#purple ~ h1,
+#purple ~ .chapter h1,
+#purple ~ h2,
+#purple ~ h3,
+#purple ~ h4,
+#purple ~ .wide h4 {
+    background: var(--color-purple-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(1px 1px 1px white) drop-shadow(2px 2px 1px gray);
+}
+
+#purple-plain,
+h4#purple-plain,
+#purple ~ h5,
+#purple ~ h6,
+#purple ~ .chapter h3,
+.header#purple,
+.header#purple h3 {
+    color: var(--color-purple);
+    background: unset;
+    -webkit-text-fill-color: initial;
+    filter: unset;
+    border-bottom: solid 1px var(--color-purple);
 }
 
 #green,
@@ -140,34 +140,6 @@ h4#pink-plain,
     border-bottom: solid 1px var(--color-pink);
 }
 
-#red,
-#red ~ h1,
-#red ~ .chapter h1,
-#red ~ h2,
-#red ~ h3,
-#red ~ h4,
-#red ~ .wide h4 {
-    background: var(--color-red-gradient);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    filter: drop-shadow(1px 1px 1px black) drop-shadow(2px 2px 1px #3a3146);
-}
-
-#red-plain,
-h4#red-plain,
-#red ~ h5,
-#red ~ h6,
-#red ~ .chapter h3,
-.header#red,
-.header#red h3 {
-    color: var(--color-red);
-    background: unset;
-    -webkit-text-fill-color: initial;
-    filter: unset;
-    border-bottom: solid 1px var(--color-red);
-}
-
 #chrome,
 #chrome ~ h1,
 #chrome ~ .chapter h1,
@@ -194,6 +166,34 @@ h4#chrome-plain,
     -webkit-text-fill-color: initial;
     filter: unset;
     border-bottom: solid 1px var(--color-chrome);
+}
+
+#red,
+#red ~ h1,
+#red ~ .chapter h1,
+#red ~ h2,
+#red ~ h3,
+#red ~ h4,
+#red ~ .wide h4 {
+    background: var(--color-red-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(1px 1px 1px black) drop-shadow(2px 2px 1px #3a3146);
+}
+
+#red-plain,
+h4#red-plain,
+#red ~ h5,
+#red ~ h6,
+#red ~ .chapter h3,
+.header#red,
+.header#red h3 {
+    color: var(--color-red);
+    background: unset;
+    -webkit-text-fill-color: initial;
+    filter: unset;
+    border-bottom: solid 1px var(--color-red);
 }
 
 #dark,

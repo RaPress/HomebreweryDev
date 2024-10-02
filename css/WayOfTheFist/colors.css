@@ -1,5 +1,33 @@
 /** Colors **/
 
+#blue,
+#blue ~ h1,
+#blue ~ .chapter h1,
+#blue ~ h2,
+#blue ~ h3,
+#blue ~ h4,
+#blue ~ .wide h4 {
+    background: var(--color-blue-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(1px 1px 1px black) drop-shadow(2px 2px 1px gray);
+}
+
+#blue-plain,
+h4#blue-plain,
+#blue ~ h5,
+#blue ~ h6,
+#blue ~ .chapter h3,
+.header#blue,
+.header#blue h3 {
+    color: var(--color-blue);
+    background: unset;
+    -webkit-text-fill-color: initial;
+    filter: unset;
+    border-bottom: solid 1px var(--color-blue);
+}
+
 #purple,
 #purple ~ h1,
 #purple ~ .chapter h1,
@@ -54,34 +82,6 @@ h4#orange-plain,
     -webkit-text-fill-color: initial;
     filter: unset;
     border-bottom: solid 1px var(--color-orange);
-}
-
-#blue,
-#blue ~ h1,
-#blue ~ .chapter h1,
-#blue ~ h2,
-#blue ~ h3,
-#blue ~ h4,
-#blue ~ .wide h4 {
-    background: var(--color-blue-gradient);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    filter: drop-shadow(1px 1px 1px black) drop-shadow(2px 2px 1px gray);
-}
-
-#blue-plain,
-h4#blue-plain,
-#blue ~ h5,
-#blue ~ h6,
-#blue ~ .chapter h3,
-.header#blue,
-.header#blue h3 {
-    color: var(--color-blue);
-    background: unset;
-    -webkit-text-fill-color: initial;
-    filter: unset;
-    border-bottom: solid 1px var(--color-blue);
 }
 
 #green,

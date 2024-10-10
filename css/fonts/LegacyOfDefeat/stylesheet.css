@@ -98,7 +98,7 @@
 }
 
 @font-face {
-    font-family: '2600 Cambodia';
+    font-family: 'H-Cambodia';
     src: url('H-Cambodia.woff2') format('woff2'),
         url('H-Cambodia.woff') format('woff');
     font-weight: normal;
@@ -107,7 +107,7 @@
 }
 
 @font-face {
-    font-family: '2600 Dungeon';
+    font-family: 'H-Dungeon';
     src: url('H-Dungeon.woff2') format('woff2'),
         url('H-Dungeon.woff') format('woff');
     font-weight: normal;
@@ -116,7 +116,7 @@
 }
 
 @font-face {
-    font-family: '2600 Intel';
+    font-family: 'H-Intel';
     src: url('H-Intel.woff2') format('woff2'),
         url('H-Intel.woff') format('woff');
     font-weight: normal;
@@ -152,7 +152,7 @@
 }
 
 @font-face {
-    font-family: '2600 Street';
+    font-family: 'H-Street';
     src: url('H-Street.woff2') format('woff2'),
         url('H-Street.woff') format('woff');
     font-weight: normal;
@@ -188,7 +188,7 @@
 }
 
 @font-face {
-    font-family: '2600 Zerox';
+    font-family: 'H-Zerox';
     src: url('H-Zerox.woff2') format('woff2'),
         url('H-Zerox.woff') format('woff');
     font-weight: normal;
@@ -206,7 +206,7 @@
 }
 
 @font-face {
-    font-family: '2600 Terminal';
+    font-family: 'H-Terminal';
     src: url('H-Terminal.woff2') format('woff2'),
         url('H-Terminal.woff') format('woff');
     font-weight: normal;

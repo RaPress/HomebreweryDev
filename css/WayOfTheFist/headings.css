@@ -93,7 +93,9 @@
 
 .page h3.sub-title {
   transform: unset !important;
-  color: #000;
+  color: #fff;
+  filter: drop-shadow(1px 1px #000) drop-shadow(1px 1px #000)
+    drop-shadow(-1px -1px #000) drop-shadow(-1px -1px #000);
 }
 
 .page h1,

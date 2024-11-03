@@ -1,5 +1,15 @@
 /* No Mercy! Moves */
 
+hr + h5 + ul li,
+hr + h5 + ul + hr + ul li,
+hr + h5 + ul + hr + ul + hr + ul li {
+    list-style: none;
+}
+
+hr + h5 + ul + hr + ul li ul li {
+    list-style: circle;
+}
+
 .page hr + h5 + ul,
 .page hr + h5 + ul + hr + ul,
 .page hr + h5 + ul + hr + ul + hr + ul {

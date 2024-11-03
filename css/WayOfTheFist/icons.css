@@ -1,0 +1,19 @@
+/* No Mercy! Icons */
+
+span.inline-block.momentum {
+    content: url("https://hb.ra-press.com/img/Icons/Resources/momentum.png");
+    width: 16px;
+    margin-bottom: -0.25rem;
+}
+
+span.inline-block.chi {
+    content: url("https://hb.ra-press.com/img/Icons/Resources/chi.png");
+    width: 16px;
+    margin-bottom: -0.25rem;
+}
+
+span.inline-block.fs {
+    content: url("https://hb.ra-press.com/img/Icons/Resources/fight-spirit.png");
+    width: 16px;
+    margin-bottom: -0.25rem;
+}

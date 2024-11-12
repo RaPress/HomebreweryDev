@@ -3,33 +3,56 @@
 :root {
     /* Colors */
     --color-main: #000000;
-    --color-purple: #783060;
-    --color-purple-table-bg: #AFB4CF;
-    --color-purple-gradient: linear-gradient(#783060 20%, #737BAAff 40%, #483060 60%);
-    --color-blue: #338EC1;
-    --color-blue-table-bg: #ACCCE3;
-    --color-blue-gradient: linear-gradient(#338EC1 20%, #ACCCE3 50%, #338EC1 70%);
+
+    --color-purple: #9b30ff;
+    --color-purple-table-bg: #b78bd6;
+    --color-purple-gradient: linear-gradient(#9b30ff 20%, #afb4cf 40%, #9b30ff 60%, #483060 80%);
+
+    --color-blue: #338ec1;
+    --color-blue-table-bg: #accce3;
+    --color-blue-gradient: linear-gradient(#338ec1 20%, #accce3 50%, #338ec1 70%);
+
     --color-green: #59753e;
     --color-green-table-bg: #769c54;
     --color-green-gradient: linear-gradient(#769c54 30%, #59753e 50%, #3c4f2a 70%);
-    --color-orange: #E1480D;
-    --color-orange-table-bg: #E1480D;
-    --color-orange-gradient: linear-gradient(#FCCE2C 20%, #FEFA8Fff 40%, #E1480Dff 60%);
+
+    /* --color-orange: #e1480d;
+    --color-orange-table-bg: #e1480d;
+    --color-orange-gradient: linear-gradient(#fcce2c 20%, #fefa8fff 40%, #e1480dff 60%); */
+
+    --color-orange: #e1480d;
+    --color-orange-table-bg: #f4a261;
+    --color-orange-gradient: linear-gradient(#fc8e2c 20%, #ffd891 40%, #fc8e2c 60%, #e1480d 80%);
+
+    --color-yellow: #d9a400;
+    --color-yellow-table-bg: #ffe4a1;
+    --color-yellow-gradient: linear-gradient(#f7c232 20%, #fff1b8 40%, #f7c232 60%, #f7b801 80%);
+
     --color-pink: #926475;
-    --color-pink-table-bg: #FACCDF;
-    --color-pink-gradient: linear-gradient(#E8C6D4ff 20%, #926475ff 40%, #FACCDFff 70%);
-    --color-red: #FF0000;
-    --color-red-table-bg: #FA6A6A;
-    --color-red-gradient: linear-gradient(#FA6A6A 20%, #FF0000 50%, #FA6A6A 70%, #6B0303 90%);
-    --color-chrome: #2D2927;
-    --color-chrome-table-bg: #E8C6D4ff;
-    --color-chrome-gradient: linear-gradient(#F6F1E8 10%, #CDCCCA 20%, #F6F1E8 40%, #89837F 60%, #2D2927 90%);
+    --color-pink-table-bg: #faccdf;
+    --color-pink-gradient: linear-gradient(#e8c6d4ff 20%, #926475ff 40%, #faccdfff 70%);
+
+    --color-red: #ff0000;
+    --color-red-table-bg: #ff5e5e;
+    --color-red-gradient: linear-gradient(#fa6a6a 20%, #ff0000 50%, #fa6a6a 70%, #6b0303 90%);
+
+    --color-chrome: #2d2927;
+    --color-chrome-table-bg: #e8c6d4ff;
+    --color-chrome-gradient: linear-gradient(#f6f1e8 10%, #cdccca 20%, #f6f1e8 40%, #89837f 60%, #2d2927 90%);
+
     --color-dark: #020201;
     --color-dark-table-bg: #020201;
-    --color-dark-gradient: linear-gradient(#5D5D5Dff 10%, #464747ff 20%, #5D5D5Dff 40%, #020201ff 60%);
-    --color-title-gradient: linear-gradient(#707BA9ff 40%, #BFD7F0ff 50%, #fff 80%);
-    --color-title-gradient-alt: linear-gradient(#fff 30%, #FEFA8Fff 40%, #F7BF4Eff 50%, #E14326ff 70%);
-    --color-title-gradient-last-letter: linear-gradient(#BFD7F0ff 20%, #fff 40%, #FEFA8Fff 60%, #F7BF4Eff 70%, #E14326ff 90%);
+    --color-dark-gradient: linear-gradient(#5d5d5dff 10%, #464747ff 20%, #5d5d5dff 40%, #020201ff 60%);
+
+    --color-title-gradient: linear-gradient(#707ba9ff 40%, #bfd7f0ff 50%, #fff 80%);
+    --color-title-gradient-alt: linear-gradient(#fff 30%, #fefa8fff 40%, #f7bf4eff 50%, #e14326ff 70%);
+    --color-title-gradient-last-letter: linear-gradient(
+        #bfd7f0ff 20%,
+        #fff 40%,
+        #fefa8fff 60%,
+        #f7bf4eff 70%,
+        #e14326ff 90%
+    );
 
     /* Fonts */
     --font-title: "Edo";
@@ -48,4 +71,9 @@
     --font-size-9: 50pt;
     --font-size-10: 60pt;
     --font-size-11: 70pt;
+
+    /* Icons */
+    --icon-chi: url("https://hb.ra-press.com/img/Icons/Resources/chi.png");
+    --icon-fs: url("https://hb.ra-press.com/img/Icons/Resources/fight-spirit.png");
+    --icon-momentum: url("https://hb.ra-press.com/img/Icons/Resources/momentum.png");
 }

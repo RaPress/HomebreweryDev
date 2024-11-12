@@ -1,5 +1,24 @@
 /** Colors **/
 
+#purple ~ .table,
+#purple.table,
+#orange ~ .table,
+#orange.table,
+#blue ~ .table,
+#blue.table,
+#green ~ .table,
+#green.table,
+#pink ~ .table,
+#pink.table,
+#red ~ .table,
+#red.table,
+#chrome ~ .table,
+#chrome.table,
+#dark ~ .table,
+#dark.table {
+    filter: none;
+}
+
 #blue,
 #blue ~ h1,
 #blue ~ .chapter h1,
@@ -26,6 +45,12 @@ h4#blue-plain,
     -webkit-text-fill-color: initial;
     filter: unset;
     border-bottom: solid 1px var(--color-blue);
+}
+
+.page #blue ~ table tbody tr:nth-child(odd),
+.page #blue ~ div table tbody tr:nth-child(odd),
+.page #blue + div table tbody tr:nth-child(odd) {
+    background-color: var(--color-blue-table-bg);
 }
 
 #orange,
@@ -56,6 +81,46 @@ h4#orange-plain,
     border-bottom: solid 1px var(--color-orange);
 }
 
+.page #orange ~ table tbody tr:nth-child(odd),
+.page #orange ~ div table tbody tr:nth-child(odd),
+.page #orange + div table tbody tr:nth-child(odd) {
+    background-color: var(--color-orange-table-bg);
+}
+
+#yellow,
+#yellow ~ h1,
+#yellow ~ .chapter h1,
+#yellow ~ h2,
+#yellow ~ h3,
+#yellow ~ h4,
+#yellow ~ .wide h4 {
+    background: var(--color-yellow-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(1px 1px 1px black) drop-shadow(2px 2px 1px gray);
+}
+
+#yellow-plain,
+h4#yellow-plain,
+#yellow ~ h5,
+#yellow ~ h6,
+#yellow ~ .chapter h3,
+.header#yellow,
+.header#yellow h3 {
+    color: var(--color-yellow);
+    background: unset;
+    -webkit-text-fill-color: initial;
+    filter: unset;
+    border-bottom: solid 1px var(--color-yellow);
+}
+
+.page #yellow ~ table tbody tr:nth-child(odd),
+.page #yellow ~ div table tbody tr:nth-child(odd),
+.page #yellow + div table tbody tr:nth-child(odd) {
+    background-color: var(--color-yellow-table-bg);
+}
+
 #purple,
 #purple ~ h1,
 #purple ~ .chapter h1,
@@ -82,6 +147,12 @@ h4#purple-plain,
     -webkit-text-fill-color: initial;
     filter: unset;
     border-bottom: solid 1px var(--color-purple);
+}
+
+.page #purple ~ table tbody tr:nth-child(odd),
+.page #purple ~ div table tbody tr:nth-child(odd),
+.page #purple + div table tbody tr:nth-child(odd) {
+    background-color: var(--color-purple-table-bg);
 }
 
 #green,
@@ -112,6 +183,12 @@ h4#green-plain,
     border-bottom: solid 1px var(--color-green);
 }
 
+.page #green ~ table tbody tr:nth-child(odd),
+.page #green ~ div table tbody tr:nth-child(odd),
+.page #green + div table tbody tr:nth-child(odd) {
+    background-color: var(--color-green-table-bg);
+}
+
 #pink,
 #pink ~ h1,
 #pink ~ .chapter h1,
@@ -138,6 +215,12 @@ h4#pink-plain,
     -webkit-text-fill-color: initial;
     filter: unset;
     border-bottom: solid 1px var(--color-pink);
+}
+
+.page #pink ~ table tbody tr:nth-child(odd),
+.page #pink ~ div table tbody tr:nth-child(odd),
+.page #pink + div table tbody tr:nth-child(odd) {
+    background-color: var(--color-pink-table-bg);
 }
 
 #chrome,
@@ -168,6 +251,12 @@ h4#chrome-plain,
     border-bottom: solid 1px var(--color-chrome);
 }
 
+.page #chrome ~ table tbody tr:nth-child(odd),
+.page #chrome ~ div table tbody tr:nth-child(odd),
+.page #chrome + div table tbody tr:nth-child(odd) {
+    background-color: var(--color-chrome-table-bg);
+}
+
 #red,
 #red ~ h1,
 #red ~ .chapter h1,
@@ -196,6 +285,12 @@ h4#red-plain,
     border-bottom: solid 1px var(--color-red);
 }
 
+.page #red ~ table tbody tr:nth-child(odd),
+.page #red ~ div table tbody tr:nth-child(odd),
+.page #red + div table tbody tr:nth-child(odd) {
+    background-color: var(--color-red-table-bg);
+}
+
 #dark,
 #dark ~ h1,
 #dark ~ .chapter h1,
@@ -222,67 +317,6 @@ h4#dark-plain,
     -webkit-text-fill-color: initial;
     filter: unset;
     border-bottom: solid 1px var(--color-dark);
-}
-
-#purple ~ .table,
-#purple.table,
-#orange ~ .table,
-#orange.table,
-#blue ~ .table,
-#blue.table,
-#green ~ .table,
-#green.table,
-#pink ~ .table,
-#pink.table,
-#red ~ .table,
-#red.table,
-#chrome ~ .table,
-#chrome.table,
-#dark ~ .table,
-#dark.table {
-    filter: none;
-}
-
-.page #purple ~ table tbody tr:nth-child(odd),
-.page #purple ~ div table tbody tr:nth-child(odd),
-.page #purple + div table tbody tr:nth-child(odd) {
-    background-color: var(--color-purple-table-bg);
-}
-
-.page #orange ~ table tbody tr:nth-child(odd),
-.page #orange ~ div table tbody tr:nth-child(odd),
-.page #orange + div table tbody tr:nth-child(odd) {
-    background-color: var(--color-orange-table-bg);
-}
-
-.page #blue ~ table tbody tr:nth-child(odd),
-.page #blue ~ div table tbody tr:nth-child(odd),
-.page #blue + div table tbody tr:nth-child(odd) {
-    background-color: var(--color-blue-table-bg);
-}
-
-.page #green ~ table tbody tr:nth-child(odd),
-.page #green ~ div table tbody tr:nth-child(odd),
-.page #green + div table tbody tr:nth-child(odd) {
-    background-color: var(--color-green-table-bg);
-}
-
-.page #pink ~ table tbody tr:nth-child(odd),
-.page #pink ~ div table tbody tr:nth-child(odd),
-.page #pink + div table tbody tr:nth-child(odd) {
-    background-color: var(--color-pink-table-bg);
-}
-
-.page #red ~ table tbody tr:nth-child(odd),
-.page #red ~ div table tbody tr:nth-child(odd),
-.page #red + div table tbody tr:nth-child(odd) {
-    background-color: var(--color-red-table-bg);
-}
-
-.page #chrome ~ table tbody tr:nth-child(odd),
-.page #chrome ~ div table tbody tr:nth-child(odd),
-.page #chrome + div table tbody tr:nth-child(odd) {
-    background-color: var(--color-chrome-table-bg);
 }
 
 .page #dark ~ table tbody tr:nth-child(odd),

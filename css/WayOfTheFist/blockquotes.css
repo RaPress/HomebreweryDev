@@ -1,0 +1,265 @@
+/* Blockquotes */
+
+blockquote {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-left: 10px solid #fff;
+    padding: 1em;
+    margin: 1em 0;
+    color: #fff;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+    position: relative;
+}
+
+blockquote::before,
+blockquote::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 4px solid rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    pointer-events: none;
+    transform: rotate(1deg);
+    opacity: 0.6;
+}
+
+blockquote::after {
+    transform: rotate(-1deg);
+}
+
+blockquote p {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-main);
+}
+
+.page p + ul {
+    margin-top: 0;
+}
+
+blockquote ul {
+    margin-left: -1.5rem;
+}
+
+blockquote ul li:before {
+    content: url("https://hb.ra-press.com/img/Icons/Fists/punch.png");
+    position: absolute;
+    left: 0;
+}
+
+blockquote ul li {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5rem;
+    text-indent: 0;
+}
+
+blockquote ul li strong {
+    color: var(--color-main);
+}
+
+blockquote ul li strong:first-child,
+blockquote h5 {
+    text-shadow: 1px 1px #000;
+}
+
+blockquote ul li ul li:before {
+    content: "";
+}
+
+blockquote ul li ul li {
+    list-style-type: disc;
+    padding-left: 0;
+    margin-left: -2rem;
+}
+
+/* Resources */
+.resources blockquote ul li:before {
+    content: "";
+}
+
+.resources blockquote ul li span.inline-block.chi:before {
+    content: var(--icon-chi);
+}
+
+.resources blockquote ul li span.inline-block.chi {
+    margin-left: -1rem;
+}
+
+.resources blockquote ul li span.inline-block.fs:before {
+    content: var(--icon-fs);
+}
+
+.resources blockquote ul li span.inline-block.fs {
+    margin-left: -1rem;
+}
+
+.resources blockquote ul li span.inline-block.momentum:before {
+    content: var(--icon-momentum);
+}
+
+.resources blockquote ul li span.inline-block.momentum {
+    margin-left: -1rem;
+}
+/* Resources END */
+
+/* Colors */
+#red ~ blockquote ul li ul li:before,
+#orange ~ blockquote ul li ul li:before,
+#yellow ~ blockquote ul li ul li:before,
+#blue ~ blockquote ul li ul li:before,
+#green ~ blockquote ul li ul li:before,
+#purple ~ blockquote ul li ul li:before,
+#pink ~ blockquote ul li ul li:before,
+#chrome ~ blockquote ul li ul li:before,
+#dark ~ blockquote ul li ul li:before {
+    content: "";
+}
+
+#red ~ blockquote h5 {
+    border-bottom: 1px solid var(--color-red-table-bg);
+}
+
+#red ~ blockquote ul li strong:first-child,
+#red ~ blockquote h5 {
+    color: var(--color-red-table-bg);
+}
+
+#red ~ blockquote {
+    border-left: 10px solid var(--color-red);
+    background: rgba(30, 0, 0, 0.5);
+}
+
+#red ~ blockquote ul li:before {
+    filter: invert(100%) contrast(15%) sepia(70%) saturate(1400%) hue-rotate(330deg) brightness(115%) contrast(115%)
+        drop-shadow(1px 1px #000);
+}
+
+#red ~ blockquote::before,
+#red ~ blockquote::after {
+    border: 4px solid rgba(225, 0, 0, 0.6);
+}
+
+#orange ~ blockquote h5 {
+    border-bottom: 1px solid var(--color-orange-table-bg);
+}
+
+#orange ~ blockquote ul li strong:first-child,
+#orange ~ blockquote h5 {
+    color: var(--color-orange-table-bg);
+}
+
+#orange ~ blockquote {
+    border-left: 10px solid var(--color-orange);
+    background: rgba(50, 30, 10, 0.5);
+}
+
+#orange ~ blockquote ul li:before {
+    filter: invert(100%) contrast(12%) sepia(90%) saturate(800%) hue-rotate(10deg) brightness(110%) contrast(90%)
+        drop-shadow(1px 1px #000);
+}
+
+#orange ~ blockquote::before,
+#orange ~ blockquote::after {
+    border: 4px solid rgba(225, 72, 13, 0.6);
+}
+
+#yellow ~ blockquote h5 {
+    border-bottom: 1px solid var(--color-yellow-table-bg);
+}
+
+#yellow ~ blockquote ul li strong:first-child,
+#yellow ~ blockquote h5 {
+    color: var(--color-yellow-table-bg);
+}
+
+#yellow ~ blockquote {
+    border-left: 10px solid var(--color-yellow);
+    background: rgba(50, 40, 10, 0.5);
+}
+
+#yellow ~ blockquote ul li:before {
+    filter: brightness(0) invert(75%) sepia(20%) saturate(600%) brightness(120%) contrast(100%)
+        drop-shadow(1px 1px #000);
+}
+
+#yellow ~ blockquote::before,
+#yellow ~ blockquote::after {
+    border: 4px solid rgba(247, 184, 1, 0.6);
+}
+
+#blue ~ blockquote h5 {
+    border-bottom: 1px solid var(--color-blue-table-bg);
+}
+
+#blue ~ blockquote ul li strong:first-child,
+#blue ~ blockquote h5 {
+    color: var(--color-blue-table-bg);
+}
+
+#blue ~ blockquote {
+    border-left: 10px solid var(--color-blue);
+    background: rgba(10, 30, 80, 0.5);
+}
+
+#blue ~ blockquote ul li:before {
+    filter: brightness(0) invert(75%) sepia(20%) saturate(600%) hue-rotate(185deg) brightness(100%) contrast(105%)
+        drop-shadow(1px 1px #000);
+}
+
+#blue ~ blockquote::before,
+#blue ~ blockquote::after {
+    border: 4px solid rgba(42, 104, 214, 0.6);
+}
+
+#purple ~ blockquote h5 {
+    border-bottom: 1px solid var(--color-purple-table-bg);
+}
+
+#purple ~ blockquote ul li strong:first-child,
+#purple ~ blockquote h5 {
+    color: var(--color-purple-table-bg);
+}
+
+#purple ~ blockquote {
+    border-left: 10px solid var(--color-purple);
+    background: rgba(30, 0, 50, 0.5);
+}
+
+#purple ~ blockquote ul li:before {
+    filter: invert(100%) contrast(15%) sepia(56%) saturate(1200%) hue-rotate(230deg) brightness(110%) contrast(105%)
+        drop-shadow(1px 1px 1px #000);
+}
+
+#purple ~ blockquote::before,
+#purple ~ blockquote::after {
+    border: 4px solid #9b30ffd9;
+}
+
+#pink ~ blockquote h5 {
+    border-bottom: 1px solid var(--color-pink-table-bg);
+}
+
+#pink ~ blockquote ul li strong:first-child,
+#pink ~ blockquote h5 {
+    color: var(--color-pink-table-bg);
+}
+
+#pink ~ blockquote {
+    border-left: 10px solid var(--color-pink);
+    background: rgba(70, 7, 30, 0.5);
+}
+
+#pink ~ blockquote ul li:before {
+    filter: brightness(0) invert(75%) sepia(10%) saturate(706%) hue-rotate(289deg) brightness(114%) contrast(96%)
+        drop-shadow(1px 1px 1px #000);
+}
+
+#pink ~ blockquote::before,
+#pink ~ blockquote::after {
+    border: 4px solid #e94b9fd9;
+}
+
+/* Colors END */

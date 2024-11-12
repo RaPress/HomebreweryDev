@@ -75,36 +75,6 @@ blockquote ul li ul li {
     margin-left: -2rem;
 }
 
-/* Resources */
-.resources blockquote ul li:before {
-    content: "";
-}
-
-.resources blockquote ul li span.inline-block.chi:before {
-    content: var(--icon-chi);
-}
-
-.resources blockquote ul li span.inline-block.chi {
-    margin-left: -1rem;
-}
-
-.resources blockquote ul li span.inline-block.fs:before {
-    content: var(--icon-fs);
-}
-
-.resources blockquote ul li span.inline-block.fs {
-    margin-left: -1rem;
-}
-
-.resources blockquote ul li span.inline-block.momentum:before {
-    content: var(--icon-momentum);
-}
-
-.resources blockquote ul li span.inline-block.momentum {
-    margin-left: -1rem;
-}
-/* Resources END */
-
 /* Colors */
 #red ~ blockquote ul li ul li:before,
 #orange ~ blockquote ul li ul li:before,
@@ -263,3 +233,33 @@ blockquote ul li ul li {
 }
 
 /* Colors END */
+
+/* Resources */
+.resources blockquote ul li:before {
+    content: "";
+}
+
+.resources blockquote ul li span.inline-block.chi:before {
+    content: var(--icon-chi);
+}
+
+.resources blockquote ul li span.inline-block.chi {
+    margin-left: -1rem;
+}
+
+.resources blockquote ul li span.inline-block.fs:before {
+    content: var(--icon-fs);
+}
+
+.resources blockquote ul li span.inline-block.fs {
+    margin-left: -1rem;
+}
+
+.resources blockquote ul li span.inline-block.momentum:before {
+    content: var(--icon-momentum);
+}
+
+.resources blockquote ul li span.inline-block.momentum {
+    margin-left: -1rem;
+}
+/* Resources END */

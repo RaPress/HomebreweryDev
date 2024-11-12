@@ -214,29 +214,32 @@ blockquote ul li ul li {
     border: 4px solid #9b30ffd9;
 }
 
-#pink ~ blockquote h5 {
-    border-bottom: 1px solid var(--color-pink-table-bg);
-}
+#pink {
+    & ~ blockquote h5 {
+        border-bottom: 1px solid var(--color-pink-table-bg);
+    }
 
-#pink ~ blockquote ul li strong:first-child,
-#pink ~ blockquote h5 {
-    color: var(--color-pink-table-bg);
-}
+    & ~ blockquote {
+        border-left: 10px solid var(--color-pink);
+        background: rgba(70, 7, 30, 0.5);
+    }
 
-#pink ~ blockquote,
-#pink ~ .resources blockquote {
-    border-left: 10px solid var(--color-pink);
-    background: rgba(70, 7, 30, 0.5);
-}
+    & ~ blockquote {
+        & ul li strong:first-child,
+        & h5 {
+            color: var(--color-pink-table-bg);
+        }
 
-#pink ~ blockquote ul li:before {
-    filter: brightness(0) invert(75%) sepia(10%) saturate(706%) hue-rotate(289deg) brightness(114%) contrast(96%)
-        drop-shadow(1px 1px 1px #000);
-}
+        & ul li:before {
+            filter: brightness(0) invert(75%) sepia(10%) saturate(706%) hue-rotate(289deg) brightness(114%)
+                contrast(96%) drop-shadow(1px 1px 1px #000);
+        }
+    }
 
-#pink ~ blockquote::before,
-#pink ~ blockquote::after {
-    border: 4px solid #e94b9fd9;
+    & ~ blockquote::before,
+    & ~ blockquote::after {
+        border: 4px solid #e94b9fd9;
+    }
 }
 
 /* Colors END */

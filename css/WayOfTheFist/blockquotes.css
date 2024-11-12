@@ -97,7 +97,8 @@ blockquote ul li ul li {
     color: var(--color-red-table-bg);
 }
 
-#red ~ blockquote {
+#red ~ blockquote,
+#red ~ .resources blockquote {
     border-left: 10px solid var(--color-red);
     background: rgba(30, 0, 0, 0.5);
 }
@@ -121,7 +122,8 @@ blockquote ul li ul li {
     color: var(--color-orange-table-bg);
 }
 
-#orange ~ blockquote {
+#orange ~ blockquote,
+#orange ~ .resources blockquote {
     border-left: 10px solid var(--color-orange);
     background: rgba(50, 30, 10, 0.5);
 }
@@ -145,7 +147,8 @@ blockquote ul li ul li {
     color: var(--color-yellow-table-bg);
 }
 
-#yellow ~ blockquote {
+#yellow ~ blockquote,
+#yellow ~ .resources blockquote {
     border-left: 10px solid var(--color-yellow);
     background: rgba(50, 40, 10, 0.5);
 }
@@ -169,7 +172,8 @@ blockquote ul li ul li {
     color: var(--color-blue-table-bg);
 }
 
-#blue ~ blockquote {
+#blue ~ blockquote,
+#blue ~ .resources blockquote {
     border-left: 10px solid var(--color-blue);
     background: rgba(10, 30, 80, 0.5);
 }
@@ -184,7 +188,8 @@ blockquote ul li ul li {
     border: 4px solid rgba(42, 104, 214, 0.6);
 }
 
-#purple ~ blockquote h5 {
+#purple ~ blockquote h5,
+#purple ~ .resources blockquote h5 {
     border-bottom: 1px solid var(--color-purple-table-bg);
 }
 
@@ -193,7 +198,8 @@ blockquote ul li ul li {
     color: var(--color-purple-table-bg);
 }
 
-#purple ~ blockquote {
+#purple ~ blockquote,
+#purple ~ .resources blockquote {
     border-left: 10px solid var(--color-purple);
     background: rgba(30, 0, 50, 0.5);
 }
@@ -217,7 +223,8 @@ blockquote ul li ul li {
     color: var(--color-pink-table-bg);
 }
 
-#pink ~ blockquote {
+#pink ~ blockquote,
+#pink ~ .resources blockquote {
     border-left: 10px solid var(--color-pink);
     background: rgba(70, 7, 30, 0.5);
 }
@@ -235,31 +242,26 @@ blockquote ul li ul li {
 /* Colors END */
 
 /* Resources */
-.resources blockquote ul li:before {
-    content: "";
-}
+.resources {
+    & blockquote ul li:before {
+        content: "";
+    }
 
-.resources blockquote ul li span.inline-block.chi:before {
-    content: var(--icon-chi);
-}
+    & blockquote ul li {
+        & span.inline-block.chi {
+            content: var(--icon-chi);
+            margin-left: -1rem;
+        }
 
-.resources blockquote ul li span.inline-block.chi {
-    margin-left: -1rem;
-}
+        & span.inline-block.fs {
+            content: var(--icon-fs);
+            margin-left: -1rem;
+        }
 
-.resources blockquote ul li span.inline-block.fs:before {
-    content: var(--icon-fs);
-}
-
-.resources blockquote ul li span.inline-block.fs {
-    margin-left: -1rem;
-}
-
-.resources blockquote ul li span.inline-block.momentum:before {
-    content: var(--icon-momentum);
-}
-
-.resources blockquote ul li span.inline-block.momentum {
-    margin-left: -1rem;
+        & span.inline-block.momentum {
+            content: var(--icon-momentum);
+            margin-left: -1rem;
+        }
+    }
 }
 /* Resources END */

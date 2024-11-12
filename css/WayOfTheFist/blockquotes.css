@@ -234,11 +234,11 @@ blockquote ul li ul li {
             filter: brightness(0) invert(75%) sepia(10%) saturate(706%) hue-rotate(289deg) brightness(114%)
                 contrast(96%) drop-shadow(1px 1px 1px #000);
         }
-    }
 
-    & ~ blockquote::before,
-    & ~ blockquote::after {
-        border: 4px solid #e94b9fd9;
+        &:before,
+        &:after {
+            border: 4px solid #e94b9fd9;
+        }
     }
 }
 

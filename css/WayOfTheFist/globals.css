@@ -73,7 +73,8 @@
     --font-size-11: 70pt;
 
     /* Icons */
-    --icon-chi: url("https://hb.ra-press.com/img/Icons/Resources/chi.png");
     --icon-fs: url("https://hb.ra-press.com/img/Icons/Resources/fight-spirit.png");
+    --icon-chi: url("https://hb.ra-press.com/img/Icons/Resources/chi.png");
     --icon-momentum: url("https://hb.ra-press.com/img/Icons/Resources/momentum.png");
+    --icon-fist: url("https://hb.ra-press.com/img/Icons/Fists/punch.png");
 }

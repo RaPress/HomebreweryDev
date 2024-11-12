@@ -1,87 +1,147 @@
 /** Headings **/
 
-.page .chapter h1 {
-  margin-top: -2rem;
+.page {
+  & .chapter {
+    & h1 {
+      margin-top: -2rem;
+    }
+
+    & h3 {
+      margin-left: -1rem;
+    }
+
+    .block& {
+      padding-top: 0.5rem;
+      column-span: all;
+      display: block;
+      width: 100%;
+      margin-left: 25%;
+      margin-right: auto;
+    }
+  }
+
+  & .title {
+    position: absolute;
+    font-family: var(--font-title);
+    font-weight: normal;
+    font-size: var(--font-size-10);
+    margin-left: 4rem;
+    top: 10rem;
+    transform: rotate(-10deg);
+    letter-spacing: 0.3rem;
+    line-height: 20rem;
+    text-align: center;
+    text-transform: unset;
+    background: var(--color-title-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(1px 1px 1px black) drop-shadow(2px 2px 1px black)
+      drop-shadow(3px 3px 1px black) drop-shadow(4px 4px 1px black);
+
+    &.reversed {
+      position: absolute;
+      font-size: var(--font-size-9);
+      top: 15rem;
+      left: 5rem;
+      padding-right: 3rem;
+      transform: rotate(-7.5deg);
+      background: var(--color-title-gradient-alt);
+      -webkit-background-clip: text;
+      background-clip: text;
+      unicode-bidi: bidi-override;
+      direction: rtl;
+    }
+
+    &.bottom {
+      position: absolute;
+      font-size: var(--font-size-11);
+      top: 14rem;
+      left: -1rem;
+      padding-right: 3rem;
+      transform: rotate(-7.5deg);
+      background: var(--color-title-gradient-alt);
+      -webkit-background-clip: text;
+      background-clip: text;
+
+      & .large {
+        margin-left: 0rem;
+        font-size: 250%;
+        background: var(--color-title-gradient-last-letter);
+        -webkit-background-clip: text;
+        background-clip: text;
+      }
+    }
+  }
 }
 
-.page .chapter h3 {
-  margin-left: -1rem;
-}
+.page {
+  & h1,
+  & h2,
+  & h3,
+  & h4,
+  & h5,
+  & h6 {
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+    font-weight: bold;
+    transform: rotate(-2deg);
+    margin-bottom: 0.5rem;
+  }
 
-.page .block.chapter {
-  padding-top: 0.5rem;
-  column-span: all;
-  display: block;
-  width: 100%;
-  margin-left: 25%;
-  margin-right: auto;
-}
+  & h1 {
+    font-size: var(--font-size-8);
+    margin-bottom: 2rem;
+    transform: rotate(-5deg);
 
-.page .title {
-  position: absolute;
-  font-family: var(--font-title);
-  font-weight: normal;
-  font-size: var(--font-size-10);
-  margin-left: 4rem;
-  top: 10rem;
-  transform: rotate(-10deg);
-  letter-spacing: 0.3rem;
-  line-height: 20rem;
-  text-align: center;
-  text-transform: unset;
-  background: var(--color-title-gradient);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  filter: drop-shadow(1px 1px 1px black) drop-shadow(2px 2px 1px black)
-    drop-shadow(3px 3px 1px black) drop-shadow(4px 4px 1px black);
-}
+    & .title {
+      &:first-letter,
+      .page h1.title.reversed:first-letter {
+        font-size: 200%;
+      }
 
-.page .title.reversed {
-  position: absolute;
-  font-size: var(--font-size-9);
-  top: 15rem;
-  left: 5rem;
-  padding-right: 3rem;
-  transform: rotate(-7.5deg);
-  background: var(--color-title-gradient-alt);
-  -webkit-background-clip: text;
-  background-clip: text;
-  unicode-bidi: bidi-override;
-  direction: rtl;
-}
+      &.reversed:first-letter {
+        margin-left: -2rem;
+        font-size: 250%;
+        background: var(--color-title-gradient-last-letter);
+        -webkit-background-clip: text;
+        background-clip: text;
+      }
+    }
+  }
 
-.page .title.bottom {
-  position: absolute;
-  font-size: var(--font-size-11);
-  top: 14rem;
-  left: -1rem;
-  padding-right: 3rem;
-  transform: rotate(-7.5deg);
-  background: var(--color-title-gradient-alt);
-  -webkit-background-clip: text;
-  background-clip: text;
-}
+  & h2 {
+    font-size: var(--font-size-7);
+    margin-top: 0.5rem;
+  }
 
-.page h1.title.bottom .large {
-  margin-left: 0rem;
-  font-size: 250%;
-  background: var(--color-title-gradient-last-letter);
-  -webkit-background-clip: text;
-  background-clip: text;
-}
+  & h3 {
+    font-size: var(--font-size-6);
+    margin-top: 0.5rem;
 
-.page h1.title:first-letter,
-.page h1.title.reversed:first-letter {
-  font-size: 200%;
-}
+    &.sub-title {
+      transform: unset !important;
+      color: #fff;
+      filter: drop-shadow(1px 1px #000) drop-shadow(1px 1px #000)
+        drop-shadow(-1px -1px #000) drop-shadow(-1px -1px #000);
+    }
+  }
 
-.page h1.title.reversed:first-letter {
-  margin-left: -2rem;
-  font-size: 250%;
-  background: var(--color-title-gradient-last-letter);
-  -webkit-background-clip: text;
-  background-clip: text;
+  & h4 {
+    font-size: var(--font-size-5);
+    margin-top: 0.5rem;
+  }
+
+  & h5 {
+    font-size: var(--font-size-3);
+    margin-top: 0.5rem;
+  }
+
+  & h6 {
+    font-size: var(--font-size-2);
+    margin-top: 0.5rem;
+    font-style: italic;
+  }
 }
 
 .page .sub-title {
@@ -89,58 +149,6 @@
   column-span: all;
   display: block;
   transform: rotate(-5deg);
-}
-
-.page h3.sub-title {
-  transform: unset !important;
-  color: #fff;
-  filter: drop-shadow(1px 1px #000) drop-shadow(1px 1px #000)
-    drop-shadow(-1px -1px #000) drop-shadow(-1px -1px #000);
-}
-
-.page h1,
-.page h2,
-.page h3,
-.page h4,
-.page h5,
-.page h6 {
-  font-family: var(--font-heading);
-  text-transform: uppercase;
-  font-weight: bold;
-  transform: rotate(-2deg);
-  margin-bottom: 0.5rem;
-}
-
-.page h1 {
-  font-size: var(--font-size-8);
-  margin-bottom: 2rem;
-  transform: rotate(-5deg);
-}
-
-.page h2 {
-  font-size: var(--font-size-7);
-  margin-top: 0.5rem;
-}
-
-.page h3 {
-  font-size: var(--font-size-6);
-  margin-top: 0.5rem;
-}
-
-.page h4 {
-  font-size: var(--font-size-5);
-  margin-top: 0.5rem;
-}
-
-.page h5 {
-  font-size: var(--font-size-3);
-  margin-top: 0.5rem;
-}
-
-.page h6 {
-  font-size: var(--font-size-2);
-  margin-top: 0.5rem;
-  font-style: italic;
 }
 
 .page h2:nth-child(odd),

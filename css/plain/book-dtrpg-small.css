@@ -22,7 +22,7 @@
   --column-width: 3.5cm;
 }
 
-.brewRenderer .pages>.page {
+.brewRenderer .pages > .page {
   margin-bottom: 10px;
 }
 
@@ -53,16 +53,38 @@
   -moz-column-count: 2;
   -moz-column-gap: var(--column-gap);
   -moz-column-width: var(--column-width);
-}
 
-.page:nth-child(odd):not(#p1) {
-  padding: var(--margin-top-padding) var(--margin-right-padding-odd) var(--margin-bottom-padding) var(--margin-left-padding-odd);
-}
+  &:nth-child(odd):not(#p1) {
+    padding: var(--margin-top-padding) var(--margin-right-padding-odd) var(--margin-bottom-padding)
+      var(--margin-left-padding-odd);
+  }
 
-.page a,
-.page .custom-external-link,
-.page .custom-internal-link {
-  color: unset;
+  & a,
+  & .custom-external-link,
+  & .custom-internal-link {
+    color: unset;
+  }
+
+  & hr {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0px 0px 0px;
+    position: relative;
+  }
+
+  & .descriptive {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    font-style: italic;
+    padding-left: 30px;
+
+    & h5 {
+      font-style: normal;
+      color: black;
+      text-align: center;
+    }
+  }
 }
 
 /*** Containers ***/
@@ -82,13 +104,13 @@
 
 .page div.dual-tables {
   column-count: 2;
+
+  & h4 {
+    margin-top: 0px;
+  }
 }
 
-.page div.dual-tables h4 {
-  margin-top: 0px;
-}
-
-.page div.column-break+p,
+.page div.column-break + p,
 .page.ng-scope p {
   text-indent: 1em;
 }
@@ -97,21 +119,22 @@
 
 /*** Bold ***/
 
-.page p strong {
-  font-family: var(--font-main);
-  font-weight: 700;
-  font-size: 10pt;
-  color: black;
-  letter-spacing: -0.02em;
-}
+strong {
+  p & {
+    font-family: var(--font-main);
+    font-weight: 700;
+    font-size: 10pt;
+    color: black;
+    letter-spacing: -0.02em;
+  }
 
-.page strong em,
-.page em strong {
-  color: black;
-  font-style: normal;
-  font-weight: bold;
+  & em,
+  em & {
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+  }
 }
-
 /*** Bold END ***/
 
 /* TOC END */
@@ -138,18 +161,7 @@
 
 /*** Note block END ***/
 
-.page .descriptive {
-  border: none;
-  background-color: transparent;
-  box-shadow: none;
-  font-style: italic;
-  padding-left: 30px;
-}
-
-.page .descriptive h5 {
-  font-style: normal;
-  color: black;
-  text-align: center;
+.page {
 }
 
 .html-code code {
@@ -157,11 +169,4 @@
   box-shadow: 1px 1px 1px black;
   background-color: #aaa;
   font-family: "Lucida Console";
-}
-
-.page hr {
-  border-style: solid;
-  border-color: black;
-  border-width: 1px 0px 0px 0px;
-  position: relative;
 }

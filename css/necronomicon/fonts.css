@@ -6,31 +6,31 @@
 
 .handwriting p,
 .handwriting h4,
-.handwriting span {
+.handwriting {
     font-family: "Going Mad";
 }
 
 .handwriting .double p,
 .handwriting .double h4,
-.handwriting span.double {
+.handwriting .double {
     font-family: "Going Mad Double";
 }
 
 .handwriting .munge p,
 .handwriting .munge h4,
-.handwriting span.munge {
+.handwriting .munge {
     font-family: "Going Mad Munge";
 }
 
 .handwriting .shaky p,
 .handwriting .shaky h4,
-.handwriting span.shaky {
+.handwriting .shaky {
     font-family: "Going Mad Shake";
 }
 
 .handwriting .warp p,
 .handwriting .warp h4,
-.handwriting span.warp {
+.handwriting .warp {
     font-family: "Going Mad Warp";
 }
 
@@ -41,25 +41,25 @@
 
 .handwriting .double .heavy p,
 .handwriting .double .heavy h4,
-.handwriting span.double.heavy {
+.handwriting .double.heavy {
     font-family: "Going Mad Heavy Double";
 }
 
 .handwriting .munge .heavy p,
 .handwriting .munge .heavy h4,
-.handwriting span.munge.heavy {
+.handwriting .munge.heavy {
     font-family: "Going Mad Heavy Munge";
 }
 
 .handwriting .shaky .heavy p,
 .handwriting .shaky .heavy h4,
-.handwriting span.shaky.heavy {
+.handwriting .shaky.heavy {
     font-family: "Going Mad Heavy Shake";
 }
 
 .handwriting .warp .heavy p,
 .handwriting .warp .heavy h4,
-.handwriting span.warp.heavy {
+.handwriting .warp.heavy {
     font-family: "Going Mad Heavy Warp";
 }
 
@@ -70,25 +70,25 @@
 
 .handwriting .double .light p,
 .handwriting .double .light h4,
-.handwriting span.double.light {
+.handwriting .double.light {
     font-family: "Going Mad Light Double";
 }
 
 .handwriting .munge .light p,
 .handwriting .munge .light h4,
-.handwriting span.munge.light {
+.handwriting .munge.light {
     font-family: "Going Mad Light Munge";
 }
 
 .handwriting .shaky .light p,
 .handwriting .shaky .light h4,
-.handwriting span.shaky.light {
+.handwriting .shaky.light {
     font-family: "Going Mad Light Shake";
 }
 
 .handwriting .warp .light p,
 .handwriting .warp .light h4,
-.handwriting span.warp.light {
+.handwriting .warp.light {
     font-family: "Going Mad Light Warp";
 }
 

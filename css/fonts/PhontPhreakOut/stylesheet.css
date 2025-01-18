@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "pp handwriting-slantHv";
+    src:
+        url("phontphreaks_handwriting_slantheavy-webfont.woff2") format("woff2"),
+        url("phontphreaks_handwriting_slantheavy-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "pp handwriting-slantHvDouble";
+    src:
+        url("phontphreaks_handwriting_slantheavydouble-webfont.woff2") format("woff2"),
+        url("phontphreaks_handwriting_slantheavydouble-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "pp handwriting-slantHvMunge";
+    src:
+        url("phontphreaks_handwriting_slantheavymunge-webfont.woff2") format("woff2"),
+        url("phontphreaks_handwriting_slantheavymunge-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "pp handwriting-slantHvShake";
+    src:
+        url("phontphreaks_handwriting_slantheavyshake-webfont.woff2") format("woff2"),
+        url("phontphreaks_handwriting_slantheavyshake-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "pp handwriting-slantHvWarp";
+    src:
+        url("phontphreaks_handwriting_slantheavywarp-webfont.woff2") format("woff2"),
+        url("phontphreaks_handwriting_slantheavywarp-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "pp handwriting-slantLtWarp";
+    src:
+        url("phontphreaks_handwriting_slantlightwarp-webfont.woff2") format("woff2"),
+        url("phontphreaks_handwriting_slantlightwarp-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "pp handwriting-slantLt";
+    src:
+        url("phontphreaks_handwriting_slantlight-webfont.woff2") format("woff2"),
+        url("phontphreaks_handwriting_slantlight-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "pp handwriting-slantLtDouble";
+    src:
+        url("phontphreaks_handwriting_slantlightdouble-webfont.woff2") format("woff2"),
+        url("phontphreaks_handwriting_slantlightdouble-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "pp handwriting-slantLtMunge";
+    src:
+        url("phontphreaks_handwriting_slantlightmunge-webfont.woff2") format("woff2"),
+        url("phontphreaks_handwriting_slantlightmunge-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "pp handwriting-slantLtShake";
+    src:
+        url("phontphreaks_handwriting_slantlightshake-webfont.woff2") format("woff2"),
+        url("phontphreaks_handwriting_slantlightshake-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "pp handwriting-slant";
+    src:
+        url("phontphreaks_handwriting_slant-webfont.woff2") format("woff2"),
+        url("phontphreaks_handwriting_slant-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "pp handwriting-slantDouble";
+    src:
+        url("phontphreaks_handwriting_slantdouble-webfont.woff2") format("woff2"),
+        url("phontphreaks_handwriting_slantdouble-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "pp handwriting-slantMunge";
+    src:
+        url("phontphreaks_handwriting_slantmunge-webfont.woff2") format("woff2"),
+        url("phontphreaks_handwriting_slantmunge-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "pp handwriting-slantShake";
+    src:
+        url("phontphreaks_handwriting_slantshake-webfont.woff2") format("woff2"),
+        url("phontphreaks_handwriting_slantshake-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "pp handwriting-slantWarp";
+    src:
+        url("phontphreaks_handwriting_slantwarp-webfont.woff2") format("woff2"),
+        url("phontphreaks_handwriting_slantwarp-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "pp handwriting-upright";
+    src:
+        url("phontphreaks_handwriting_upright-webfont.woff2") format("woff2"),
+        url("phontphreaks_handwriting_upright-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,5 +1,5 @@
 /** Imports **/
-@import url("/css/fonts/Rlyehian/stylesheet.css");
+@import url("fonts.css");
 
 /** Global properties **/
 
@@ -18,6 +18,24 @@
   --color-monster-h1-bg: #0f120b;
   --color-monster-h2-bg: #3c4228;
   --color-monster-h3-bg: #828675;
+
+  /** Mad Writing Font **/
+  --font-mad-slant-hv: "pp handwriting-slantHv";
+  --font-mad-slant-hv-dbl: "pp handwriting-slantHvDouble";
+  --font-mad-slant-hv-munge: "pp handwriting-slantHvMunge";
+  --font-mad-slant-hv-shake: "pp handwriting-slantHvShake";
+  --font-mad-slant-hv-warp: "pp handwriting-slantHvWarp";
+  --font-mad-slant-lt: "pp handwriting-slantLt";
+  --font-mad-slant-lt-dbl: "pp handwriting-slantLtDouble";
+  --font-mad-slant-lt-munge: "pp handwriting-slantLtMunge";
+  --font-mad-slant-lt-shake: "pp handwriting-slantLtShake";
+  --font-mad-slant-lt-warp: "pp handwriting-slantLtWarp";
+  --font-mad-slant: "pp handwriting-slant";
+  --font-mad-slant-dbl: "pp handwriting-slantDouble";
+  --font-mad-slant-munge: "pp handwriting-slantMunge";
+  --font-mad-slant-shake: "pp handwriting-slantShake";
+  --font-mad-slant-warp: "pp handwriting-slantWarp";
+  --font-mad-upright: "pp handwriting-upright";
 }
 
 /** Global properties END **/
@@ -71,8 +89,12 @@
 
 .page:nth-child(odd)::after,
 .page:nth-child(even)::after {
-  background-size: 100px 100px, 816px 1056px;
-  background-position: 26px calc(100% - 20px), bottom;
+  background-size:
+    100px 100px,
+    816px 1056px;
+  background-position:
+    26px calc(100% - 20px),
+    bottom;
   margin-bottom: unset;
   /* margin-left: unset; */
 }

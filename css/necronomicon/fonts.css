@@ -1,3 +1,95 @@
-@import url("/css/fonts/PhontPhreakOut/stylesheet.css");
 @import url("/css/fonts/Rlyehian/stylesheet.css");
+@import url("/css/fonts/GoingMad/stylesheet.css");
 @import url("https://fonts.googleapis.com/css?family=Rock+Salt&display=swap");
+
+/** Handwriting **/
+
+.page .handwriting p,
+.page .handwriting h4,
+.page .handwriting span {
+    font-family: "Going Mad";
+}
+
+.page .handwriting .double p,
+.page .handwriting .double h4,
+.page .handwriting span.double {
+    font-family: "Going Mad Double";
+}
+
+.page .handwriting .munge p,
+.page .handwriting .munge h4,
+.page .handwriting span.munge {
+    font-family: "Going Mad Munge";
+}
+
+.page .handwriting .shaky p,
+.page .handwriting .shaky h4,
+.page .handwriting span.shaky {
+    font-family: "Going Mad Shake";
+}
+
+.page .handwriting .warp p,
+.page .handwriting .warp h4,
+.page .handwriting span.warp {
+    font-family: "Going Mad Warp";
+}
+
+.page .handwriting .heavy p,
+.page .handwriting .heavy h4 {
+    font-family: "Going Mad Heavy";
+}
+
+.page .handwriting .double .heavy p,
+.page .handwriting .double .heavy h4,
+.page .handwriting span.double.heavy {
+    font-family: "Going Mad Heavy Double";
+}
+
+.page .handwriting .munge .heavy p,
+.page .handwriting .munge .heavy h4,
+.page .handwriting span.munge.heavy {
+    font-family: "Going Mad Heavy Munge";
+}
+
+.page .handwriting .shaky .heavy p,
+.page .handwriting .shaky .heavy h4,
+.page .handwriting span.shaky.heavy {
+    font-family: "Going Mad Heavy Shake";
+}
+
+.page .handwriting .warp .heavy p,
+.page .handwriting .warp .heavy h4,
+.page .handwriting span.warp.heavy {
+    font-family: "Going Mad Heavy Warp";
+}
+
+.page .handwriting .light p,
+.page .handwriting .light h4 {
+    font-family: "Going Mad Light";
+}
+
+.page .handwriting .double .light p,
+.page .handwriting .double .light h4,
+.page .handwriting span.double.light {
+    font-family: "Going Mad Light Double";
+}
+
+.page .handwriting .munge .light p,
+.page .handwriting .munge .light h4,
+.page .handwriting span.munge.light {
+    font-family: "Going Mad Light Munge";
+}
+
+.page .handwriting .shaky .light p,
+.page .handwriting .shaky .light h4,
+.page .handwriting span.shaky.light {
+    font-family: "Going Mad Light Shake";
+}
+
+.page .handwriting .warp .light p,
+.page .handwriting .warp .light h4,
+.page .handwriting span.warp.light {
+    font-family: "Going Mad Light Warp";
+}
+
+/** Handwriting END **/

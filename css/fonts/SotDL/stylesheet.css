@@ -78,10 +78,7 @@
 
 @font-face {
   font-family: "Poison Hope pl";
-  src:
-    url("PoisonHope-Regular-PL.woff2") format("woff2"),
-    url("PoisonHope-Regular-PL.woff") format("woff"),
-    url("Poison Hope Regular PL.ttf") format("truetype");
+  src: url("Poison Hope Regular PL.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

@@ -48,14 +48,6 @@
 }
 
 @font-face {
-  font-family: "Poison Hope";
-  src: url("PoisonHope-Regular.ttf");
-  font-weight: normal;
-  font-style: normal;
-  unicode-range: U+0020-0022, U+0027-0029, U+002C-002E, U+0030-0039, U+003F-005A, U+0061-007A;
-}
-
-@font-face {
   font-family: "Metropolis";
   src: url("Metropolis-Regular.otf");
   font-weight: normal;
@@ -77,8 +69,26 @@
 }
 
 @font-face {
+  font-family: "Poison Hope";
+  src: url("PoisonHope-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  unicode-range: U+0020-0022, U+0027-0029, U+002C-002E, U+0030-0039, U+003F-005A, U+0061-007A;
+}
+
+/* @font-face {
   font-family: "Poison Hope pl";
   src: url("Poison Hope Regular PL.ttf");
+  font-weight: normal;
+  font-style: normal;
+  unicode-range: U+0020-0022, U+0027-0029, U+002C-002E, U+0030-0039, U+003F-005A, U+0061-007A;
+} */
+
+@font-face {
+  font-family: "Poison Hope pl";
+  src:
+    url("PoisonHope-Regular-PL.woff2") format("woff2"),
+    url("PoisonHope-Regular-PL.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   unicode-range: U+0020-0022, U+0027-0029, U+002C-002E, U+0030-0039, U+003F-005A, U+0061-007A;

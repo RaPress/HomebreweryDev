@@ -92,6 +92,7 @@
   font-weight: normal;
   font-style: normal;
   unicode-range: U+0020-0022, U+0027-0029, U+002C-002E, U+0030-0039, U+003F-005A, U+0061-007A;
+  font-display: fallback;
 }
 
 @font-face {

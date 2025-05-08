@@ -1,6 +1,20 @@
 @font-face {
+  font-family: "Athelas pl";
+  src: url("Athelas_0.ttc");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "First Order";
   src: url("firstv2.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "First Order pl";
+  src: url("First Order PL.otf");
   font-weight: normal;
   font-style: normal;
 }
@@ -27,17 +41,51 @@
 }
 
 @font-face {
+  font-family: "JSL Ancient pl";
+  src: url("JSL-Ancient PL.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Poison Hope";
   src: url("PoisonHope-Regular.ttf");
   font-weight: normal;
   font-style: normal;
-  unicode-range: U+0020-0022, U+0027-0029, U+002C-002E, U+0030-0039, U+003F-005A,
-    U+0061-007A;
+  unicode-range: U+0020-0022, U+0027-0029, U+002C-002E, U+0030-0039, U+003F-005A, U+0061-007A;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("Metropolis-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis Bold";
+  src: url("Metropolis-Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis Italic";
+  src: url("Metropolis-RegularItalic.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poison Hope pl";
+  src: url("Poison Hope Regular PL.ttf");
+  font-weight: normal;
+  font-style: normal;
+  unicode-range: U+0020-0022, U+0027-0029, U+002C-002E, U+0030-0039, U+003F-005A, U+0061-007A;
 }
 
 @font-face {
   font-family: "Poison Symbols";
   src: local("Baskerville"), local("Palatino"), local("Book Antiqua");
-  unicode-range: U+0023-0026, U+002A-002B, U+002F, U+003A-003E, U+005B-0060,
-    U+007B-007F;
+  unicode-range: U+0023-0026, U+002A-002B, U+002F, U+003A-003E, U+005B-0060, U+007B-007F;
 }

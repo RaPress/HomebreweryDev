@@ -1,0 +1,249 @@
+%!Adobe-FontList 1.23
+%Locale:0x415
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Athelas-Bold
+FamilyName:Athelas
+StyleName:Bold
+FullName:Athelas Bold
+MenuName:Athelas
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\julia\Desktop\2.11.2022\Folder CWD_Szablon_PL\Document fonts\Athelas_0.ttc
+TTCOffset:940
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2308116
+FileModTime:1666878846
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Athelas Bold
+NameArray:0,Win,1,Athelas
+NameArray:0,Win,16,Athelas
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Athelas-BoldItalic
+FamilyName:Athelas
+StyleName:Bold Italic
+FullName:Athelas Bold Italic
+MenuName:Athelas
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Users\julia\Desktop\2.11.2022\Folder CWD_Szablon_PL\Document fonts\Athelas_0.ttc
+TTCOffset:640
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2308116
+FileModTime:1666878846
+WeightClass:700
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Athelas Bold Italic
+NameArray:0,Win,1,Athelas
+NameArray:0,Win,16,Athelas
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Athelas-Italic
+FamilyName:Athelas
+StyleName:Italic
+FullName:Athelas Italic
+MenuName:Athelas
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\julia\Desktop\2.11.2022\Folder CWD_Szablon_PL\Document fonts\Athelas_0.ttc
+TTCOffset:340
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2308116
+FileModTime:1666878846
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Athelas Italic
+NameArray:0,Win,1,Athelas
+NameArray:0,Win,16,Athelas
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Athelas-Regular
+FamilyName:Athelas
+StyleName:Regular
+FullName:Athelas Regular
+MenuName:Athelas
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\julia\Desktop\2.11.2022\Folder CWD_Szablon_PL\Document fonts\Athelas_0.ttc
+TTCOffset:40
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2308116
+FileModTime:1666878846
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Athelas Regular
+NameArray:0,Win,1,Athelas
+NameArray:0,Win,16,Athelas
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:FirstOrder_PL
+FamilyName:First Order PL
+StyleName:Regular
+FullName:First Order PL
+MenuName:First Order PL
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\julia\Desktop\2.11.2022\Folder CWD_Szablon_PL\Document fonts\First Order PL.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:512088
+FileModTime:1657910092
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,First Order PL
+NameArray:0,Win,1,First Order PL
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:JSL-Ancient_PL
+FamilyName:JSL Ancient PL
+StyleName:Normal
+FullName:JSL-Ancient PL
+MenuName:JSL Ancient PL
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\julia\Desktop\2.11.2022\Folder CWD_Szablon_PL\Document fonts\JSL-Ancient PL.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:366636
+FileModTime:1657910090
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,JSL-Ancient PL
+NameArray:0,Win,1,JSL Ancient PL
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Metropolis-Bold
+FamilyName:Metropolis
+StyleName:Bold
+FullName:Metropolis Bold
+MenuName:Metropolis
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\julia\Desktop\2.11.2022\Folder CWD_Szablon_PL\Document fonts\Metropolis-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:23664
+FileModTime:1473846652
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Metropolis Bold
+NameArray:0,Win,1,Metropolis
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Metropolis-Regular
+FamilyName:Metropolis
+StyleName:Regular
+FullName:Metropolis
+MenuName:Metropolis
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\julia\Desktop\2.11.2022\Folder CWD_Szablon_PL\Document fonts\Metropolis-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:23124
+FileModTime:1473846652
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Metropolis
+NameArray:0,Win,1,Metropolis
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Metropolis-RegularItalic
+FamilyName:Metropolis
+StyleName:Regular Italic
+FullName:Metropolis Regular Italic
+MenuName:Metropolis
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\julia\Desktop\2.11.2022\Folder CWD_Szablon_PL\Document fonts\Metropolis-RegularItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:24236
+FileModTime:1473846652
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Metropolis Regular Italic
+NameArray:0,Win,1,Metropolis
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PoisonHope-Regular-PL
+FamilyName:Poison Hope PL
+StyleName:Regular
+FullName:Poison Hope Regular PL
+MenuName:Poison Hope PL
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\julia\Desktop\2.11.2022\Folder CWD_Szablon_PL\Document fonts\Poison Hope Regular PL.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:640336
+FileModTime:1657910095
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Poison Hope Regular PL
+NameArray:0,Win,1,Poison Hope PL
+%EndFont
+

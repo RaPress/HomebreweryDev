@@ -14,11 +14,11 @@
   --color-link: var(--color-secondary);
 
   /* Fonts */
-  --font-main: "Athelas";
-  --font-header: "Poison Symbols", "Poison Hope";
-  --font-title: "First Order";
-  --font-secondary: "GothamBook";
-  --font-secondary-strong: "GothamBold";
+  --font-main: "Athelas", "Athelas pl";
+  --font-header: "Poison Symbols", "Poison Hope", "Poison Hope pl";
+  --font-title: "First Order", "First Order pl";
+  --font-secondary: "GothamBook", "Metropolis";
+  --font-secondary-strong: "GothamBold", "Metropolis-Bold";
   --font-size-primary: 11pt;
   --font-size-secondary: 12pt;
   --font-size-tertiary: 14pt;

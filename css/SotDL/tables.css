@@ -43,25 +43,19 @@ p + table thead th {
   }
 
   & tr:nth-child(odd) {
-    background-color: var(--color-table-main-bg);
-    font-family: var(--font-secondary);
-    font-size: 8pt;
+    background-color: var(--color-table-alt-bg);
   }
 
   & tr:nth-child(even) {
-    background-color: var(--color-table-alt-bg);
-    font-family: var(--font-secondary);
-    font-size: 8pt;
+    background-color: var(--color-table-main-bg);
   }
 
   & tr td {
     font-family: var(--font-secondary);
-    font-size: 8pt;
     min-width: 34px;
 
     & p {
       font-family: var(--font-secondary);
-      font-size: 8pt;
       text-indent: 1em;
     }
 
@@ -72,43 +66,42 @@ p + table thead th {
 
     & li {
       margin-left: 5px;
-      font-family: var(--font-secondary);
-      font-size: 8pt;
       color: var(--color-text-main);
     }
 
     & strong {
       font-family: var(--font-secondary-strong);
       font-weight: normal;
-      font-size: 8pt;
       color: var(--color-strong);
     }
   }
 }
 
-.page table strong {
-  font-family: var(--font-secondary-strong);
-  font-size: 8pt;
-}
+.page table {
+  & strong {
+    font-family: var(--font-secondary-strong);
+    font-size: 8pt;
+  }
 
-.page table + ul {
-  line-height: 1em;
-  margin-top: 0.25rem;
-}
+  & em {
+    font-family: var(--font-secondary);
+    font-weight: normal;
+  }
 
-.page table + ul li {
-  font-size: 10pt;
-}
+  & + ul {
+    line-height: 1em;
+    margin-top: 0.25rem;
 
-.page table em {
-  font-family: var(--font-secondary);
-  font-weight: normal;
+    & li {
+      font-size: 10pt;
+    }
+  }
 }
 
 .page ul li table {
   margin: 2px 0 2px 0;
-}
 
-.page ul li table tbody tr td {
-  padding: 0.1em 0.1em;
+  & tbody tr td {
+    padding: 0.1em 0.1em;
+  }
 }

@@ -35,6 +35,13 @@
     font-family: 'GothamBold';
 }
 
+.page div.banner h1.title.cover {
+    filter: none;
+    mix-blend-mode: initial;
+    text-shadow: none;
+    background: none;
+}
+
 .page hr+section blockquote h2+p {
     color: var(--color-text-main);
     background-color: var(--color-monster-h3-bg);

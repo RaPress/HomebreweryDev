@@ -19,6 +19,11 @@
 
 /** Global properties END **/
 
+.page {
+    background: none;
+    background-image: none;
+}
+
 .page h1,
 .page h2,
 .page h3,

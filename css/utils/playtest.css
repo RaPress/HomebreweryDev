@@ -1,7 +1,7 @@
 /** Global properties **/
 
 :root {
-    --img-main-bg: white;
+    --img-main-bg: #DDDEEE;
     --img-bg-border: none;
     --img-bg-page-number: none;
     --color-headers-main: black;
@@ -22,6 +22,7 @@
 .page {
     background: none !important;
     background-image: none !important;
+    background-color: var(--img-main-bg) !important;
 }
 
 .page h1,

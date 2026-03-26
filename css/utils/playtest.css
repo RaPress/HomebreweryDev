@@ -36,6 +36,7 @@
 }
 
 .page div.banner h1.title.cover {
+    color: var(--color-text-main) !important;
     filter: none !important;
     mix-blend-mode: initial !important;
     text-shadow: none !important;

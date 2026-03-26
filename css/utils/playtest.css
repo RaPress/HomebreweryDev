@@ -36,10 +36,10 @@
 }
 
 .page div.banner h1.title.cover {
-    filter: none;
-    mix-blend-mode: initial;
-    text-shadow: none;
-    background: none;
+    filter: none !important;
+    mix-blend-mode: initial !important;
+    text-shadow: none !important;
+    background: none !important;
 }
 
 .page hr+section blockquote h2+p {

@@ -20,8 +20,8 @@
 /** Global properties END **/
 
 .page {
-    background: none;
-    background-image: none;
+    background: none !important;
+    background-image: none !important;
 }
 
 .page h1,

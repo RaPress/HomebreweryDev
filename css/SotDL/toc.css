@@ -36,8 +36,7 @@
   font-size: 0.4cm;
   font-weight: normal;
   color: var(--color-text-main);
-  content: " ........................................"
-    "........................................."
+  content: " ........................................" "........................................."
     ".........................................";
 }
 
@@ -104,4 +103,34 @@
 .page .toc2 ul + div.column-break + ul li {
   list-style-type: none;
   margin-left: 0px;
+}
+
+.page .toc.wide {
+  column-count: 1;
+  padding-left: 7rem;
+  padding-right: 10rem;
+
+  & h3,
+  & h3 span {
+    font-size: 17pt;
+    padding-top: 0.15rem;
+  }
+
+  & h4,
+  & h4 span {
+    font-size: 12pt;
+    padding-top: 0.15rem;
+  }
+}
+
+h1.cover,
+.sub-title,
+.full-page-credits h1,
+.full-page-credits h2,
+.full-page-credits h3,
+.full-page-credits h4,
+h4,
+h5,
+h6 {
+  --TOC: exclude;
 }

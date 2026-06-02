@@ -110,8 +110,12 @@
 
 .page div.tables h4,
 .page h4.table {
+  font-weight: bold;
   text-align: center;
   background-color: unset;
+  text-transform: capitalize;
+  font-family: var(--font-main);
+  font-size: var(--font-size-200);
 }
 
 .page h5 {
@@ -122,10 +126,14 @@
   border-bottom: 4px double var(--color-text-main);
 }
 
-.page div.tables h5 {
-  font-size: var(--font-size-h5);
+.page div.tables h5,
+.page h5.table {
+  font-weight: bold;
   text-align: center;
-  border-bottom-style: none;
+  border-bottom: none;
+  text-transform: capitalize;
+  font-family: var(--font-main);
+  font-size: var(--font-size-h5);
 }
 
 .page h5.sidebar {

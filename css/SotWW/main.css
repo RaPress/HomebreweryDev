@@ -100,16 +100,16 @@
 
 .page p strong {
     font-family: var(--font-main);
-    font-weight: normal;
+    font-weight: bold;
     font-size: 10pt;
-    color: var(--color-strong-alt);
+    color: var(--color-strong);
     letter-spacing: -0.02em;
 }
 
 .page strong em,
 .page em strong {
-    color: var(--color-strong-alt);
-    font-style: normal;
+    color: var(--color-strong);
+    font-style: italic;
     font-weight: bold;
 }
 

@@ -1,29 +1,16 @@
-/*** Shadow of the Demon Lord Blockquotes ***/
+/*** Shadow of the Weird Wizard Blockquotes ***/
 
 .page blockquote {
-  border: 1px solid orange;
-  border-image-source: var(--img-parchment);
-  border-image-slice: 20 fill;
-  border-image-width: 20;
-  border-image-outset: 5;
-  border-image-repeat: stretch;
-  background-color: transparent;
-  background-size: 100% 100%;
-  padding: 10px 20px 20px 10px;
-  overflow: hidden;
-  box-shadow: unset;
-  margin-bottom: 0;
-}
-
-.page blockquote h5,
-.page blockquote h3 {
   border: none;
-  font-weight: bold;
-  text-align: center;
+  padding: 10px 20px 20px 10px;
 }
 
 .page blockquote h4 {
+  border: none;
   text-align: center;
+  font-weight: bold;
+  background-color: unset;
+  font-family: var(--font-main);
 }
 
 .page blockquote section h1,

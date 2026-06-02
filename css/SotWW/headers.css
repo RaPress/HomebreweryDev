@@ -58,14 +58,13 @@
 .page h3,
 .page h4,
 .page h5,
-.page h6,
-.page h7 {
-  font-family: var(--font-header);
-  font-weight: normal;
+.page h6 {
   text-align: left;
-  color: var(--color-headers-main);
-  text-transform: uppercase;
+  font-weight: normal;
   margin-top: 0.75rem;
+  text-transform: none;
+  font-family: var(--font-main);
+  color: var(--color-headers-main);
 }
 
 .page .columnWrapper h1:first-child,
@@ -79,11 +78,14 @@
 }
 
 .page h1 {
+  font-family: var(--font-header);
   font-size: var(--font-size-h1);
 }
 
 .page h2 {
+  font-family: var(--font-header);
   font-size: var(--font-size-h2);
+  border-bottom: 4px double var(--color-text-main);
 }
 
 .page h3 {
@@ -93,14 +95,14 @@
 }
 
 .page h4 {
+  font-family: var(--font-header);
   font-size: var(--font-size-h4);
+  background-color: var(--color-4);
 }
 
 .page h4.path {
   text-align: center;
-  border-bottom-style: solid;
-  border-bottom-color: var(--color-header-border);
-  border-bottom-width: 1.1px;
+  border-bottom: 1.1px solid var(--color-text-main);
 }
 
 .page div.tables h4,
@@ -109,10 +111,10 @@
 }
 
 .page h5 {
+  text-align: center;
   font-size: var(--font-size-h5);
-  border-bottom-style: solid;
-  border-bottom-color: var(--color-header-border);
-  border-bottom-width: 1.1px;
+  padding-bottom: 0.25rem;
+  border-bottom: 4px double var(--color-text-main);
 }
 
 .page div.tables h5 {
@@ -127,10 +129,10 @@
 }
 
 .page h6 {
+  text-align: center;
   font-size: var(--font-size-h6);
-  border-bottom-style: solid;
-  border-bottom-color: var(--color-headers-main);
-  border-bottom-width: 1.1px;
+  padding-bottom: 0.25rem;
+  border-bottom: 1.1px solid var(--color-text-main);
 }
 
 .page img.header-image {

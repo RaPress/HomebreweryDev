@@ -22,6 +22,7 @@
 .page div.credits h2 {
   font-size: 18pt;
   text-align: center;
+  border: none;
 }
 
 .page div.credits h3 {
@@ -38,6 +39,7 @@
   font-size: 15pt;
   color: black;
   text-align: center;
+  border: none;
 }
 
 .page div.credits p {
@@ -110,6 +112,7 @@
     text-transform: none;
     text-align: center;
     margin: 10px 0 10px 0;
+    border: none;
   }
 
   & ul li {
@@ -150,6 +153,7 @@
       text-align: center;
       font-family: var(--font-main);
       font-size: var(--font-size-100);
+      background-color: unset;
     }
 
     & div.blank {

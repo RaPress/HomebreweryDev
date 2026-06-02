@@ -1,6 +1,6 @@
 /*** Shadow of the Demon Lord Monster Stat Blocks ***/
 
-.page hr+blockquote {
+.page hr + blockquote {
   padding: 0px;
   box-shadow: none;
   border-style: none;
@@ -11,45 +11,45 @@
   filter: none;
 }
 
-.page hr+blockquote h3 {
-  font-family: Athelas;
-  background-color: var(--color-monster-h1-bg);
+.page hr + blockquote h3 {
+  font-family: var(--font-main);
+  background-color: var(--color-monster-name-bg);
   background-image: none;
-  color: var(--color-quaternary);
+  color: var(--color-4);
   font-weight: bold;
-  font-size: 12pt;
+  font-size: var(--font-size-200);
   padding: 5px;
-  float: left;
   margin: 0px;
-  width: 70%;
+  /* float: left; */
+  /* width: 70%; */
   height: 28px;
   text-align: left;
   text-transform: uppercase;
   border-bottom: none;
 }
 
-.page hr+blockquote h4 {
-  font-family: Athelas;
+.page hr + blockquote h4 {
+  font-family: var(--font-main);
   font-weight: normal;
-  font-size: 8pt;
+  font-size: var(--font-size-90);
   font-style: initial;
-  color: var(--color-quaternary);
-  background-color: var(--color-monster-h1-bg);
+  color: var(--color-1);
+  background-color: var(--color-monster-type-bg);
   padding: 5px;
-  float: right;
-  width: 30%;
+  /* float: right; */
+  /* width: 30%; */
   height: 28px;
   margin: 0px;
   text-align: right;
 }
 
-.page hr+blockquote h5 {
-  font-family: Athelas;
+.page hr + blockquote h5 {
+  font-family: var(--font-main);
   font-weight: bold;
-  font-size: 9pt;
+  font-size: var(--font-size-90);
   text-align: left;
-  color: var(--color-strong);
-  background-color: var(--color-monster-h3-bg);
+  color: var(--color-main);
+  background-color: var(--color-monster-traits-bg);
   padding: 3px;
   padding-left: 5px;
   margin-top: 0;
@@ -57,77 +57,77 @@
   text-transform: uppercase;
 }
 
-.page hr+blockquote h5+ul li ul li {
+.page hr + blockquote h5 + ul li ul li {
   list-style-type: none;
 }
 
-.page hr+blockquote h4+p {
+.page hr + blockquote h4 + p {
   clear: both;
-  font-family: Athelas;
+  font-family: var(--font-main-2);
   font-weight: bold;
-  font-size: 9pt;
-  color: var(--color-quaternary);
-  background-color: var(--color-monster-h2-bg);
+  font-size: var(--font-size-100);
+  color: var(--color-4);
+  background-color: var(--color-monster-type-bg);
   padding: 3px;
   padding-left: 5px;
 }
 
-.page hr+blockquote h4+p+hr,
-.page hr+blockquote h5+hr {
+.page hr + blockquote h4 + p + hr,
+.page hr + blockquote h5 + hr {
   display: none;
 }
 
-.page hr+blockquote ul {
+.page hr + blockquote ul {
   margin-bottom: 0.5em;
 }
 
-.page hr+blockquote ul li {
+.page hr + blockquote ul li {
   text-indent: inherit;
   margin-bottom: 0px;
 }
 
-.page hr+blockquote ul li .tables table+table thead th {
+.page hr + blockquote ul li .tables table + table thead th {
   padding: 0;
 }
 
-.page hr+blockquote h3+h4+p+hr+ul:first-of-type li:nth-child(3) {
+.page hr + blockquote h3 + h4 + p + hr + ul:first-of-type li:nth-child(3) {
   white-space: nowrap;
 }
 
-.page hr+blockquote hr+ul li {
+.page hr + blockquote hr + ul li {
   list-style: none;
   text-indent: -1rem;
   margin-left: 5px;
-  font-family: "GothamBook";
-  font-size: 8pt;
+  font-family: var(--font-main-2);
+  font-size: var(--font-size-100);
   color: var(--color-text-main);
 }
 
-.page hr+blockquote ul li strong {
-  font-family: "GothamBold";
+.page hr + blockquote ul li strong {
+  font-family: var(--font-main-2);
   font-weight: bold;
-  font-size: 9pt;
+  font-size: var(--font-size-100);
   color: var(--color-strong);
 }
 
-.page hr+blockquote ul+hr {
+.page hr + blockquote ul + hr {
   border-color: var(--color-secondary);
 }
 
-.page hr+blockquote h3+hr {
+.page hr + blockquote h3 + hr {
   visibility: hidden;
   margin: 0;
   height: 0;
 }
 
-.page hr+blockquote h3+hr+h4:before {
+.page hr + blockquote h3 + hr + h4:before {
   content: "";
 }
 
-.page hr+blockquote h4:before {
+.page hr + blockquote h4:before {
   content: "DIFFICULTY ";
 }
 
-.page hr+blockquote h3.vehicle+h4:before {
+.page hr + blockquote h3.vehicle + h4:before {
   content: "PRICE ";
 }

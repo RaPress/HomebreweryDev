@@ -19,6 +19,7 @@
   --font-main-2: "Futura PT", sans-serif;
   --font-title: "Queen Inline";
   --font-header: "Queen Grunge";
+  --font-size-90: 9pt;
   --font-size-100: 10pt;
   --font-size-200: 12pt;
   --font-size-300: 16pt;
@@ -47,12 +48,12 @@
   --img-main-bg: url("/img/SotWW/Background.jpg");
 
   /* Monster Stat Blocks */
-  --color-monster-h1-bg: var(--color-1);
-  --color-monster-h2-bg: var(--color-2);
-  --color-monster-h3-bg: var(--color-3);
+  --color-monster-name-bg: var(--color-2);
+  --color-monster-type-bg: var(--color-4);
+  --color-monster-traits-bg: var(--color-3);
 
   /* Tables */
-  --color-table-header-bg: var(--color-1);
+  --color-table-header-bg: var(--color-2);
   --color-table-main-bg: initial;
   --color-table-alt-bg: var(--color-4);
 }

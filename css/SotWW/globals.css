@@ -1,4 +1,4 @@
-/*** Shadow of the Demon Lord Global properties ***/
+/*** Shadow of the Weird Wizard Global properties ***/
 
 :root {
   /* Colors */
@@ -28,7 +28,7 @@
   --font-size-600: 34pt;
   --font-size-700: 54pt;
   --font-size-800: 60pt;
-
+  --font-size-primary: var(--font-size-100);
   /* Headers */
   --color-headers-main: var(--color-2);
   --img-header-banner: url("/img/SotDL/backgrounds/header-banner.png");

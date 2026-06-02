@@ -36,7 +36,7 @@
 }
 
 .page blockquote p {
-  font-size: var(--font-size-primary);
+  font-size: var(--font-size-100);
   padding-right: 1em;
   line-height: 1.1em;
 }

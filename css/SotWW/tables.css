@@ -26,6 +26,7 @@ p + table thead th {
   font-size: var(--font-size-80);
   padding: 3px 6px 3px 6px;
   min-width: 34px;
+  text-transform: uppercase;
 }
 
 .page div.tables div.column-break + table thead th {
@@ -52,7 +53,7 @@ p + table thead th {
 
   & tr td {
     font-family: var(--font-main-2);
-    min-width: 34px;
+    height: 1rem;
 
     & p {
       font-family: var(--font-main-2);

@@ -26,7 +26,7 @@
   --font-size-400: 18pt;
   --font-size-500: 22pt;
   --font-size-600: 34pt;
-  --font-size-700: 53pt;
+  --font-size-700: 54pt;
   --font-size-800: 60pt;
 
   /* Headers */
@@ -37,7 +37,7 @@
   --font-size-title-banner: var(--font-size-700);
   --font-size-title-chapter: var(--font-size-600);
   --font-size-subtitle: var(--font-size-600);
-  --font-size-h1: var(--font-size-700);
+  --font-size-h1: var(--font-size-600);
   --font-size-h2: var(--font-size-500);
   --font-size-h3: var(--font-size-400);
   --font-size-h4: var(--font-size-300);

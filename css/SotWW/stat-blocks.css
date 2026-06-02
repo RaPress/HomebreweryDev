@@ -115,11 +115,3 @@
   margin: 0;
   height: 0;
 }
-
-.page hr + blockquote h3 + hr + h4:before {
-  content: "";
-}
-
-.page hr + blockquote h3.vehicle + h4:before {
-  content: "PRICE ";
-}

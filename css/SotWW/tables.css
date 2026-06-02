@@ -52,8 +52,10 @@ p + table thead th {
   }
 
   & tr td {
-    font-family: var(--font-main-2);
     height: 1rem;
+    display: flex;
+    align-items: center;
+    font-family: var(--font-main-2);
 
     & p {
       font-family: var(--font-main-2);

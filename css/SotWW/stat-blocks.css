@@ -124,10 +124,6 @@
   content: "";
 }
 
-.page hr + blockquote h4:before {
-  content: "DIFFICULTY ";
-}
-
 .page hr + blockquote h3.vehicle + h4:before {
   content: "PRICE ";
 }

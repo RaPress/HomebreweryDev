@@ -7,11 +7,12 @@
   --color-3: #d9d9d9;
   --color-4: #dbd4dc;
   --color-5: #77597b;
+  --color-6: #e2dde3;
 
   /* Text */
   --color-text-main: var(--color-1);
-  --color-strong: var(--color-1);
-  --color-strong-alt: var(--color-2);
+  --color-strong: var(--color-2);
+  --color-strong-alt: var(--color-6);
   --color-link: var(--color-2);
 
   /* Fonts */

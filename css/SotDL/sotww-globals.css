@@ -17,9 +17,9 @@
 
   /* Fonts */
   --font-main: "Garamond";
-  --font-header: "Queen Grunge";
+  --font-main-2: "Futura PT", sans-serif;
   --font-title: "Queen Inline";
-  --font-secondary: "Futura PT", sans-serif;
+  --font-header: "Queen Grunge";
   --font-size-100: 10pt;
   --font-size-200: 12pt;
   --font-size-300: 16pt;

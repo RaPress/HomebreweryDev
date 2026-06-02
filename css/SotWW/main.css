@@ -1,7 +1,7 @@
 /*** IMPORTS ***/
 
 @import url("/css/fonts/SotWW/stylesheet.css");
-@import url("sotww-globals.css");
+@import url("globals.css");
 @import url("/css/utils/placeholders.css");
 @import url("headers.css");
 @import url("cover.css");

@@ -75,7 +75,7 @@
 }
 
 .page div.block.spell ul li strong {
-  font-family: var(--font-secondary-strong);
+  font-family: var(--font-main);
   font-size: 8pt;
   font-weight: normal;
   letter-spacing: -0.02em;

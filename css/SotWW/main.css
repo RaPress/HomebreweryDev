@@ -99,7 +99,7 @@
 /*** Bold ***/
 
 .page p strong {
-    font-family: var(--font-secondary-strong);
+    font-family: var(--font-main);
     font-weight: normal;
     font-size: 10pt;
     color: var(--color-strong-alt);

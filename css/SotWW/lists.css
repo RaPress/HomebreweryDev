@@ -25,7 +25,7 @@
   padding-right: 0.5em;
   font-family: var(--font-main);
   font-weight: bold;
-  font-size: 9pt;
+  font-size: var(--font-size-100);
   text-align: right;
   content: counter(item) ".";
 }
@@ -35,14 +35,14 @@
 .page ol strong {
   font-family: var(--font-main);
   font-weight: normal;
-  font-size: 10pt;
+  font-size: var(--font-size-100);
   letter-spacing: -0.02em;
   color: var(--color-strong);
 }
 
 .page ul li ul li strong,
 .page ul li strong + strong {
-  font-size: 9pt;
+  font-size: var(--font-size-100);
 }
 
 .page hr + ul li {

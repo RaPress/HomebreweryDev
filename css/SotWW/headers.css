@@ -23,6 +23,8 @@
     position: relative;
     text-transform: none;
     font-family: var(--font-title);
+    background-color: none;
+    border: none;
   }
 
   & h1 {

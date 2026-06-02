@@ -1,0 +1,107 @@
+/*** Shadow of the Demon Lord Tables ***/
+
+.page div.half-table table {
+  width: 50%;
+}
+
+.page div.tables table thead th,
+div.table section div table thead th,
+li p + table thead th,
+p + table thead th {
+  background-color: var(--color-table-header-bg);
+  color: var(--color-quaternary);
+  font-family: var(--font-secondary-strong);
+  font-size: 8pt;
+  padding: 3px 6px 3px 6px;
+  min-width: 34px;
+}
+
+.page h4.table + table thead th,
+.page h5.table + table thead th,
+.page h4.table + .dual-tables table thead th,
+.page h5.table + .dual-tables table thead th {
+  background-color: var(--color-table-header-bg);
+  color: var(--color-quaternary);
+  font-family: var(--font-secondary-strong);
+  font-size: 8pt;
+  padding: 3px 6px 3px 6px;
+  min-width: 34px;
+}
+
+.page div.tables div.column-break + table thead th {
+  padding: 0px;
+}
+
+.page.ng-scope table thead th {
+  padding: 0px;
+}
+
+.page table tbody {
+  & tr {
+    font-family: var(--font-secondary);
+    font-size: 8pt;
+  }
+
+  & tr:nth-child(odd) {
+    background-color: var(--color-table-alt-bg);
+  }
+
+  & tr:nth-child(even) {
+    background-color: var(--color-table-main-bg);
+  }
+
+  & tr td {
+    font-family: var(--font-secondary);
+    min-width: 34px;
+
+    & p {
+      font-family: var(--font-secondary);
+      text-indent: 1em;
+    }
+
+    & ul {
+      text-indent: -1em;
+      list-style-type: none;
+    }
+
+    & li {
+      margin-left: 5px;
+      color: var(--color-text-main);
+    }
+
+    & strong {
+      font-family: var(--font-secondary-strong);
+      font-weight: normal;
+      color: var(--color-strong);
+    }
+  }
+}
+
+.page table {
+  & strong {
+    font-family: var(--font-secondary-strong);
+    font-size: 8pt;
+  }
+
+  & em {
+    font-family: var(--font-secondary);
+    font-weight: normal;
+  }
+
+  & + ul {
+    line-height: 1em;
+    margin-top: 0.25rem;
+
+    & li {
+      font-size: 10pt;
+    }
+  }
+}
+
+.page ul li table {
+  margin: 2px 0 2px 0;
+
+  & tbody tr td {
+    padding: 0.1em 0.1em;
+  }
+}

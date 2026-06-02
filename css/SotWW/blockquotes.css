@@ -1,0 +1,105 @@
+/*** Shadow of the Demon Lord Blockquotes ***/
+
+.page blockquote {
+  border: 1px solid orange;
+  border-image-source: var(--img-parchment);
+  border-image-slice: 20 fill;
+  border-image-width: 20;
+  border-image-outset: 5;
+  border-image-repeat: stretch;
+  background-color: transparent;
+  background-size: 100% 100%;
+  padding: 10px 20px 20px 10px;
+  overflow: hidden;
+  box-shadow: unset;
+  margin-bottom: 0;
+}
+
+.page blockquote h5,
+.page blockquote h3 {
+  border: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.page blockquote h4 {
+  text-align: center;
+}
+
+.page blockquote section h1,
+.page blockquote section h2,
+.page blockquote section h3,
+.page blockquote section h4,
+.page blockquote section h5,
+.page blockquote section h6 {
+  font-family: var(--font-header);
+}
+
+.page blockquote p {
+  font-size: var(--font-size-primary);
+  padding-right: 1em;
+  line-height: 1.1em;
+}
+
+.page blockquote em {
+  font-family: Athelas;
+}
+
+.page blockquote strong em,
+.page blockquote em strong {
+  font-style: italic;
+}
+
+.page blockquote section ul li {
+  list-style-type: disc;
+  text-indent: 0;
+}
+
+.page blockquote small {
+  color: var(--color-text-main);
+  font-family: var(--font-main);
+  line-height: 1.1em;
+  font-size: 0.83em;
+}
+
+.page div.block.holy-ground blockquote {
+  border-image-source: var(--img-holy-ground-bg);
+  background-size: auto auto;
+  padding: 1.5rem 0 1.5rem 0;
+  color: var(--color-text-main);
+}
+
+/*** Patreon ***/
+
+.page div.patreon blockquote {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.page div.patreon blockquote p:last-child {
+  margin-bottom: 10px;
+}
+
+.page div.patreon blockquote p {
+  font-size: 12pt;
+}
+
+.page div.patreon blockquote img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.page div.patreon blockquote h5 {
+  margin: 10px 0px 10px 0px;
+}
+
+.page div.patreon blockquote div.column-container h6 {
+  margin: 0px 0px 0px 5px;
+}
+
+/*** Patreon END ***/

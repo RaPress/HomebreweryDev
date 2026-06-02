@@ -1,0 +1,147 @@
+/*** Shadow of the Demon Lord Headers ***/
+
+/** Title **/
+
+.page div.banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 816px;
+  background-image: var(--img-header-banner);
+  background-size: 100% 106%;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.page div.banner h1.title {
+  font-family: var(--font-title);
+  font-size: var(--font-size-title-banner);
+  text-align: center;
+  font-weight: normal;
+  text-shadow: 0px 0px 5px black;
+  color: white;
+  text-transform: uppercase;
+  text-shadow:
+    0 1px 1px #bbb,
+    0 2px 0 #999,
+    0 3px 0 #888,
+    2px 6px 3px #000,
+    3px 7px 3px #000,
+    4px 8px 3px #000;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-fill-color: #f3ebebd1;
+  position: relative;
+  bottom: 5px;
+}
+
+.page div.banner h1.title.chapter {
+  font-size: var(--font-size-title-banner-chapter);
+}
+
+.page h2.subtitle {
+  font-family: var(--font-main);
+  color: var(--color-text-main);
+  font-size: var(--font-size-subtitle);
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  text-transform: none;
+}
+
+/** Title END **/
+
+.page h1,
+.page h2,
+.page h3,
+.page h4,
+.page h5,
+.page h6,
+.page h7 {
+  font-family: var(--font-header);
+  font-weight: normal;
+  text-align: left;
+  color: var(--color-headers-main);
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+}
+
+.page .columnWrapper h1:first-child,
+.page .columnWrapper h2:first-child,
+.page .columnWrapper h3:first-child,
+.page .columnWrapper h4:first-child,
+.page .columnWrapper h5:first-child,
+.page .columnWrapper h6:first-child,
+.page .columnWrapper h7:first-child {
+  margin-top: 0;
+}
+
+.page h1 {
+  font-size: var(--font-size-h1);
+}
+
+.page h2 {
+  font-size: var(--font-size-h2);
+}
+
+.page h3 {
+  border-bottom-style: none;
+  font-size: var(--font-size-h3);
+  padding: 0;
+}
+
+.page h4 {
+  font-size: var(--font-size-h4);
+}
+
+.page h4.path {
+  text-align: center;
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-header-border);
+  border-bottom-width: 1.1px;
+}
+
+.page div.tables h4,
+.page h4.table {
+  text-align: center;
+}
+
+.page h5 {
+  font-size: var(--font-size-h5);
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-header-border);
+  border-bottom-width: 1.1px;
+}
+
+.page div.tables h5 {
+  font-size: var(--font-size-h5);
+  text-align: center;
+  border-bottom-style: none;
+}
+
+.page h5.sidebar {
+  font-size: var(--font-size-h5);
+  text-align: center;
+}
+
+.page h6 {
+  font-size: var(--font-size-h6);
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-headers-main);
+  border-bottom-width: 1.1px;
+}
+
+.page img.header-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.page h1 + p::first-letter {
+  float: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  line-height: inherit;
+}

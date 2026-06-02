@@ -17,9 +17,9 @@ p + table thead th {
 }
 
 .page h4.table + table thead th,
+.page h4.table + .block table thead th,
 .page h5.table + table thead th,
-.page h4.table + .dual-tables table thead th,
-.page h5.table + .dual-tables table thead th {
+.page h5.table + .block table thead th {
   background-color: var(--color-table-header-bg);
   color: white;
   font-family: var(--font-main-2);

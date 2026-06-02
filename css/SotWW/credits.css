@@ -1,95 +1,5 @@
 /*** Shadow of the Weird Wizard Credits ***/
 
-/*** Div ***/
-
-.page div.credits {
-  position: absolute;
-  border-image: none;
-  border: none;
-  padding: 20px 10px 20px 10px;
-  text-shadow: none;
-  bottom: 30px;
-  right: 10px;
-  width: 50%;
-}
-
-.page div.credits h1 {
-  font-size: 20pt;
-  font-weight: bold;
-  text-align: center;
-}
-
-.page div.credits h2 {
-  font-size: 18pt;
-  text-align: center;
-  border: none;
-}
-
-.page div.credits h3 {
-  font-family: var(--font-header);
-  font-weight: normal;
-  font-size: 14pt;
-  text-align: center;
-  border: none;
-  column-span: none;
-  background-image: none;
-}
-
-.page div.credits h4 {
-  font-size: 15pt;
-  color: black;
-  text-align: center;
-  border: none;
-}
-
-.page div.credits p {
-  font-family: var(--font-header);
-  font-weight: normal;
-  font-size: 12pt;
-  color: var(--color-text-main);
-  margin-top: 5px;
-  text-align: center;
-  padding-bottom: 0px;
-  text-shadow: none;
-}
-
-.page div.credits p strong em {
-  color: var(--color-strong);
-  font-style: italic;
-  font-weight: bold;
-}
-
-.page div.credits div.acknowledgements p {
-  font-family: var(--font-main);
-  font-weight: normal;
-  font-size: 8pt;
-  letter-spacing: -0.02em;
-}
-
-.page div.credits div.acknowledgements strong {
-  font-family: var(--font-main);
-  font-weight: bold;
-  font-size: 10pt;
-  color: var(--color-strong);
-  letter-spacing: -0.03em;
-}
-
-.page div.credits .acknowledgements h4 {
-  display: block;
-  font-size: 11pt;
-  text-align: center;
-}
-
-.page div.credits img.credits-image {
-  width: auto;
-  display: block;
-  position: initial;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/*** Div END ***/
-
 /*** Full page ***/
 
 .page div .full-page-credits {
@@ -196,9 +106,6 @@
   column-span: all;
   font-size: 15pt;
   display: block;
-}
-
-.full-page-credits .art-credit ul {
 }
 
 /*** Full page END ***/

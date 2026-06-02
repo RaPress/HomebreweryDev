@@ -99,7 +99,7 @@
     font-size: var(--font-size-title);
     text-align: center;
     margin-bottom: 10px;
-    text-transform: lowercase;
+    text-transform: none;
   }
 
   & h2 {

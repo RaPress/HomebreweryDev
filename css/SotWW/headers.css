@@ -1,37 +1,40 @@
-/*** Shadow of the Demon Lord Headers ***/
+/*** Shadow of the Weird Wizard Headers ***/
 
 /** Title **/
 
-.page div.banner {
+.page .title {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 816px;
-  background-image: var(--img-header-banner);
-  background-size: 100% 106%;
-  padding: 2rem 0;
-  text-align: center;
-}
-
-.page div.banner h1.title {
-  font-family: var(--font-title);
-  font-size: var(--font-size-title-banner);
-  text-align: center;
-  font-weight: normal;
-  text-shadow: 0px 0px 5px black;
-  color: white;
-  text-transform: uppercase;
+  bottom: 0.5rem;
+  width: 75%;
+  left: 12.5%;
   text-shadow:
-    0 1px 1px #bbb,
-    0 2px 0 #999,
-    0 3px 0 #888,
-    2px 6px 3px #000,
-    3px 7px 3px #000,
-    4px 8px 3px #000;
+    0 1px 1px #000,
+    1px 2px 3px #000,
+    2px 3px 4px #000,
+    3px 4px 5px #000;
   -webkit-font-smoothing: antialiased;
-  -webkit-text-fill-color: #f3ebebd1;
-  position: relative;
-  bottom: 5px;
+  -webkit-text-fill-color: white;
+
+  & h1,
+  & h2,
+  & h4 {
+    color: white;
+    text-align: center;
+    position: relative;
+    text-transform: none;
+    font-family: var(--font-title);
+  }
+
+  & h1 {
+    font-size: var(--font-size-subtitle);
+    & span.smaller {
+      font-size: var(--font-size-h2);
+    }
+  }
+
+  & h2 {
+    margin-top: 0;
+  }
 }
 
 .page div.banner h1.title.chapter {

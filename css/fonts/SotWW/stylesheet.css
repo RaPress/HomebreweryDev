@@ -1,0 +1,28 @@
+@import url("https://fonts.cdnfonts.com/css/futura-pt");
+
+@font-face {
+    font-family: "Queen Grunge";
+    src:
+        url("queengrunge-webfont.woff2") format("woff2"),
+        url("queengrunge-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Queen Inline";
+    src:
+        url("queeninline-webfont.woff2") format("woff2"),
+        url("queeninline-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Queen Regular";
+    src:
+        url("queenregular-webfont.woff2") format("woff2"),
+        url("queenregular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}

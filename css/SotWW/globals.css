@@ -16,7 +16,7 @@
   --color-link: var(--color-2);
 
   /* Fonts */
-  --font-main: "Garamond";
+  --font-main: "EB Garamond", serif;
   --font-main-2: "Futura PT", sans-serif;
   --font-title: "Queen Inline";
   --font-header: "Queen Grunge";

@@ -57,7 +57,7 @@
 }
 
 .page div.block.spell p strong {
-  font-size: 8pt;
+  font-size: var(--font-size-80);
 }
 
 .page div.block.spell ul {
@@ -69,14 +69,14 @@
 }
 
 .page div.block.spell ul li {
-  font-family: var(--font-secondary);
-  font-size: 8pt;
+  font-family: var(--font-main-2);
+  font-size: var(--font-size-80);
   list-style-type: none;
 }
 
 .page div.block.spell ul li strong {
   font-family: var(--font-main);
-  font-size: 8pt;
+  font-size: var(--font-size-80);
   font-weight: normal;
   letter-spacing: -0.02em;
   padding-left: 1em;

@@ -10,8 +10,8 @@ li p + table thead th,
 p + table thead th {
   background-color: var(--color-table-header-bg);
   color: var(--color-4);
-  font-family: var(--font-main);
-  font-size: 8pt;
+  font-family: var(--font-main-2);
+  font-size: var(--font-size-80);
   padding: 3px 6px 3px 6px;
   min-width: 34px;
 }
@@ -21,9 +21,9 @@ p + table thead th {
 .page h4.table + .dual-tables table thead th,
 .page h5.table + .dual-tables table thead th {
   background-color: var(--color-table-header-bg);
-  color: var(--color-4);
-  font-family: var(--font-main);
-  font-size: 8pt;
+  color: white;
+  font-family: var(--font-main-2);
+  font-size: var(--font-size-80);
   padding: 3px 6px 3px 6px;
   min-width: 34px;
 }
@@ -38,8 +38,8 @@ p + table thead th {
 
 .page table tbody {
   & tr {
-    font-family: var(--font-secondary);
-    font-size: 8pt;
+    font-family: var(--font-main-2);
+    font-size: var(--font-size-80);
   }
 
   & tr:nth-child(odd) {
@@ -51,11 +51,11 @@ p + table thead th {
   }
 
   & tr td {
-    font-family: var(--font-secondary);
+    font-family: var(--font-main-2);
     min-width: 34px;
 
     & p {
-      font-family: var(--font-secondary);
+      font-family: var(--font-main-2);
       text-indent: 1em;
     }
 
@@ -80,11 +80,11 @@ p + table thead th {
 .page table {
   & strong {
     font-family: var(--font-main);
-    font-size: 8pt;
+    font-size: var(--font-size-80);
   }
 
   & em {
-    font-family: var(--font-secondary);
+    font-family: var(--font-main-2);
     font-weight: normal;
   }
 
@@ -93,7 +93,7 @@ p + table thead th {
     margin-top: 0.25rem;
 
     & li {
-      font-size: 10pt;
+      font-size: var(--font-size-100);
     }
   }
 }

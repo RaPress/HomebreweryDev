@@ -34,7 +34,7 @@
 .page ul p strong,
 .page ol strong {
   font-family: var(--font-main);
-  font-weight: normal;
+  font-weight: bold;
   font-size: var(--font-size-100);
   letter-spacing: -0.02em;
   color: var(--color-strong);
@@ -62,7 +62,7 @@
 
 .page p ul li strong {
   font-family: var(--font-main);
-  font-weight: normal;
+  font-weight: bold;
   font-size: var(--font-size-100);
   color: var(--color-strong);
   letter-spacing: -0.02em;
@@ -71,7 +71,7 @@
 .page p ul li ul li strong,
 .page p + ul li strong {
   font-family: var(--font-main);
-  font-weight: normal;
+  font-weight: bold;
   font-size: var(--font-size-100);
   color: var(--color-strong);
   letter-spacing: -0.02em;

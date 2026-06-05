@@ -1,83 +1,18 @@
-/*** Shadow of the Demon Lord Spells ***/
+/*** Shadow of the Weird Wizard Spells ***/
 
-.page div.block.spell h3 {
-  font-family: var(--font-main);
-  font-size: 10pt;
-  color: var(--color-headers-main);
-  font-weight: bold;
-  background-image: none;
-  padding: 5px 0px 5px 0px;
-  float: left;
-  margin: 0px;
-  display: block;
+.page h6.spell {
   text-align: left;
-  text-shadow: none;
-  text-transform: uppercase;
-}
-
-.page div.block.spell h4 {
-  font-family: var(--font-main);
-  font-size: 7pt;
-  color: var(--color-headers-main);
   font-weight: bold;
-  font-style: initial;
-  padding: 8px 0px 5px 0px;
-  /* float: right; */
-  margin: 0px;
-  text-align: right;
-  display: block;
-  text-transform: uppercase;
-}
 
-.page div.block.spell hr {
-  background-image: none;
-  visibility: visible;
-  border-style: solid;
-  border-color: var(--color-text-main);
-  border-width: 1.1px 0px 0px 0px;
-  position: relative;
-}
+  & + ul li {
+    line-height: 1.2rem;
 
-.page div.block.spell h4 + hr {
-  border-width: 2px 0px 0px 0px;
-  width: 100%;
-}
+    & strong {
+      font-size: var(--font-size-80);
+    }
 
-.page div.block.spell p {
-  text-indent: 0;
-  font-size: 9pt;
-}
-
-.page div.block.spell ul li p {
-  text-indent: 0;
-}
-
-.page div.block.spell ul li p + p {
-  text-indent: 1em;
-}
-
-.page div.block.spell p strong {
-  font-size: var(--font-size-80);
-}
-
-.page div.block.spell ul {
-  margin-top: 0.25em;
-  margin-bottom: 0.25em;
-  padding-left: 0;
-  text-indent: initial;
-  list-style-type: none;
-}
-
-.page div.block.spell ul li {
-  font-family: var(--font-main-2);
-  font-size: var(--font-size-80);
-  list-style-type: none;
-}
-
-.page div.block.spell ul li strong {
-  font-family: var(--font-main);
-  font-size: var(--font-size-80);
-  font-weight: normal;
-  letter-spacing: -0.02em;
-  padding-left: 1em;
+    & p + p {
+      text-indent: unset;
+    }
+  }
 }

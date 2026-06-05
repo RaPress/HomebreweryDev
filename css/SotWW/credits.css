@@ -7,7 +7,9 @@
   text-align: center;
 
   & h1 {
-    color: var(--color-headers-main);
+    /* color: var(--color-headers-main); */
+    -webkit-text-stroke: 3px var(--color-2);
+    color: rgba(255, 255, 255, 255);
     font-family: var(--font-title);
     font-size: var(--font-size-title);
     text-align: center;

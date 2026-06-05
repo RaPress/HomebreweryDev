@@ -1,0 +1,14 @@
+/*** Shadow of the Weird Wizard Global properties ***/
+
+:root {
+  /* Fonts */
+  --font-title: "Queen Inline";
+  --font-header: "Queen Grunge";
+  --font-size-600: 34pt;
+  --font-size-800: 60pt;
+}
+
+.page div .chapter h1,
+.page div .full-page-credits h1 {
+  color: var(--color-headers-main);
+}

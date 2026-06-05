@@ -17,8 +17,8 @@
   /* Fonts */
   --font-main: "EB Garamond", serif;
   --font-main-2: "Futura PT", sans-serif;
-  --font-title: "Queen Inline";
-  --font-header: "Queen Grunge";
+  --font-title: "Cinzel Decorative", serif;
+  --font-header: "Cinzel Decorative", serif;
   --font-size-80: 8pt;
   --font-size-90: 9pt;
   --font-size-100: 10pt;
@@ -26,8 +26,9 @@
   --font-size-300: 16pt;
   --font-size-400: 18pt;
   --font-size-500: 22pt;
+  --font-size-550: 25pt;
   --font-size-600: 34pt;
-  --font-size-700: 54pt;
+  --font-size-700: 50pt;
   --font-size-800: 60pt;
 
   /* Headers */

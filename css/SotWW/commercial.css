@@ -22,4 +22,5 @@
 .page div .chapter h1,
 .page div .full-page-credits h1 {
   color: var(--color-headers-main);
+  -webkit-text-stroke: unset;
 }

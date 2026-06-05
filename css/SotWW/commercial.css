@@ -4,8 +4,19 @@
   /* Fonts */
   --font-title: "Queen Inline";
   --font-header: "Queen Grunge";
+  --font-size-80: 8pt;
+  --font-size-90: 9pt;
+  --font-size-100: 10pt;
+  --font-size-200: 12pt;
+  --font-size-300: 16pt;
+  --font-size-400: 18pt;
+  --font-size-500: 22pt;
+  --font-size-550: 25pt;
   --font-size-600: 34pt;
+  --font-size-700: 50pt;
   --font-size-800: 60pt;
+
+  --font-size-title: var(--font-size-800);
 }
 
 .page div .chapter h1,

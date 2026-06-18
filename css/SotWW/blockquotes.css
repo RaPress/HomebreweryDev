@@ -44,7 +44,7 @@
 }
 
 .page blockquote em {
-  font-family: Athelas;
+  font-family: var(--font-main);
 }
 
 .page blockquote strong em,
@@ -75,12 +75,13 @@
 /*** Patreon ***/
 
 .page .patreon blockquote {
+  bottom: 15px;
+  right: 20px;
+  width: 300px;
+  position: absolute;
+  text-align: center;
+
   & h3 {
-    bottom: 15px;
-    right: 20px;
-    width: 300px;
-    position: absolute;
-    text-align: center;
     margin-bottom: 1rem;
     color: var(--color-3);
     text-transform: unset;

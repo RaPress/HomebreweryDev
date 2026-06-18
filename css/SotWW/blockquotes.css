@@ -63,35 +63,28 @@
 
 /*** Patreon ***/
 
-.page div.patreon blockquote {
-  position: absolute;
-  bottom: 15px;
-  right: 20px;
-  width: 300px;
-  text-align: center;
-}
+.page .patreon blockquote {
+  & h3 {
+    background-color: var(--color-2);
+    text-align: center;
+    color: var(--color-3);
+    font-size: var(--font-size-300);
+    font-family: var(--font-header);
+    text-transform: unset;
+    letter-spacing: 0.05rem;
+    margin-bottom: 1rem;
+  }
 
-.page div.patreon blockquote p:last-child {
-  margin-bottom: 10px;
-}
+  & hr + h5 {
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
 
-.page div.patreon blockquote p {
-  font-size: 12pt;
-}
-
-.page div.patreon blockquote img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.page div.patreon blockquote h5 {
-  margin: 10px 0px 10px 0px;
-}
-
-.page div.patreon blockquote div.column-container h6 {
-  margin: 0px 0px 0px 5px;
+    & + h4 {
+      margin: 0;
+    }
+  }
 }
 
 /*** Patreon END ***/

@@ -17,17 +17,17 @@
   text-indent: -1em;
   list-style-type: none;
   counter-increment: item;
-}
 
-.page ol > li:before {
-  display: inline-block;
-  width: 1em;
-  padding-right: 0.5em;
-  font-family: var(--font-main);
-  font-weight: bold;
-  font-size: var(--font-size-100);
-  text-align: right;
-  content: counter(item) ".";
+  &:before {
+    display: inline-block;
+    width: 1em;
+    padding-right: 0.5em;
+    font-family: var(--font-main);
+    font-weight: bold;
+    font-size: var(--font-size-100);
+    text-align: right;
+    content: counter(item) ".";
+  }
 }
 
 .page ul strong,
@@ -43,11 +43,6 @@
 .page ul li ul li strong,
 .page ul li strong + strong {
   font-size: var(--font-size-100);
-}
-
-.page hr + ul li {
-  list-style-type: disc;
-  text-indent: 0;
 }
 
 .page ul li ul li,
@@ -77,27 +72,21 @@
   letter-spacing: -0.02em;
 }
 
-.page ul li p {
-  overflow: visible;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  line-height: inherit;
-}
+.page ul li {
+  & p {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: inherit;
+  }
 
-.page ul li p + ul {
-  margin-top: 0px;
+  & p + ul {
+    margin-top: 0px;
+  }
 }
 
 .page ul li div.column-break + p,
 .page ul + div.column-break + p {
-  text-indent: 1em;
-}
-
-.page.ng-scope ul li p {
-  text-indent: -1em;
-}
-
-.page.ng-scope ul li p + p {
   text-indent: 1em;
 }
 
@@ -138,4 +127,19 @@
   font-family: var(--font-main);
   text-transform: uppercase;
   font-size: var(--font-size-90);
+}
+
+.page hr + ul li {
+  list-style-type: disc;
+  text-indent: 0;
+
+  & strong {
+    text-transform: unset;
+    font-size: var(--font-size-100);
+    font-family: var(--font-main-2);
+  }
+}
+
+.page hr:has(+ :is(ul, ol)) {
+  display: none;
 }

@@ -5,6 +5,15 @@
   padding: 0.5rem 2rem;
 }
 
+.page blockquote:has(h4.example) {
+  font-style: italic;
+
+  & h4.example {
+    background-color: var(--color-2);
+    color: white;
+  }
+}
+
 .page blockquote h4 {
   border: none;
   text-align: center;
@@ -65,14 +74,18 @@
 
 .page .patreon blockquote {
   & h3 {
-    background-color: var(--color-2);
+    bottom: 15px;
+    right: 20px;
+    width: 300px;
+    position: absolute;
     text-align: center;
+    margin-bottom: 1rem;
     color: var(--color-3);
-    font-size: var(--font-size-300);
-    font-family: var(--font-header);
     text-transform: unset;
     letter-spacing: 0.05rem;
-    margin-bottom: 1rem;
+    font-size: var(--font-size-300);
+    font-family: var(--font-header);
+    background-color: var(--color-2);
   }
 
   & hr + h5 {
@@ -84,6 +97,21 @@
     & + h4 {
       margin: 0;
     }
+  }
+
+  & p {
+    font-size: 12pt;
+
+    &:last-child {
+      margin-bottom: 10px;
+    }
+  }
+
+  & img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 }
 

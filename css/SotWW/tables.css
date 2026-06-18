@@ -33,10 +33,6 @@ p + table thead th {
   padding: 0px;
 }
 
-.page.ng-scope table thead th {
-  padding: 0px;
-}
-
 .page table tbody {
   & tr {
     font-family: var(--font-main-2);
@@ -80,6 +76,8 @@ p + table thead th {
 }
 
 .page table {
+  margin-bottom: 0.5rem;
+
   & strong {
     font-family: var(--font-main);
     font-size: var(--font-size-80);
